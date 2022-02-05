@@ -1,0 +1,71 @@
+name: 'Cron create upstream SBOMs'
+
+on:
+  repository_dispatch:
+    types: do-create-sboms
+  schedule:
+    - cron: '0 10 * * THU'
+
+jobs:
+  build:
+    name: 'build sboms'
+
+    env:
+      DISTRO: poky
+      MACHINE: qemux86-64
+      PYTHONIOENCODING: utf8
+      LC_ALL: en_US.UTF-8
+      LANG: en_US.UTF-8
+      LANGUAGE: en_US.UTF-8
+      SCM_BRANCH: master
+      BUILD_MAXRUNTIME: 21000
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: install dependencies
+      run: |
+          sudo apt-get install -y gawk wget git-core diffstat unzip texinfo \
+          gcc-multilib build-essential chrpath socat cpio python3 \
+          python3-pip python3-pexpect xz-utils debianutils iputils-ping \
+          python3-git python3-jinja2 libegl1-mesa libsdl1.2-dev \
+          pylint3 xterm python3-subunit mesa-common-dev jq
+      shell: bash
+    - name: checkout
+      uses: actions/checkout@master
+      with:
+        ref: master
+    - name: checkout (poky)
+      run: |
+        mkdir -p sources
+        git clone git://git.yoctoproject.org/poky.git sources/poky
+      shell: bash
+    - name: setup
+      run: |
+        source ${GITHUB_WORKSPACE}/sources/poky/oe-init-build-env ${GITHUB_WORKSPACE}/build/
+        echo 'INHERIT += "rm_work_and_downloads"' >> conf/local.conf
+        echo 'INHERIT += "create-spdx"' >> conf/local.conf
+        echo 'SPDX_INCLUDE_PACKAGED += "1"' >> conf/local.conf
+        echo 'SPDX_INCLUDE_SOURCES += "1"' >> conf/local.conf
+      shell: bash
+    - name: build (core-image-minimal)
+      run: |
+        source ${GITHUB_WORKSPACE}/sources/poky/oe-init-build-env ${GITHUB_WORKSPACE}/build/
+        bitbake core-image-minimal
+      shell: bash
+    - name: copy (generated SBOMs)
+      run: |
+        # copy and format json results
+        find ${GITHUB_WORKSPACE}/build/tmp/deploy/spdx/${MACHINE}/packages/ \
+        -type f -name "*.json" -exec ${GITHUB_WORKSPACE}/scripts/prettify {} ${GITHUB_WORKSPACE}/sboms/ \;
+      shell: bash
+    - name: push
+      uses: github-actions-x/commit@v2.8
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'master'
+        commit-message: 'Bump SBOMs'
+        files: sboms/
+        name: ${{ secrets.COMMITER_NAME }}
+        email: ${{ secrets.COMMITER_MAIL }}
+        rebase: 'true'
