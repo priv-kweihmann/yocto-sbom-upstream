@@ -1,0 +1,233 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T17:01:33Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/glibc-gconv-ibm1166-c5db5f35-c76d-5262-9fff-423e3d59c57c",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c4ee363413544267626080172b9e18f90dc21ccd"
+      },
+      "externalDocumentId": "DocumentRef-recipe-glibc-locale",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-glibc-locale-47f2a024-76b3-5cce-b0ab-d34e50dc4570"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-glibc-gconv-ibm1166-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c7aad7cafa1b68fc8c6baad7491dadc11735aa8f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a18241af1b92aacfe79bba0e5922b2467dc809759555a424245f73d22df1b5e4"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/gconv/IBM1166.so",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "glibc-gconv-ibm1166",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-glibc-gconv-ibm1166",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-glibc-gconv-ibm1166-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "glibc-gconv-ibm1166",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "68354e48e7d40d6736b89354d5f67a524e74daef"
+      },
+      "versionInfo": "2.34"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-glibc-locale:SPDXRef-Recipe-glibc-locale",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-glibc-gconv-ibm1166"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-glibc-gconv-ibm1166",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-glibc-gconv-ibm1166-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-glibc-gconv-ibm1166"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-ibm1166-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/bits/dlfcn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-ibm1166-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/bits/sockaddr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-ibm1166-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-ibm1166-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-ibm1166-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/csu/abi-note.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-ibm1166-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/elf/elf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-ibm1166-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/iconv/gconv.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-ibm1166-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/iconv/gconv_int.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-ibm1166-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/iconv/loop.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-ibm1166-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/iconv/skeleton.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-ibm1166-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/iconvdata/8bit-gap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-ibm1166-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/iconvdata/ibm1166.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-ibm1166-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/include/assert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-ibm1166-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/inet/netinet/in.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-ibm1166-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/posix/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-ibm1166-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/stdlib/stdint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-ibm1166-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/string/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-ibm1166-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/unix/sysv/linux/bits/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-ibm1166-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-ibm1166-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-ibm1166-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/wcsmbs/bits/types/__mbstate_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-ibm1166-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/wcsmbs/bits/types/mbstate_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-ibm1166-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/wcsmbs/bits/types/wint_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-ibm1166-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

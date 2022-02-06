@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T17:01:33Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/glibc-localedata-translit-circle-3ab00d29-33ed-575a-81f4-4a96ad656ea1",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c4ee363413544267626080172b9e18f90dc21ccd"
+      },
+      "externalDocumentId": "DocumentRef-recipe-glibc-locale",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-glibc-locale-47f2a024-76b3-5cce-b0ab-d34e50dc4570"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-glibc-localedata-translit-circle-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "655197655fe5bbc7a2c50dfc149ec15c18bf07e3"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b36f71e9c6704dbb9d24059ddb8472476d9c192084f883fc84ef54c2006ea2db"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/i18n/locales/translit_circle",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "glibc-localedata-translit-circle",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-glibc-localedata-translit-circle",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-glibc-localedata-translit-circle-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "glibc-localedata-translit-circle",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "06723f8331000b665458042bbee275d2454bed1c"
+      },
+      "versionInfo": "2.34"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-glibc-locale:SPDXRef-Recipe-glibc-locale",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-glibc-localedata-translit-circle"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-glibc-localedata-translit-circle",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-glibc-localedata-translit-circle-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-glibc-localedata-translit-circle"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

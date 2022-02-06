@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:23:49Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/ldd-9d5eaa9b-6489-5db5-8030-6ee723e88e35",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e5c506b4b0d321a5d0cc2c40f2b1e3ae84792c22"
+      },
+      "externalDocumentId": "DocumentRef-recipe-glibc",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-glibc-8ec5f1d4-204b-530d-8854-79bbb314d6d7"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-ldd-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5df9f4b6feb3f69c4d64962d8638ada503dffa2b"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "df71fd7a7a505f7f56d620b321ba105e09d643fc2a4ed2b26c74e4a556699fcc"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/ldd",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "ldd",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-ldd",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-ldd-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "ldd",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "c8fea5359cc37e14cd9a5dc92237698bbce265c9"
+      },
+      "versionInfo": "2.34"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-glibc:SPDXRef-Recipe-glibc",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-ldd"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ldd",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-ldd-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-ldd"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

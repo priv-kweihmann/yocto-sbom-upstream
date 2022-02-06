@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:13:56Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libxau-dbg-3a63301c-1a39-569a-b19e-d36aa6f21fc2",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "457bff0ca4469883bb05dcdee8058cb58be760b6"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libxau",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libxau-dc53d0c7-7adc-5e2a-a9e2-03b22f685185"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libxau-dbg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "db28a884ba174660e44769793da72578568026a0"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cbb4fa4aa6a2ba3d6e293b4262343e9d004e62438ab5bfaa5d2092c3e3623f4a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/.debug/libXau.so.6.0.0",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libxau-dbg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libxau-dbg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libxau-dbg-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libxau-dbg",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "d5a28314ca2cdf7ab54c64769e832df70bcc4d36"
+      },
+      "versionInfo": "1.0.9"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libxau:SPDXRef-Recipe-libxau",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libxau-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libxau-dbg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libxau-dbg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libxau-dbg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

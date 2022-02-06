@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:07:49Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/sed-locale-af-88c2e05d-5cc9-5c53-a0bd-e8e11eaf602a",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "18f0ccb7045bc88099b9960c6115f983ad17d9ea"
+      },
+      "externalDocumentId": "DocumentRef-recipe-sed",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-sed-39d4fc97-e5ee-5421-a16b-89b7425120c8"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-sed-locale-af-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "afb0651bc2993534145dd9c8d94b3cced4e9832f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "11183f2c1ae1c5dd7df64bf126f8cd11079d5265c54c12e8be3b027f431a9f49"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/af/LC_MESSAGES/sed.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "sed-locale-af",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-sed-locale-af",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-sed-locale-af-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "sed-locale-af",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "8b457ecd34c2fd9074e535b6542fd7032331bce0"
+      },
+      "versionInfo": "4.8"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-sed:SPDXRef-Recipe-sed",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-sed-locale-af"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-sed-locale-af",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-sed-locale-af-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-sed-locale-af"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

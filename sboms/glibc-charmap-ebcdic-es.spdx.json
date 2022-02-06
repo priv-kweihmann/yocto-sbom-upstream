@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T17:01:33Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/glibc-charmap-ebcdic-es-598b3f25-ae43-53b0-a9b0-f8ccaba4afbf",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c4ee363413544267626080172b9e18f90dc21ccd"
+      },
+      "externalDocumentId": "DocumentRef-recipe-glibc-locale",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-glibc-locale-47f2a024-76b3-5cce-b0ab-d34e50dc4570"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-glibc-charmap-ebcdic-es-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "85e1a9aadd5b9aff79fa064dc1c1b9053e92d46f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f54855f89a6cf48f9c0fd067c349ae1570cc9dd1380cecf2b1af0a1715f2715a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/i18n/charmaps/EBCDIC-ES.gz",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "glibc-charmap-ebcdic-es",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-glibc-charmap-ebcdic-es",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-glibc-charmap-ebcdic-es-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "glibc-charmap-ebcdic-es",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "3e80fb92428a3af9e50b257c8917f44819f72e0d"
+      },
+      "versionInfo": "2.34"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-glibc-locale:SPDXRef-Recipe-glibc-locale",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-glibc-charmap-ebcdic-es"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-glibc-charmap-ebcdic-es",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-glibc-charmap-ebcdic-es-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-glibc-charmap-ebcdic-es"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

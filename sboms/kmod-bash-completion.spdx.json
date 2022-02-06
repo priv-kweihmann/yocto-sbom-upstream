@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:10:48Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/kmod-bash-completion-fe4b0dc9-0831-59f4-8070-4f0bd9b69e40",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d4538b46a94e1e0bd3b4237592a7d7c32cd33e90"
+      },
+      "externalDocumentId": "DocumentRef-recipe-kmod",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-kmod-20bdd709-d6c7-5444-8085-cc59b1bedf3f"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-kmod-bash-completion-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3afa5fa14bed3ddf59769251fd885a8c7c3f5daa"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b6fcd713807c9a4eacc3100b58b5e89e7d6cbe1253da41f0c8dd1b1f0efbab7e"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/bash-completion/completions/kmod",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "kmod-bash-completion",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-kmod-bash-completion",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-kmod-bash-completion-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "kmod-bash-completion",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "199a58a386157f42730c148293db351439aea3aa"
+      },
+      "versionInfo": "29"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-kmod:SPDXRef-Recipe-kmod",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-kmod-bash-completion"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-kmod-bash-completion",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-kmod-bash-completion-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-kmod-bash-completion"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

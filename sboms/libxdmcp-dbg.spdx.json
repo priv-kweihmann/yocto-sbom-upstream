@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:14:14Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libxdmcp-dbg-7b4d3af4-ee23-592b-a7a3-7b614f0d7992",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "529d4f8cb4533834a8dc351e7e54c71993fcd2f3"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libxdmcp",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libxdmcp-7a086720-6a15-5e43-9902-c6c3b099c9d3"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libxdmcp-dbg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "03836db6f29a987234a22cc3ac40e38176d9aec3"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3d844887ed58cb3a44836cf78fc9dc13e34b2d98655d31393ba95a334ac98d42"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/.debug/libXdmcp.so.6.0.0",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libxdmcp-dbg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libxdmcp-dbg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libxdmcp-dbg-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libxdmcp-dbg",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "8734938542cf066ab3fc5569f02ab5a64f401d1f"
+      },
+      "versionInfo": "1.1.3"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libxdmcp:SPDXRef-Recipe-libxdmcp",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libxdmcp-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libxdmcp-dbg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libxdmcp-dbg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libxdmcp-dbg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

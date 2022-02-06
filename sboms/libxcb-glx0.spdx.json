@@ -1,0 +1,167 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:18:18Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libxcb-glx0-cc21b84e-941e-55e0-8fdc-60c9b553023a",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ead025ad4e83730fba4184bac481f9bab06080cb"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libxcb",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libxcb-cbe0dd4b-19f4-57aa-bcaf-f2847d801a87"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libxcb-glx0-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d8d01cd8acf80a764ec07b1f2ec9d1d1d5aad458"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "842d8f5e16ef9ecb71b0c584f1973d2aa9394c6b8fbfb3a05d61a24212ded2e0"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libxcb-glx.so.0.0.0",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libxcb-glx0",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libxcb-glx0",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libxcb-glx0-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libxcb-glx0",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "c4d113ed2c8880c3b32a7b4ce8b8c19a424b7305"
+      },
+      "versionInfo": "1.14"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libxcb:SPDXRef-Recipe-libxcb",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libxcb-glx0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libxcb-glx0",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libxcb-glx0-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libxcb-glx0"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxcb-glx0-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxcb-glx0-1"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxcb-glx0-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxcb-glx0-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_iovec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxcb-glx0-1"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxcb-glx0-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxcb-glx0-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxcb-glx0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libxcb/1.14-r0/build/src/glx.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxcb-glx0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libxcb/1.14-r0/build/src/glx.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxcb-glx0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libxcb/1.14-r0/build/src/xproto.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxcb-glx0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libxcb/1.14-r0/libxcb-1.14/src/xcb.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxcb-glx0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libxcb/1.14-r0/libxcb-1.14/src/xcbext.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxcb-glx0-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:40:32Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/perl-module-pod-text-d8b9af56-61be-5d79-83cf-94ddf6b19b85",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "28cbb242f6cc17d08db727eb37a603b7e135e37d"
+      },
+      "externalDocumentId": "DocumentRef-recipe-perl",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-perl-6f42614c-138d-5270-8ad2-6a8ebaf640d1"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-perl-module-pod-text-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "949b3c51fa06e3a08b5c976f6a8e52c079aaafc4"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "74c089aac04447bbc1cdeba775e0da715c2934ceeb1ed20f2d13d8e6e4df6349"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/perl5/5.34.0/Pod/Text.pm",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "perl-module-pod-text",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-perl-module-pod-text",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-perl-module-pod-text-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Artistic-1.0 OR GPL-1.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "perl-module-pod-text",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "85e302f5e7875e12e08672431ff43bd8c77f0a21"
+      },
+      "versionInfo": "5.34.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-perl:SPDXRef-Recipe-perl",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-perl-module-pod-text"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-perl-module-pod-text",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-perl-module-pod-text-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-perl-module-pod-text"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:24:37Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libz-dbg-9fcb665a-325f-59fa-afdd-8cf91c0e0e06",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "0ae531469bfa6f07273350be4428d5567ab7cda8"
+      },
+      "externalDocumentId": "DocumentRef-recipe-zlib",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-zlib-5b14b6f4-7132-524f-8cee-cdebd6df7ce5"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libz-dbg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fec9f65ff4be58f49f493be3e4f8fc711cc58681"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "48e1f38de780ee7e9d1ea167cbc6ac0cc3263a2c3a44094b82c4f019142b5f81"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "lib/.debug/libz.so.1.2.11",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libz-dbg-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ce235746272c2ef63f241aa935f69754e0dbea7b"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7d78bf8f15ac32afd06d5fdc1bfd59df784c42501b6c346a203204a567e2514c"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/zlib/ptest/.debug/examplesh",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libz-dbg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libz-dbg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libz-dbg-1",
+        "SPDXRef-PackagedFile-libz-dbg-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Zlib",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libz-dbg",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "a2fc3d3211362dee953368e726f23d70f9507388"
+      },
+      "versionInfo": "1.2.11"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-zlib:SPDXRef-Recipe-zlib",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libz-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libz-dbg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libz-dbg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libz-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libz-dbg-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libz-dbg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

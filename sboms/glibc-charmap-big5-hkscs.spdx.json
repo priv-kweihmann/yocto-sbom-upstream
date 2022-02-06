@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T17:01:33Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/glibc-charmap-big5-hkscs-faa2b271-3022-5807-b224-bed898a2336c",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c4ee363413544267626080172b9e18f90dc21ccd"
+      },
+      "externalDocumentId": "DocumentRef-recipe-glibc-locale",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-glibc-locale-47f2a024-76b3-5cce-b0ab-d34e50dc4570"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-glibc-charmap-big5-hkscs-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b03c0c621fd1ca3c3dbbe8bec1106c08a31d21be"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f66d414af0ab8a424fd290f749cb378d3d1ad1071a80a07a58b9033c7e22bc70"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/i18n/charmaps/BIG5-HKSCS.gz",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "glibc-charmap-big5-hkscs",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-glibc-charmap-big5-hkscs",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-glibc-charmap-big5-hkscs-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "glibc-charmap-big5-hkscs",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "80ccd9af89501bd2f707c2c8b2b9e1179df45ba2"
+      },
+      "versionInfo": "2.34"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-glibc-locale:SPDXRef-Recipe-glibc-locale",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-glibc-charmap-big5-hkscs"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-glibc-charmap-big5-hkscs",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-glibc-charmap-big5-hkscs-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-glibc-charmap-big5-hkscs"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

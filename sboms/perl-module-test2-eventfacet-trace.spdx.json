@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:40:32Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/perl-module-test2-eventfacet-trace-16293877-5595-5be5-bbb7-a807ef20bbb8",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "28cbb242f6cc17d08db727eb37a603b7e135e37d"
+      },
+      "externalDocumentId": "DocumentRef-recipe-perl",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-perl-6f42614c-138d-5270-8ad2-6a8ebaf640d1"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-perl-module-test2-eventfacet-trace-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "adf2b5a53e28ac79649546f1602654c495662cb2"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bb744b40e0ac6fedb38235efd8808c040f89887feae0aa1257ff9504906f083e"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/perl5/5.34.0/Test2/EventFacet/Trace.pm",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "perl-module-test2-eventfacet-trace",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-perl-module-test2-eventfacet-trace",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-perl-module-test2-eventfacet-trace-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Artistic-1.0 OR GPL-1.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "perl-module-test2-eventfacet-trace",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "44e0f52edd0f4691ce25911cc0cb3156d88232cd"
+      },
+      "versionInfo": "5.34.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-perl:SPDXRef-Recipe-perl",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-perl-module-test2-eventfacet-trace"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-perl-module-test2-eventfacet-trace",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-perl-module-test2-eventfacet-trace-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-perl-module-test2-eventfacet-trace"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

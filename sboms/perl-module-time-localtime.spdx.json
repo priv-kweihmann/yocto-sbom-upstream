@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:40:32Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/perl-module-time-localtime-dfa187c4-88f3-56c0-aed8-2adac0e954ba",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "28cbb242f6cc17d08db727eb37a603b7e135e37d"
+      },
+      "externalDocumentId": "DocumentRef-recipe-perl",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-perl-6f42614c-138d-5270-8ad2-6a8ebaf640d1"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-perl-module-time-localtime-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "710ad2fe416c1bcf78610f367e0c6eeee64e80da"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2c596b4487b8a9b29722fa272d530d33616aa92a00aa1ec9abb652994e73e866"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/perl5/5.34.0/Time/localtime.pm",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "perl-module-time-localtime",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-perl-module-time-localtime",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-perl-module-time-localtime-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Artistic-1.0 OR GPL-1.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "perl-module-time-localtime",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "56191a9fc0a2a72f103c04a8f44fabf5bb5956bd"
+      },
+      "versionInfo": "5.34.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-perl:SPDXRef-Recipe-perl",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-perl-module-time-localtime"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-perl-module-time-localtime",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-perl-module-time-localtime-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-perl-module-time-localtime"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

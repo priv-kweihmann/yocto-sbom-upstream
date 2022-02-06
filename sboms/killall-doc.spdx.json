@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T17:11:09Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/killall-doc-47a2588d-6f81-5c93-8349-13f02fe75bd2",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8dfff535bf443ee15b270b40138ddfae2388e944"
+      },
+      "externalDocumentId": "DocumentRef-recipe-psmisc",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-psmisc-8dd33cf3-0431-52eb-b4f0-33d9e78b9b56"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-killall-doc-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "011f05fdfe542f7341ea1427271efc966c60bab2"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f575ed8e1c2a445d44f0a9056eb0a7a2a1f255dd4ce567c83c363c273cbb3708"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/man/man1/killall.1",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "killall-doc",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-killall-doc",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-killall-doc-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "killall-doc",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "84df408ef15be5596b730475ba2b436912f49ecf"
+      },
+      "versionInfo": "23.4"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-psmisc:SPDXRef-Recipe-psmisc",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-killall-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-killall-doc",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-killall-doc-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-killall-doc"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

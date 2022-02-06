@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:50:41Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/modutils-initscripts-a99ed255-aab7-5761-9e27-88355d74a0b3",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b4d46521f657fd39245fb3c819d37a07a8604d67"
+      },
+      "externalDocumentId": "DocumentRef-recipe-modutils-initscripts",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-modutils-initscripts-4348b5be-1cb1-56f2-8ce5-69bb02650684"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-modutils-initscripts-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "094a814fd6b8fb3e744122e1f3fcb748d133a51f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cd10a737da9137ddbe8d47ed05ebebdb9ecab2efc4c550fce105a26c8252f664"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/init.d/modutils.sh",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "modutils-initscripts",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-modutils-initscripts",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-modutils-initscripts-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "DocumentRef-recipe-modutils-initscripts:LicenseRef-PD",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "modutils-initscripts",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "1eb4ee6a06a59c9657f62672c6c451bc1292bc1b"
+      },
+      "versionInfo": "1.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-modutils-initscripts:SPDXRef-Recipe-modutils-initscripts",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-modutils-initscripts"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-modutils-initscripts",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-modutils-initscripts-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-modutils-initscripts"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

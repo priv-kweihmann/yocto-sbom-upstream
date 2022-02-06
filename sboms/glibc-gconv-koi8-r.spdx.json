@@ -1,0 +1,233 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T17:01:33Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/glibc-gconv-koi8-r-c5828692-e2fd-5226-b520-a1033279185b",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c4ee363413544267626080172b9e18f90dc21ccd"
+      },
+      "externalDocumentId": "DocumentRef-recipe-glibc-locale",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-glibc-locale-47f2a024-76b3-5cce-b0ab-d34e50dc4570"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-glibc-gconv-koi8-r-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c336147e047586d1c58d2b6be832f5a0bfe3658e"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2f0ff6d2445b3018002eae50468e152a42e7d4f1311c0bd1a1c10fada150758f"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/gconv/KOI8-R.so",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "glibc-gconv-koi8-r",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-glibc-gconv-koi8-r",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-glibc-gconv-koi8-r-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "glibc-gconv-koi8-r",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "9cf73a3a07b4b737f79c555f7cf4a732b48e3604"
+      },
+      "versionInfo": "2.34"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-glibc-locale:SPDXRef-Recipe-glibc-locale",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-glibc-gconv-koi8-r"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-glibc-gconv-koi8-r",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-glibc-gconv-koi8-r-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-glibc-gconv-koi8-r"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-koi8-r-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/build-x86_64-poky-linux/iconvdata/koi8-r.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-koi8-r-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/bits/dlfcn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-koi8-r-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/bits/sockaddr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-koi8-r-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-koi8-r-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-koi8-r-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/csu/abi-note.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-koi8-r-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/elf/elf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-koi8-r-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/iconv/gconv.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-koi8-r-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/iconv/gconv_int.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-koi8-r-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/iconv/loop.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-koi8-r-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/iconv/skeleton.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-koi8-r-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/iconvdata/8bit-gap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-koi8-r-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/include/assert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-koi8-r-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/inet/netinet/in.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-koi8-r-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/posix/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-koi8-r-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/stdlib/stdint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-koi8-r-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/string/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-koi8-r-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/unix/sysv/linux/bits/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-koi8-r-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-koi8-r-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-koi8-r-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/wcsmbs/bits/types/__mbstate_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-koi8-r-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/wcsmbs/bits/types/mbstate_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-koi8-r-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/wcsmbs/bits/types/wint_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-glibc-gconv-koi8-r-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

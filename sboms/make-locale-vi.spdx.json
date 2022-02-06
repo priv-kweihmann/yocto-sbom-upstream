@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:29:50Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/make-locale-vi-8081949b-660c-50d5-afc2-81e5192679d5",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2c064eaa1b404ede010499b88792db90c7100c53"
+      },
+      "externalDocumentId": "DocumentRef-recipe-make",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-make-b3b5084d-2c6a-51c4-be99-beff021f90d4"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-make-locale-vi-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c65b9c1c996b3cc11538b8a127905ea5aad79673"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "620f0efd19b75f069266685e036d25ccaabe6aba566051dcad17519abf789cb3"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/vi/LC_MESSAGES/make.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "make-locale-vi",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-make-locale-vi",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-make-locale-vi-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "make-locale-vi",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "4e0d0c34a4abe547b497843c0edb315312cb4017"
+      },
+      "versionInfo": "4.3"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-make:SPDXRef-Recipe-make",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-make-locale-vi"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-make-locale-vi",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-make-locale-vi-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-make-locale-vi"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

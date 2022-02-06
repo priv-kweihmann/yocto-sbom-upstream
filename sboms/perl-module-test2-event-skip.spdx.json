@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:40:32Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/perl-module-test2-event-skip-cd159d47-b3a8-54f6-8507-4eacaa5dddcf",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "28cbb242f6cc17d08db727eb37a603b7e135e37d"
+      },
+      "externalDocumentId": "DocumentRef-recipe-perl",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-perl-6f42614c-138d-5270-8ad2-6a8ebaf640d1"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-perl-module-test2-event-skip-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3d00fb0703b68961ddf7ccfcc154ccad4ad96a0a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "27294eaa4886557381b18213026ff0a7534d9df1bfd1c53e367426a9917b27df"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/perl5/5.34.0/Test2/Event/Skip.pm",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "perl-module-test2-event-skip",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-perl-module-test2-event-skip",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-perl-module-test2-event-skip-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Artistic-1.0 OR GPL-1.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "perl-module-test2-event-skip",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "2b4f1d40722d9573cfa4e23f316ae93543f77c0d"
+      },
+      "versionInfo": "5.34.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-perl:SPDXRef-Recipe-perl",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-perl-module-test2-event-skip"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-perl-module-test2-event-skip",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-perl-module-test2-event-skip-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-perl-module-test2-event-skip"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

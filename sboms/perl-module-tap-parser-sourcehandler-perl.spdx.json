@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:40:32Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/perl-module-tap-parser-sourcehandler-perl-793817ab-df5e-5fc8-8635-589b21a43943",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "28cbb242f6cc17d08db727eb37a603b7e135e37d"
+      },
+      "externalDocumentId": "DocumentRef-recipe-perl",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-perl-6f42614c-138d-5270-8ad2-6a8ebaf640d1"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-perl-module-tap-parser-sourcehandler-perl-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b61fbd28b219c3ebb9d5e28cf08c1e621a3020cc"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2590690d35216b7539224fb6a33695c8f04af72c977b02853be57116beae0003"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/perl5/5.34.0/TAP/Parser/SourceHandler/Perl.pm",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "perl-module-tap-parser-sourcehandler-perl",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-perl-module-tap-parser-sourcehandler-perl",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-perl-module-tap-parser-sourcehandler-perl-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Artistic-1.0 OR GPL-1.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "perl-module-tap-parser-sourcehandler-perl",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "57a0411086d82f05aec2c7216494b76b340fe385"
+      },
+      "versionInfo": "5.34.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-perl:SPDXRef-Recipe-perl",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-perl-module-tap-parser-sourcehandler-perl"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-perl-module-tap-parser-sourcehandler-perl",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-perl-module-tap-parser-sourcehandler-perl-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-perl-module-tap-parser-sourcehandler-perl"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

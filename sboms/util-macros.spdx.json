@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:36:46Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/util-macros-d1c63dfe-78a9-538f-9f0d-2915bc1dc15c",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ee6fd31b381c5522b028fc925fd30cfa8964019d"
+      },
+      "externalDocumentId": "DocumentRef-recipe-util-macros",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-util-macros-3a788eb9-b380-5e8a-bc7c-01384f914470"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-util-macros-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "83e4a25da9fd053c7b3665eaaaf7919707915903"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d00570f8f04c29f749fd9f9d4d06ec8eb483b810398a23fdb6e97d01836b4bff"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/util-macros/INSTALL",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "util-macros",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-util-macros",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-util-macros-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT AND MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "util-macros",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "973aa951dda84918ee75517f2fabd6717e2289ab"
+      },
+      "versionInfo": "1.19.3"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-util-macros:SPDXRef-Recipe-util-macros",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-util-macros"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-util-macros",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-util-macros-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-util-macros"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,173 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:28:39Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/mdadm-doc-93b3173f-acdb-5737-ad5c-8871e7103087",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "97fbc93b2aca0a1d328b7ea7b32c5768c8a8de1a"
+      },
+      "externalDocumentId": "DocumentRef-recipe-mdadm",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-mdadm-e9d9ffa4-6772-5b31-bdf9-fa5df2f0fe9d"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-mdadm-doc-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "889507860331123b96e537e81536508f0687a2f0"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1d1397e2416d6b5b216e5f4403703c2fd5f00dddf775106afc4434d1439e2598"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/man/man8/mdmon.8",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-mdadm-doc-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e0b56b86ee20e43d66a33f4fcf84cdefeb2847d7"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e114d767038e684d09eee6948802323b01204ea0213ae93a80aa0bbe1fc4c67c"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/man/man8/mdadm.8",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-mdadm-doc-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ef2b21ed56fd9a6c4b304f54f9ea4006848162ff"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ad3c80f5e840b559cfba9ed0c7dc3fe214aa018f8f0363af68dbf6165a5fb129"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/man/man4/md.4",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-mdadm-doc-4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "43ce22029ca7968023ea7968eb45720df953c53c"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d0671bf97f3d7d898c94ec7e4dfe8fb282410e30fd9c259792097ec6856e476e"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/man/man5/mdadm.conf.5",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "mdadm-doc",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-mdadm-doc",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-mdadm-doc-1",
+        "SPDXRef-PackagedFile-mdadm-doc-2",
+        "SPDXRef-PackagedFile-mdadm-doc-3",
+        "SPDXRef-PackagedFile-mdadm-doc-4"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only AND GPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "mdadm-doc",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "1c599ee7f32832ac79c2a81dfc1a85e838a14c9f"
+      },
+      "versionInfo": "4.2"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-mdadm:SPDXRef-Recipe-mdadm",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-mdadm-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-mdadm-doc",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-mdadm-doc-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-mdadm-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-mdadm-doc-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-mdadm-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-mdadm-doc-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-mdadm-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-mdadm-doc-4",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-mdadm-doc"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

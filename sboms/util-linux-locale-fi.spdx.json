@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:35:06Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/util-linux-locale-fi-717b0ee7-c79d-5bb5-9083-7e8f2e9d3bd3",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1584a2492565f19afae730c00d2124a6690c0a6b"
+      },
+      "externalDocumentId": "DocumentRef-recipe-util-linux",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-util-linux-03796bcc-1e40-51f7-b208-58742d376218"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-util-linux-locale-fi-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "98f8b01ebc946b66ad265958e89d2927769a2c9b"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "95580cbb50ddbaa497c4c173951f496d2b1c5c93cee1c902161804007c65fad7"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/fi/LC_MESSAGES/util-linux.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "util-linux-locale-fi",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-util-linux-locale-fi",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-util-linux-locale-fi-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-3-Clause AND BSD-4-Clause",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "util-linux-locale-fi",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "bcda0dde1bf9c21185d020b5798cd53f1da1de14"
+      },
+      "versionInfo": "2.37.3"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-util-linux:SPDXRef-Recipe-util-linux",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-util-linux-locale-fi"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-util-linux-locale-fi",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-util-linux-locale-fi-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-util-linux-locale-fi"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

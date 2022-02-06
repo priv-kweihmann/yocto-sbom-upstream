@@ -1,0 +1,197 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:30:30Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/iptables-module-ip6t-mh-ad04b57e-7ace-5278-9304-01e69be14d87",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4ba561e978cce95d49cbb0b0e2e79b0ae1e11859"
+      },
+      "externalDocumentId": "DocumentRef-recipe-iptables",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-iptables-a4050920-0c02-5208-93b0-f3bf350f9920"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-iptables-module-ip6t-mh-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9fb115ff5741357b465c8e46278cb662a967f6a9"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f5bb4e01ab8b2a24af244faa6314e30ef2e8d396fe2e6f97c098d7bd66f8772a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/xtables/libip6t_mh.so",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "iptables-module-ip6t-mh",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-iptables-module-ip6t-mh",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-iptables-module-ip6t-mh-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "iptables-module-ip6t-mh",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "4d829c081452f400f4020cc49205e7f5fc1975af"
+      },
+      "versionInfo": "1.8.7"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-iptables:SPDXRef-Recipe-iptables",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-iptables-module-ip6t-mh"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-iptables-module-ip6t-mh",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-iptables-module-ip6t-mh-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-iptables-module-ip6t-mh"
+    },
+    {
+      "comment": "/usr/include/asm-generic/int-ll64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ip6t-mh-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ip6t-mh-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ip6t-mh-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ip6t-mh-1"
+    },
+    {
+      "comment": "/usr/include/netinet/in.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ip6t-mh-1"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ip6t-mh-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ip6t-mh-1"
+    },
+    {
+      "comment": "/usr/include/strings.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ip6t-mh-1"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ip6t-mh-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ip6t-mh-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ip6t-mh-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/build/extensions/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ip6t-mh-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/extensions/libip6t_mh.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ip6t-mh-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/linux/netfilter.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ip6t-mh-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/linux/netfilter/x_tables.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ip6t-mh-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/linux/netfilter_ipv6/ip6t_mh.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ip6t-mh-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/linux/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ip6t-mh-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/xtables.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ip6t-mh-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

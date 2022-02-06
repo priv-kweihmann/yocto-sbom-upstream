@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T17:08:28Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/shared-mime-info-locale-ga-bb5c0352-3638-56f5-a272-76c4f9400881",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e415136a943265f0e4792ae5a7a42de98fd2799e"
+      },
+      "externalDocumentId": "DocumentRef-recipe-shared-mime-info",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-shared-mime-info-501e2e1f-1c5c-510d-bc03-82eb288c553e"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-shared-mime-info-locale-ga-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1202052c0c1f6de3b605fffcd3267a66c276f00b"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d9fd9d9034490adc927d3e14248bc8f31b721e160a3d622924ce9ea66b781808"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/ga/LC_MESSAGES/shared-mime-info.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "shared-mime-info-locale-ga",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-shared-mime-info-locale-ga",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-shared-mime-info-locale-ga-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "shared-mime-info-locale-ga",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "d1e8ddd08032d9d9c0df8654cc6bf09248dfe7cf"
+      },
+      "versionInfo": "2.1"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-shared-mime-info:SPDXRef-Recipe-shared-mime-info",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-shared-mime-info-locale-ga"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-shared-mime-info-locale-ga",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-shared-mime-info-locale-ga-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-shared-mime-info-locale-ga"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

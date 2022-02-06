@@ -1,0 +1,117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T17:10:33Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/bc-dbg-f1264be0-79c3-5bff-9d0f-08d8db3f8972",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e1bbb48a15d19abf8ab379792c29974ac936d016"
+      },
+      "externalDocumentId": "DocumentRef-recipe-bc",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-bc-b19e62cd-9bb6-5267-8784-8729fcfc8db8"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-bc-dbg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6a2bec465b042eaecfb2d048816de8fa0bf8940a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f35eb78b40982f75f21ac29e2a852f452f4807519b90295127b157c455569759"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/.debug/dc.bc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-bc-dbg-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "341fc0678f7d6d4c58b650b22cf7586928c7869d"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "15ea5d4e6394ea3f640a5f3efb210d1f3127d1105df8733e8044cb10e831f6b6"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/.debug/bc.bc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "bc-dbg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-bc-dbg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-bc-dbg-1",
+        "SPDXRef-PackagedFile-bc-dbg-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "bc-dbg",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "9a7ea740387a3c2ffeea498c76f0e8b19cd343c8"
+      },
+      "versionInfo": "1.07.1"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-bc:SPDXRef-Recipe-bc",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-bc-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-bc-dbg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-bc-dbg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-bc-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-bc-dbg-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-bc-dbg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

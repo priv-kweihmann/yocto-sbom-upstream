@@ -1,0 +1,937 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:09:59Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libexpat-ptest-b395045c-5449-584f-9549-b98230cf774f",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7751e454b90e7396bdc6f211c8034aa2a608d50b"
+      },
+      "externalDocumentId": "DocumentRef-recipe-expat",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-expat-3c0df939-071e-5cc6-ab3d-a72974b1f775"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libexpat-ptest-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "29057afe4a51286af6ab65488f6895bdf4127a8f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "54963ae60e0d0106954f89d1205a6dd5491ed0d8ff541c58c317e832b8485994"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/expat/ptest/runtests",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libexpat-ptest-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ac1316ef2e5f698941bcf3a0dcff57143ffdf52f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "226681d4ccecc2e1d146b323b10efc0de15d9366f1198929c2e42a987d0f4b5a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/expat/ptest/runtestspp",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libexpat-ptest-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f2a54f6dad39e4188a5a3665cded556bc14d1270"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "342e6d06ae8b9a340372a32407793c9a4eb83b9eca4ce26c995c2847942d69af"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/expat/ptest/run-ptest",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libexpat-ptest",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libexpat-ptest",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libexpat-ptest-1",
+        "SPDXRef-PackagedFile-libexpat-ptest-2",
+        "SPDXRef-PackagedFile-libexpat-ptest-3"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libexpat-ptest",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "fa09772f1de0807c2a2258b38daddf674655ac20"
+      },
+      "versionInfo": "2.4.4"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-expat:SPDXRef-Recipe-expat",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libexpat-ptest"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libexpat-ptest",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libexpat-ptest-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libexpat-ptest"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libexpat-ptest-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libexpat-ptest"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libexpat-ptest-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libexpat-ptest"
+    },
+    {
+      "comment": "/usr/include/assert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/include/bits/setjmp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/include/bits/setjmp2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct___jmp_buf_tag.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timeval.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/include/setjmp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/include/stdint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/include/sys/random.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/include/sys/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/build/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/lib/expat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/lib/expat_external.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/lib/internal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/lib/nametab.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/lib/siphash.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/lib/xmlparse.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/lib/xmlrole.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/lib/xmlrole.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/lib/xmltok.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/lib/xmltok.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/lib/xmltok_impl.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/lib/xmltok_impl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/lib/xmltok_ns.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/tests/chardata.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/tests/chardata.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/tests/memcheck.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/tests/memcheck.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/tests/minicheck.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/tests/minicheck.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/tests/runtests.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/tests/structdata.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/tests/structdata.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/bits/sockaddr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/csu/abi-note.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/csu/init.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/elf/elf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/inet/netinet/in.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/posix/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/unix/sysv/linux/bits/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/start.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-1"
+    },
+    {
+      "comment": "/usr/include/assert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/bits/setjmp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/bits/setjmp2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdlib-bsearch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdlib-float.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/__sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct___jmp_buf_tag.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timeval.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/bits/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/predefined_ops.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/std_abs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/stl_iterator.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/cmath",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/cstdlib",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/debug/debug.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/math.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/type_traits",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/x86_64-poky-linux/bits/c++config.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/math.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/setjmp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/stdint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/sys/random.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/sys/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/build/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/lib/expat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/lib/expat_external.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/lib/internal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/lib/nametab.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/lib/siphash.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/lib/xmlparse.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/lib/xmlrole.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/lib/xmlrole.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/lib/xmltok.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/lib/xmltok.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/lib/xmltok_impl.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/lib/xmltok_impl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/lib/xmltok_ns.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/tests/chardata.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/tests/chardata.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/tests/memcheck.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/tests/memcheck.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/tests/minicheck.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/tests/minicheck.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/tests/runtests.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/tests/structdata.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/expat/2.4.4-r0/expat-2.4.4/tests/structdata.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/bits/sockaddr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/csu/abi-note.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/csu/init.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/elf/elf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/inet/netinet/in.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/posix/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/unix/sysv/linux/bits/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/start.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libexpat-ptest-2"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:11:39Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/liberror-perl-doc-f3df225c-cd77-5e06-9055-63054646722d",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a56ea98f0f7437059dbd64595038194a34396df0"
+      },
+      "externalDocumentId": "DocumentRef-recipe-liberror-perl",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-liberror-perl-65819247-59c1-58c4-8ca6-25e9a34d6339"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-liberror-perl-doc-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "82ec3d3d0a8026dbb946037d5b18e16907586e6b"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5bf7d5cb159f581c7b9b8803e7eb42ec9465577f247b48ae82068b300100aff6"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/man/man3/Error.3",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-liberror-perl-doc-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "dbd25c68c6d2cb2cd19f062088db85c48e663d46"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8a47b047dcc5fd65d36f8b6aed4b985b3f78f0b3c127db38fe1a76cae21ef69f"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/man/man3/Error::Simple.3",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "liberror-perl-doc",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-liberror-perl-doc",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-liberror-perl-doc-1",
+        "SPDXRef-PackagedFile-liberror-perl-doc-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Artistic-1.0 OR GPL-1.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "liberror-perl-doc",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "20501bf1d4c8b060239f29009343a45bc7338ed7"
+      },
+      "versionInfo": "0.17029"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-liberror-perl:SPDXRef-Recipe-liberror-perl",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-liberror-perl-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-liberror-perl-doc",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-liberror-perl-doc-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-liberror-perl-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-liberror-perl-doc-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-liberror-perl-doc"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

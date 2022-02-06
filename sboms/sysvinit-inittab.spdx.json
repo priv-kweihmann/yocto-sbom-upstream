@@ -1,0 +1,117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T17:11:06Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/sysvinit-inittab-70227bb7-3699-5a73-b821-1617c5eed6eb",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a614444c8efd5353cdb0c4b0c601ddd4b58d64eb"
+      },
+      "externalDocumentId": "DocumentRef-recipe-sysvinit-inittab",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-sysvinit-inittab-28ba9fc1-d475-5031-85fd-e477e312551d"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-sysvinit-inittab-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "be2cba972c30447f63335829d4c127ea1d6a2464"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "29570f1252f296d589bac7008624ade68c01a863c5a3f987cd30c303b7cdeb50"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/inittab",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-sysvinit-inittab-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "40bc910da7ac0de98e67f22bd468bc6ad80c3972"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fc36cda499a9ea72e0d8e8d1ad19158e02baf8f37097dada40e7ccaf8662a866"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "bin/start_getty",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "sysvinit-inittab",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-sysvinit-inittab",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-sysvinit-inittab-1",
+        "SPDXRef-PackagedFile-sysvinit-inittab-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "sysvinit-inittab",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "d4bc2a158f00ce44fd9a54346237acaf9ca38d14"
+      },
+      "versionInfo": "2.88dsf"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-sysvinit-inittab:SPDXRef-Recipe-sysvinit-inittab",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-sysvinit-inittab"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-sysvinit-inittab",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-sysvinit-inittab-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-sysvinit-inittab"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-sysvinit-inittab-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-sysvinit-inittab"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

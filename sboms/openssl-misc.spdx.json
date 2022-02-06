@@ -1,0 +1,145 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:44:49Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/openssl-misc-d47a560e-e15f-512c-8b18-29fee52536a9",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e6d801f3da26a7ef10f15b5865d6edaf1432f78e"
+      },
+      "externalDocumentId": "DocumentRef-recipe-openssl",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-openssl-48156327-17ba-5e34-b313-de0c1f21058e"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-openssl-misc-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d5be76196a7d505759a4fe20f6367599fd8d6c8b"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "59b050d713570c79be20d389cd15ba7dd199ee357f4226edc2b1dee726d74cac"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/ssl-3/misc/CA.pl",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-openssl-misc-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c4ad7131a4660a52a97046276e86e1b715ed3a1b"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1c7331d9a99258591319758deb3e8ff9020c8ae1fef41f1948204b94a428158e"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/ssl-3/misc/tsget.pl",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-openssl-misc-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cccc77166018cb91e016b4425e7fcf68da7b0d86"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f3ae1e364abe8526fe39b7673caada8924f89acbaed317ccf715585abfbf0a74"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/c_rehash",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "openssl-misc",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-openssl-misc",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-openssl-misc-1",
+        "SPDXRef-PackagedFile-openssl-misc-2",
+        "SPDXRef-PackagedFile-openssl-misc-3"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "openssl-misc",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "26b739b03a19f60cd623fe9555f55626cae74b29"
+      },
+      "versionInfo": "3.0.1"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-openssl:SPDXRef-Recipe-openssl",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-openssl-misc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-openssl-misc",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-openssl-misc-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-openssl-misc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-openssl-misc-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-openssl-misc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-openssl-misc-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-openssl-misc"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

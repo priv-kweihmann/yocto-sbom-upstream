@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:35:08Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libgpg-error-locale-de-a9036f81-e12c-57eb-bc25-e52ab875a000",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d1bba1a340145eaa99e0f50e9ed4e888b9803f67"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libgpg-error",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libgpg-error-1a587050-c493-5cff-a1cf-f78eeae2daec"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libgpg-error-locale-de-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2011fa4976465d2ace1ef1696af551b094df06f5"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "196c58fb9fc4382dc54d926665949017dd7882b7a73e49d97e2a4f2d96e45fdb"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/de/LC_MESSAGES/libgpg-error.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libgpg-error-locale-de",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libgpg-error-locale-de",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libgpg-error-locale-de-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libgpg-error-locale-de",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "dd64e9481efbc16f607c5ee1f7bf9baa72021592"
+      },
+      "versionInfo": "1.44"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libgpg-error:SPDXRef-Recipe-libgpg-error",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libgpg-error-locale-de"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libgpg-error-locale-de",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libgpg-error-locale-de-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libgpg-error-locale-de"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

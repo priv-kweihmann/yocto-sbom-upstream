@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:29:50Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/make-dev-eacdb9ae-f9b4-5880-82d7-06c5178d45fb",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2c064eaa1b404ede010499b88792db90c7100c53"
+      },
+      "externalDocumentId": "DocumentRef-recipe-make",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-make-b3b5084d-2c6a-51c4-be99-beff021f90d4"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-make-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a92d2b396b1c44f15ca449330d31ec75fe693537"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "64b7abf4a666e292d8d819cab6e113347f8369634b014b14168f6ddebda7f648"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/gnumake.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "make-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-make-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-make-dev-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "make-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "82249e6ad0b640636910e935689d16fe6aa4cdf5"
+      },
+      "versionInfo": "4.3"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-make:SPDXRef-Recipe-make",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-make-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-make-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-make-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-make-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

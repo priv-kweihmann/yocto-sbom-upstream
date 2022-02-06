@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:28:32Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libidn2-locale-it-8c453703-c36e-582c-89fa-04e23c9de2a8",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "0c78f88dde287a8d0344f38a48e6b1a74a2655b3"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libidn2",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libidn2-84a7cdd0-ac50-5fc3-b90e-d89205bcf1b8"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libidn2-locale-it-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "942ab025bbc3bb4d53bcb50f67e0da5386bab06e"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e88f56bce373cea3a304ac4d0a635205a384f8dbfe3bbc18f7f6fffc0f3ac93f"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/it/LC_MESSAGES/libidn2.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libidn2-locale-it",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libidn2-locale-it",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libidn2-locale-it-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "( GPL-2.0-or-later OR LGPL-3.0-only ) AND GPL-3.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libidn2-locale-it",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "824b861ef2c013b969e34ae7677b30dd3be96885"
+      },
+      "versionInfo": "2.3.2"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libidn2:SPDXRef-Recipe-libidn2",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libidn2-locale-it"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libidn2-locale-it",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libidn2-locale-it-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libidn2-locale-it"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

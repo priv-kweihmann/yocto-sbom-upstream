@@ -1,0 +1,117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:41:16Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/file-dbg-6e2a9bb5-7ba8-5645-8972-e33fd4321a08",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6558d4acf145e5db28434475c3e96a377cc49728"
+      },
+      "externalDocumentId": "DocumentRef-recipe-file",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-file-57f32d93-adce-5352-8814-3c197769da6f"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-file-dbg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ac0e735a766699a98e4d13cc13e6e3e7e3525a9d"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3f99b85e06773c91409b295ff311694e8247738d714eb1fa7266b7494b976584"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/.debug/libmagic.so.1.0.0",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-file-dbg-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a5e4c1a46cbf2b3127d709b0907ace83e5fc1633"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5a150c4061f4ebba0d5357a2d11a016a5b36dbb8d68823c9448eb8093b6a89d1"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/.debug/file.file",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "file-dbg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-file-dbg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-file-dbg-1",
+        "SPDXRef-PackagedFile-file-dbg-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-2-Clause",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "file-dbg",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "54fae123865d8bba50bcfe7f088ad548a4b9208a"
+      },
+      "versionInfo": "5.41"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-file:SPDXRef-Recipe-file",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-file-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-file-dbg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-file-dbg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-file-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-file-dbg-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-file-dbg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

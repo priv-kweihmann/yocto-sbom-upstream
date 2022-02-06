@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:18:12Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/diffutils-locale-eo-01ca1d09-83f6-5ccd-b936-a58d969c2eeb",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "894d1f0c4e49e75fbab1ac52bab2b2e2488e585e"
+      },
+      "externalDocumentId": "DocumentRef-recipe-diffutils",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-diffutils-4d4a1afc-d612-59aa-8568-4391f6f4b01b"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-diffutils-locale-eo-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "02e7e7a6ac3fadc7c0a0db7611880efa78ccb281"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6a6c4905316a7c9d86b40e2d8b16a4495804d6004a26b7e0575b77fae8c69291"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/eo/LC_MESSAGES/diffutils.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "diffutils-locale-eo",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-diffutils-locale-eo",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-diffutils-locale-eo-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "diffutils-locale-eo",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "7945befefefc1ecdf7ca7764904dc31a9eafde3a"
+      },
+      "versionInfo": "3.8"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-diffutils:SPDXRef-Recipe-diffutils",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-diffutils-locale-eo"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-diffutils-locale-eo",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-diffutils-locale-eo-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-diffutils-locale-eo"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

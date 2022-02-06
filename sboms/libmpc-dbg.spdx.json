@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:31:09Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libmpc-dbg-d3aa6c03-b6e7-5408-b1fd-f9726c917bdb",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1e0d41c4c43fc61e353957fe92e648f57a4efd65"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libmpc",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libmpc-56ec3337-c257-5c9e-9696-21ee4a032fea"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libmpc-dbg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "568d11cfd309296133e3617904557dd127f17972"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "737f016f4382d9475b32943224ca0f8f70de86d2f2a2f1c2a9e4ec24a60c509d"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/.debug/libmpc.so.3.2.1",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libmpc-dbg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libmpc-dbg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libmpc-dbg-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-3.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libmpc-dbg",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "fe19ab04e7ce15d4a055cf523b165457edbbd916"
+      },
+      "versionInfo": "1.2.1"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libmpc:SPDXRef-Recipe-libmpc",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libmpc-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libmpc-dbg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libmpc-dbg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libmpc-dbg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:09:49Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/gawk-dev-740bf3e4-b887-5cf2-b226-4f2b519a8603",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "cdecadf28ea1c07020d7d0b0c8495695d693f8d5"
+      },
+      "externalDocumentId": "DocumentRef-recipe-gawk",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-gawk-2569d6eb-b280-518a-b15c-a7b5832e09cc"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-gawk-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1795dd1f2a296327b6dee7c159bee49d25be5b3e"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "554bdf2ddb544a97608038c2da6f747759476e571117f4303b61987cb2e3fbc6"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/gawkapi.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "gawk-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-gawk-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-gawk-dev-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "gawk-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "5e2e449e17434aee72e0078431aeeca6489cb58b"
+      },
+      "versionInfo": "5.1.1"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-gawk:SPDXRef-Recipe-gawk",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-gawk-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-gawk-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-gawk-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-gawk-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,173 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:50:55Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/init-ifupdown-1ff2349a-2f2e-53cf-8267-5ef25ca0fe56",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a1f2728549335c1f4dde4ee0e683dd73777c8001"
+      },
+      "externalDocumentId": "DocumentRef-recipe-init-ifupdown",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-init-ifupdown-bcc30790-7a90-5124-bb57-e2ea5ac53381"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-init-ifupdown-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4d211061a4f5695d121d25ba63d600b09c4b85a3"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "516d7d447849b787d1f57f18bc1fa1e540fe396cd5586b6fa052b0317c814b03"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/init.d/networking",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-init-ifupdown-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/network/nm-disabled-eth0",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-init-ifupdown-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "08c22192d98a612f749c86889484b23a404a6a66"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "24b751972cab733521f5889adf0f16ec75ca73974a50a8ce5bcba16313df6913"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/network/interfaces",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-init-ifupdown-4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bc8f08ea464aa27ef7a3307ceb34db614c2e0138"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4f32cc1b3b449916920e46c97fe6c7d4a04b69afada25877a3cad1a2daea40a3"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/network/if-pre-up.d/nfsroot",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "init-ifupdown",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-init-ifupdown",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-init-ifupdown-1",
+        "SPDXRef-PackagedFile-init-ifupdown-2",
+        "SPDXRef-PackagedFile-init-ifupdown-3",
+        "SPDXRef-PackagedFile-init-ifupdown-4"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "init-ifupdown",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "6d7c41c699962b09d3089cdd3527177164b394b9"
+      },
+      "versionInfo": "1.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-init-ifupdown:SPDXRef-Recipe-init-ifupdown",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-init-ifupdown"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-init-ifupdown",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-init-ifupdown-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-init-ifupdown"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-init-ifupdown-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-init-ifupdown"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-init-ifupdown-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-init-ifupdown"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-init-ifupdown-4",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-init-ifupdown"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

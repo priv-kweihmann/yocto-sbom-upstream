@@ -1,0 +1,117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T17:05:24Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/binutils-locale-nl-5f8dba51-0d13-5a19-986b-1053faf495be",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4eab6220493345c9cd338916e6d360cbfef53217"
+      },
+      "externalDocumentId": "DocumentRef-recipe-binutils",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-binutils-ec16b9df-2ec0-5026-aa12-44c970d7e9fb"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-binutils-locale-nl-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fc8d7ce5ab558339aec0f413a254d69ea4dd95e1"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "232d0a6755086efdcdac88b42db1d88580944afdb072156b1971187e890df2b3"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/nl/LC_MESSAGES/gprof.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-binutils-locale-nl-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "acbf15482c73d671eda10be1eade0b2f309b8651"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "71ed09761234188f40cb8148953dc4dbb5b66c2dac1bb0d9c67694018229f6aa"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/nl/LC_MESSAGES/opcodes.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "binutils-locale-nl",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-binutils-locale-nl",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-binutils-locale-nl-1",
+        "SPDXRef-PackagedFile-binutils-locale-nl-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "binutils-locale-nl",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "b97482266ad21a048f62a562a80c46754d3d8a60"
+      },
+      "versionInfo": "2.37"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-binutils:SPDXRef-Recipe-binutils",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-binutils-locale-nl"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-binutils-locale-nl",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-binutils-locale-nl-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-binutils-locale-nl"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-binutils-locale-nl-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-binutils-locale-nl"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

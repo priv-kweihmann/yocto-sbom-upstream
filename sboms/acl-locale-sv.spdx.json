@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:07:45Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/acl-locale-sv-7dc263df-b6a0-57d5-90e8-02cdca09d475",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6d9bf9282614538b5f7d5ebc7b3e29e07acc6ba5"
+      },
+      "externalDocumentId": "DocumentRef-recipe-acl",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-acl-991bebcd-14ce-51cc-8504-78d996f149a0"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-acl-locale-sv-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "26de94004302fb915046c5f1fec7ac1bbbbcb5a6"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1462849cd2f7cd1605afecd0c87146246075830142b44cc0f2a9bb54ba9b69e2"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/sv/LC_MESSAGES/acl.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "acl-locale-sv",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-acl-locale-sv",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-acl-locale-sv-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-2.1-or-later AND GPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "acl-locale-sv",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "446d3f69466b3421e446e128a7fa63b16456b770"
+      },
+      "versionInfo": "2.3.1"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-acl:SPDXRef-Recipe-acl",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-acl-locale-sv"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-acl-locale-sv",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-acl-locale-sv-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-acl-locale-sv"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:45:44Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/bash-bashbug-18d69e58-b7fe-54e0-94c2-43171d6bb920",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "06a3b6b6407c214a027ba9a7e02ba2f162436f66"
+      },
+      "externalDocumentId": "DocumentRef-recipe-bash",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-bash-ad5747dc-7b5a-562d-aabf-dfb516e7095d"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-bash-bashbug-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9518f98310f8ba675ba9fb0abcf76e65ccfd8190"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0ac7bd69fbde4cd1cf4df4f0dffb8abd722e7f85e6c40d39c124afcfd3d9220d"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/bashbug",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "bash-bashbug",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-bash-bashbug",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-bash-bashbug-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "bash-bashbug",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "f23bd28ead2b31eaf9202958e5c816ca971d292f"
+      },
+      "versionInfo": "5.1.16"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-bash:SPDXRef-Recipe-bash",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-bash-bashbug"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-bash-bashbug",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-bash-bashbug-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-bash-bashbug"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

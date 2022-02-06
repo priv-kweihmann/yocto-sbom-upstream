@@ -1,0 +1,117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:13:56Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libxau-dev-5ffea4ae-7422-5818-bfd4-fbc5951362c0",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "457bff0ca4469883bb05dcdee8058cb58be760b6"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libxau",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libxau-dc53d0c7-7adc-5e2a-a9e2-03b22f685185"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libxau-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b990281a2235732c314b4b3f9c75022479490562"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5c217ce77f5e1eb12dbf0353bcb7204b2f2a3d5ae586fdb17b3255a056190d02"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/X11/Xauth.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libxau-dev-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1aac2a9da06d50157a31172b272b7fa88d6dc6e1"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a1b38fc3a142bd86ca70b6e3ec51feb5183ee148eea8592805124ce0c607cfdc"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/pkgconfig/xau.pc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libxau-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libxau-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libxau-dev-1",
+        "SPDXRef-PackagedFile-libxau-dev-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libxau-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "df70346cbb46c65c80a5ecfc562e84ccf9361095"
+      },
+      "versionInfo": "1.0.9"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libxau:SPDXRef-Recipe-libxau",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libxau-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libxau-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libxau-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libxau-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libxau-dev-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libxau-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

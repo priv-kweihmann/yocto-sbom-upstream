@@ -1,0 +1,173 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:49:25Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/grep-doc-e62443c7-2cd8-50a0-97c9-7e9b35bfcf82",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e53b73dad8558f59b0a1d06223fb25f76f264394"
+      },
+      "externalDocumentId": "DocumentRef-recipe-grep",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-grep-b91d24e2-5f12-573a-927d-97e5d2895564"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-grep-doc-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1eca1c38d2463278fccaa0037be8177ce869e618"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6037fdc4012648cd1d6c2a5810375fe48000509b72b7d148aa4dc35147a403b3"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/man/man1/grep.1",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-grep-doc-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3752d7f3e5bf5871a385a362c386c1259884a781"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "63c67a6e12e52a18c217adca1e7a88ebf1590df82e1234ad9061b4d6db34eefc"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/man/man1/fgrep.1",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-grep-doc-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3752d7f3e5bf5871a385a362c386c1259884a781"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "63c67a6e12e52a18c217adca1e7a88ebf1590df82e1234ad9061b4d6db34eefc"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/man/man1/egrep.1",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-grep-doc-4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d0110d9bc123ddd5cbe4169977ec5c390c8cd123"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9804966fbe98b854c1036b708f376d7c21aeed7d2fb3d15218666d70fa2ec9b1"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/info/grep.info",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "grep-doc",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-grep-doc",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-grep-doc-1",
+        "SPDXRef-PackagedFile-grep-doc-2",
+        "SPDXRef-PackagedFile-grep-doc-3",
+        "SPDXRef-PackagedFile-grep-doc-4"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "grep-doc",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "4bb20dda0581b968dcb44a7296943dea320f47be"
+      },
+      "versionInfo": "3.7"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-grep:SPDXRef-Recipe-grep",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-grep-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-grep-doc",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-grep-doc-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-grep-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-grep-doc-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-grep-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-grep-doc-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-grep-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-grep-doc-4",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-grep-doc"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

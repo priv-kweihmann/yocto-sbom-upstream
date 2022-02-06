@@ -1,0 +1,117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:28:32Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libidn2-dbg-97ba7a00-3ab2-5f4c-8aa8-d172b1112811",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "0c78f88dde287a8d0344f38a48e6b1a74a2655b3"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libidn2",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libidn2-84a7cdd0-ac50-5fc3-b90e-d89205bcf1b8"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libidn2-dbg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8222eab60b4c9dc129ce20eea48aee2174d4d1e6"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8063d542fe271d998b350ca38d3510afd239e22a4dff4dfd412891cde4551a03"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/.debug/libidn2.so.0.3.7",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libidn2-dbg-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "181dbd8eebb172b28e6a683f2705d70ea2885c5a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "01ee440ef4ff7cdeb9f02bef95fe15964616c18e45cb392dc4f63da7facb959a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/.debug/idn2",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libidn2-dbg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libidn2-dbg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libidn2-dbg-1",
+        "SPDXRef-PackagedFile-libidn2-dbg-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "( GPL-2.0-or-later OR LGPL-3.0-only ) AND GPL-3.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libidn2-dbg",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "c26779a976e39ede6a8ae8cb29be5c013b4ab587"
+      },
+      "versionInfo": "2.3.2"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libidn2:SPDXRef-Recipe-libidn2",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libidn2-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libidn2-dbg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libidn2-dbg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libidn2-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libidn2-dbg-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libidn2-dbg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

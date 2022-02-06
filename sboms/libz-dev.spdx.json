@@ -1,0 +1,145 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:24:37Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libz-dev-cae1cf92-182d-5b72-a9fd-5b381ae7aaca",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "0ae531469bfa6f07273350be4428d5567ab7cda8"
+      },
+      "externalDocumentId": "DocumentRef-recipe-zlib",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-zlib-5b14b6f4-7132-524f-8cee-cdebd6df7ce5"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libz-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "473b29ab06e2be461fe4aa74952fcb9bd08d9fa0"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4ddc82b4af931ab55f44d977bde81bfbc4151b5dcdccc03142831a301b5ec3c8"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/zlib.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libz-dev-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "aa7295775671dc48baa541a4e97979ca0c432a73"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "77304005ceb5f0d03ad4c37eb8386a10866e4ceeb204f7c3b6599834c7319541"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/zconf.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libz-dev-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "68362a53c38eb1fbd6f320fcfe6096c95667a896"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "56f266e349b956c0e5f5222658074a0a51c676e7970081ecdafb990dc980c863"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/pkgconfig/zlib.pc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libz-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libz-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libz-dev-1",
+        "SPDXRef-PackagedFile-libz-dev-2",
+        "SPDXRef-PackagedFile-libz-dev-3"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Zlib",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libz-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "8f03cb1883374fac61e146a45831ea6069c261a0"
+      },
+      "versionInfo": "1.2.11"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-zlib:SPDXRef-Recipe-zlib",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libz-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libz-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libz-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libz-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libz-dev-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libz-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libz-dev-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libz-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

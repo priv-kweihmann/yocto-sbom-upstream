@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:36:23Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libgdbm-locale-de-5483aee8-48f6-5bcb-be8e-c1cc04a48136",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "afe24f95177ac49cb445c14bafa447a2903d1d43"
+      },
+      "externalDocumentId": "DocumentRef-recipe-gdbm",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-gdbm-a48e2732-379a-500a-8da1-a82a19dc8ab3"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libgdbm-locale-de-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d51abfe55ff19e4d6ca8c93e2d1981e0694862d1"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8991e949c7389738039f62dbdcc5f5ca5b0f804d002168d66e1f61b97d278918"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/de/LC_MESSAGES/gdbm.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libgdbm-locale-de",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libgdbm-locale-de",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libgdbm-locale-de-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libgdbm-locale-de",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "a53209122a13603158b7640c5e18bf33380b501a"
+      },
+      "versionInfo": "1.22"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-gdbm:SPDXRef-Recipe-gdbm",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libgdbm-locale-de"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libgdbm-locale-de",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libgdbm-locale-de-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libgdbm-locale-de"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

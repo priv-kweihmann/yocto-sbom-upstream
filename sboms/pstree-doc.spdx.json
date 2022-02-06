@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T17:11:09Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/pstree-doc-8c23866a-cf58-56b8-8c2f-037f327fa0a1",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8dfff535bf443ee15b270b40138ddfae2388e944"
+      },
+      "externalDocumentId": "DocumentRef-recipe-psmisc",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-psmisc-8dd33cf3-0431-52eb-b4f0-33d9e78b9b56"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-pstree-doc-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b7d6065318d698cf3448a54e904924c4841b52be"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c6df8ea57fb252a2daf4a30cad7e784a7248934adf811918587def7f4e28cfd3"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/man/man1/pstree.1",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "pstree-doc",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-pstree-doc",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-pstree-doc-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "pstree-doc",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "05b1fb446f105186c613cff8c090815e1ba1da0b"
+      },
+      "versionInfo": "23.4"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-psmisc:SPDXRef-Recipe-psmisc",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-pstree-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-pstree-doc",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-pstree-doc-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-pstree-doc"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

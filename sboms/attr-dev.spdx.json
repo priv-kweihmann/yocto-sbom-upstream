@@ -1,0 +1,173 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:26:03Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/attr-dev-9e7ee95d-7a64-5a36-8b25-d13396eb0e1e",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b211fea32269d36045c01e1e78da293bc0e86dd0"
+      },
+      "externalDocumentId": "DocumentRef-recipe-attr",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-attr-6b7ab556-c6f1-582c-bcb8-45571cd1978c"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-attr-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bfe25750f6d4b57f1078f648ed8cd0f783c14a80"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0e698be1f3635b6edb0eeb6206255dac43280d6c173dcd94cae53e4fb6407a59"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/attr/error_context.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-attr-dev-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a8be798a77cd6730522a1b17c3587f6e6b7843fc"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b5b1ae8d0ea51c85a51ab7da9d28f0e0078272f7d1d5ade1ee8400ca75c5cddc"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/attr/libattr.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-attr-dev-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "962bca11114c2373058805289acb535165d687e7"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "328ce9601d8669e0ae5299a82d3867a3115b18199976968ce3896000132822a4"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/attr/attributes.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-attr-dev-4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "758686bca2a20f45dfd681f058dc01ef5e1cca34"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "31ed93e890de0bf25fdd5bcd5bec46993195447356d742102524a97a901d841a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/pkgconfig/libattr.pc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "attr-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-attr-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-attr-dev-1",
+        "SPDXRef-PackagedFile-attr-dev-2",
+        "SPDXRef-PackagedFile-attr-dev-3",
+        "SPDXRef-PackagedFile-attr-dev-4"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-2.1-or-later AND GPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "attr-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "19becd34750c5188afabec797d50dbda159f2b53"
+      },
+      "versionInfo": "2.5.1"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-attr:SPDXRef-Recipe-attr",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-attr-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-attr-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-attr-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-attr-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-attr-dev-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-attr-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-attr-dev-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-attr-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-attr-dev-4",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-attr-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

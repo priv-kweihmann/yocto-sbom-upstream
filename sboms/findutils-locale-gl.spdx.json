@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:20:13Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/findutils-locale-gl-baaa1368-0185-5a6f-a8b9-05a3c61b1294",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "3a444f0039c362cb891423bc63b66d73c9c062fd"
+      },
+      "externalDocumentId": "DocumentRef-recipe-findutils",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-findutils-098c01df-2d81-5e1a-9bce-040f48efc008"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-findutils-locale-gl-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "43294868da3436f11d9f0e6df431bb59a845f233"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d3449160e3a3b76d4ee84a2687bc0cb252fb1bdf98198e75ed92360c778ea449"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/gl/LC_MESSAGES/findutils.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "findutils-locale-gl",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-findutils-locale-gl",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-findutils-locale-gl-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "findutils-locale-gl",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "135771e1f3dc777a376f753344f01fd01762d710"
+      },
+      "versionInfo": "4.8.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-findutils:SPDXRef-Recipe-findutils",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-findutils-locale-gl"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-findutils-locale-gl",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-findutils-locale-gl-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-findutils-locale-gl"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

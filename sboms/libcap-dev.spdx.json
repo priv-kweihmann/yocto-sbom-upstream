@@ -1,0 +1,173 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:32:37Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libcap-dev-bea4e703-479a-5d08-92fe-07d9d7d0b1b9",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c274e02910b74f03d6da3d7fbc50f288a1e861d1"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libcap",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libcap-71d96c70-9f88-56e2-add1-19af56887698"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libcap-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "89b441bfacbd13cc27c5b2539e5932c7a13406fe"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6e98fa9630e64ff52b002d7ce49cdb0ee10456b7d0afcb9b82b8aa34610a3e4b"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/sys/capability.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libcap-dev-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4cf0732395183282a375a1bd1a7418aad26750b4"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a62fb0c469fea23acf8f3af912280dfaaf6d7aeed9595450a78e3742edb4d25f"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/sys/psx_syscall.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libcap-dev-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bfcd9d235e74fbeb11884ae242b7eda4ea40777d"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4f8ada934633feb704df4348d79ae509e1e633b2b3ddaced8e7ea856718b4ab2"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/pkgconfig/libpsx.pc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libcap-dev-4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "47c98a3f752fa565eaec7276cbcab60f0ef28b5e"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bd713de7f35d864796a90b74289e2506e7f81cf9fc57934da27b1d1f37ddf33a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/pkgconfig/libcap.pc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libcap-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libcap-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libcap-dev-1",
+        "SPDXRef-PackagedFile-libcap-dev-2",
+        "SPDXRef-PackagedFile-libcap-dev-3",
+        "SPDXRef-PackagedFile-libcap-dev-4"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause OR GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libcap-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "01521f442c408887b9460ad22c68e4385ef90769"
+      },
+      "versionInfo": "2.63"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libcap:SPDXRef-Recipe-libcap",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libcap-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libcap-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libcap-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libcap-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libcap-dev-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libcap-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libcap-dev-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libcap-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libcap-dev-4",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libcap-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

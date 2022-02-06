@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T17:07:33Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/gnome-desktop-testing-dbg-cc595400-e23b-5399-be77-0f64dbb21503",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "9403f868b7668d5bd1595dcc91cfd1cc06fd8dfd"
+      },
+      "externalDocumentId": "DocumentRef-recipe-gnome-desktop-testing",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-gnome-desktop-testing-fd4f3663-0905-5c01-b996-27631201bed1"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-gnome-desktop-testing-dbg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5c3550f8b08d1c2822699c58af2ee4ea460d8756"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c7b68fdb31619f5fe12968d79fc75f2b5c1e11e12d2863c9c4fd813b888e2e87"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/.debug/gnome-desktop-testing-runner",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "gnome-desktop-testing-dbg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-gnome-desktop-testing-dbg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-gnome-desktop-testing-dbg-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "gnome-desktop-testing-dbg",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "011b23b4fe1c08ac8be4d2978e1c96825487d6f1"
+      },
+      "versionInfo": "2021.1"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-gnome-desktop-testing:SPDXRef-Recipe-gnome-desktop-testing",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-gnome-desktop-testing-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-gnome-desktop-testing-dbg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-gnome-desktop-testing-dbg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-gnome-desktop-testing-dbg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

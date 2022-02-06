@@ -1,0 +1,145 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:09:59Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libexpat-doc-2839d120-fa58-5865-9a17-9d40165d1fcd",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7751e454b90e7396bdc6f211c8034aa2a608d50b"
+      },
+      "externalDocumentId": "DocumentRef-recipe-expat",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-expat-3c0df939-071e-5cc6-ab3d-a72974b1f775"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libexpat-doc-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2ed7c4ebe0b78c359843e81bcf53aeebb7edfe9e"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e1fbfaf3625d30994abc223a4ba68e86cc7f0b07d7cfc53fad1f91319b2f4b4c"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/man/man1/xmlwf.1",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libexpat-doc-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "caf396fbe639c1e01d89d870e544036a49e94660"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4150d13294eddc61702b0f25bf93cb752f0a81b01f599882ece077374e3d611c"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/doc/expat/changelog",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libexpat-doc-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a502ab6ebd4206dd8384111279b42821fe442b6f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "59f14371c6b75912cfebb46e6247ee5146766e803a0365b124e5d3011e7d0877"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/doc/expat/AUTHORS",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libexpat-doc",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libexpat-doc",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libexpat-doc-1",
+        "SPDXRef-PackagedFile-libexpat-doc-2",
+        "SPDXRef-PackagedFile-libexpat-doc-3"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libexpat-doc",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "509baea4fa360d3439327c0686ae6a5c08a63eba"
+      },
+      "versionInfo": "2.4.4"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-expat:SPDXRef-Recipe-expat",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libexpat-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libexpat-doc",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libexpat-doc-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libexpat-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libexpat-doc-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libexpat-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libexpat-doc-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libexpat-doc"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:14:54Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/busybox-hwclock-5e236595-7770-5fab-b728-7bbfbbcc36da",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "0cf143e0af2b50c019c8ce1cdb24acb6c8cb5e13"
+      },
+      "externalDocumentId": "DocumentRef-recipe-busybox",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-busybox-1dd695ee-b779-5d09-9314-a0c15f2a4031"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-busybox-hwclock-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ad342c0d035806b78fca3d634a1fe32ac601a480"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7cf6343bea1be0ee1a681391d97235df0f4992f2f0f89eb0fb4d3521a89b033d"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/init.d/hwclock.sh",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "busybox-hwclock",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-busybox-hwclock",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-busybox-hwclock-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only AND DocumentRef-recipe-busybox:LicenseRef-bzip2-1.0.4",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "busybox-hwclock",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "c9a8cdbdc0eee3bc4076e199b59f83839993e3c2"
+      },
+      "versionInfo": "1.35.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-busybox:SPDXRef-Recipe-busybox",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-busybox-hwclock"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-busybox-hwclock",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-busybox-hwclock-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-busybox-hwclock"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

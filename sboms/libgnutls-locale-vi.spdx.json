@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:46:19Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libgnutls-locale-vi-8760933d-309d-519c-8ba2-f913a625b308",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2e4ba5eae18ab335795fcf7ecd3969eff22992f2"
+      },
+      "externalDocumentId": "DocumentRef-recipe-gnutls",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-gnutls-e34d366c-a9b2-5b9b-b4a9-0aabdc1cc230"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libgnutls-locale-vi-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a5a65a1d32d23b06132cdaae6de57f7430cbe445"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "702177015ff3bef3abe54d8c8fac9ac559d61ee8f92cb1fd7dc191c41dc57e90"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/vi/LC_MESSAGES/gnutls.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libgnutls-locale-vi",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libgnutls-locale-vi",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libgnutls-locale-vi-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later AND LGPL-2.1-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libgnutls-locale-vi",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "106daf1e261fca00647913480ecc207f4f1754b5"
+      },
+      "versionInfo": "3.7.3"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-gnutls:SPDXRef-Recipe-gnutls",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libgnutls-locale-vi"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libgnutls-locale-vi",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libgnutls-locale-vi-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libgnutls-locale-vi"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

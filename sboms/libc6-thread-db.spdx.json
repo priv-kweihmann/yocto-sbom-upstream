@@ -1,0 +1,539 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:23:49Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libc6-thread-db-d3d4d43d-f19a-54cc-9735-9b24f124be59",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e5c506b4b0d321a5d0cc2c40f2b1e3ae84792c22"
+      },
+      "externalDocumentId": "DocumentRef-recipe-glibc",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-glibc-8ec5f1d4-204b-530d-8854-79bbb314d6d7"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libc6-thread-db-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c0c9648de650a73b0308a2dde41cf980b07d4ed9"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "67b9b8a47b6814040048e99f3b2dc9b4411f4eb56af462d8cb9c70d6c20917d1"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "lib/libthread_db.so.1",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libc6-thread-db",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libc6-thread-db",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libc6-thread-db-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libc6-thread-db",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "5007e6012e3d8e00f3ce46e857e96e88e7de5b38"
+      },
+      "versionInfo": "2.34"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-glibc:SPDXRef-Recipe-glibc",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libc6-thread-db"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libc6-thread-db",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libc6-thread-db-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libc6-thread-db"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/bits/byteswap.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/bits/sockaddr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/csu/abi-note.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/elf/elf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/include/assert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/include/list.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/include/list_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/inet/netinet/in.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/fetch-value.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/structs.def",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_init.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_log.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_symbol_list.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_ta_clear_event.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_ta_delete.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_ta_enable_stats.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_ta_event_addr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_ta_event_getmsg.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_ta_get_nthreads.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_ta_get_ph.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_ta_get_stats.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_ta_map_id2thr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_ta_map_lwp2thr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_ta_new.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_ta_reset_stats.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_ta_set_event.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_ta_setconcurrency.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_ta_thr_iter.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_ta_tsd_iter.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_thr_clear_event.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_thr_dbresume.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_thr_dbsuspend.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_thr_event_enable.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_thr_event_getmsg.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_thr_get_info.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_thr_getfpregs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_thr_getgregs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_thr_getxregs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_thr_getxregsize.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_thr_set_event.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_thr_setfpregs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_thr_setgregs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_thr_setprio.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_thr_setsigpending.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_thr_setxregs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_thr_sigsetmask.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_thr_tls_get_addr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_thr_tlsbase.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_thr_tsd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/td_thr_validate.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/nptl_db/thread_dbP.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/posix/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/posix/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/posix/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/signal/bits/types/sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/stdlib/stdint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/stdlib/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/string/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/nptl/bits/pthreadtypes.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/nptl/proc_service.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/nptl/pthread.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/nptl/thread_db.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/unix/sysv/linux/bits/procfs-prregset.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/unix/sysv/linux/bits/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/unix/sysv/linux/bits/types/__sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/unix/sysv/linux/internal-signals.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/unix/sysv/linux/sys/procfs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/unix/sysv/linux/x86/bits/procfs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/unix/sysv/linux/x86/sys/user.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libc6-thread-db-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,145 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:17:52Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/sqlite3-src-887bf2dc-279c-518e-88a3-ee322a76824a",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "77afa55115b354e06f2a9d5232a0ac95f25a5ba5"
+      },
+      "externalDocumentId": "DocumentRef-recipe-sqlite3",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-sqlite3-ddb15355-31cb-5efc-bc2f-344348b1afbe"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-sqlite3-src-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "47b3c6df46e96a0ff15bfbd746707f2e937a4c3b"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "858dd1cb42a29e967233551909fcb05871cece7da4891283731543e5bc00c702"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/src/debug/sqlite3/3_3.37.2-r0/sqlite-autoconf-3370200/shell.c",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-sqlite3-src-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bb37937b64891b5065449bfe8889dd83ed5e71c5"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f316e712031efa690161e2f717d78c4a683953974a4608a87be8d922b16ebf94"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/src/debug/sqlite3/3_3.37.2-r0/sqlite-autoconf-3370200/sqlite3.c",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-sqlite3-src-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "78efb639042e1f7cbacf8962ff861f5be01d0119"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c0d27886483ecc4527fc06cacaa1ee4a2766cc57c17e100864dac0f26edcd79c"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/src/debug/sqlite3/3_3.37.2-r0/sqlite-autoconf-3370200/sqlite3.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "sqlite3-src",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-sqlite3-src",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-sqlite3-src-1",
+        "SPDXRef-PackagedFile-sqlite3-src-2",
+        "SPDXRef-PackagedFile-sqlite3-src-3"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "DocumentRef-recipe-sqlite3:LicenseRef-PD",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "sqlite3-src",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "0456b025052bea30c0b6d24f48d533739824ec45"
+      },
+      "versionInfo": "3.37.2"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-sqlite3:SPDXRef-Recipe-sqlite3",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-sqlite3-src"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-sqlite3-src",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-sqlite3-src-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-sqlite3-src"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-sqlite3-src-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-sqlite3-src"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-sqlite3-src-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-sqlite3-src"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

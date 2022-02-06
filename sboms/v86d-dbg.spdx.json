@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:51:45Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/v86d-dbg-842e7fc2-67f0-5983-83f9-3d8d497fdbe5",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "95fc14a337230d6e2ab1a50d670b73f1987f5aeb"
+      },
+      "externalDocumentId": "DocumentRef-recipe-v86d",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-v86d-4db303c3-05bb-55aa-b448-258250615202"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-v86d-dbg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a3d1df91c3a83780e20ab2539ff1b1c07e60483c"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "57bb679fc4e49513b51eea0772208863429020f9cecbcdbe9543efdd97390e20"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "sbin/.debug/v86d",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "v86d-dbg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-v86d-dbg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-v86d-dbg-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "v86d-dbg",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "109e218e61e672c169d2b4be5aac6d3b2aa04ee6"
+      },
+      "versionInfo": "0.1.10"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-v86d:SPDXRef-Recipe-v86d",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-v86d-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-v86d-dbg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-v86d-dbg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-v86d-dbg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

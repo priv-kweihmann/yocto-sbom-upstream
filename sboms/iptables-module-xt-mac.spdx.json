@@ -1,0 +1,179 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:30:30Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/iptables-module-xt-mac-a989e883-c336-5827-9ef7-2bd39aeb035d",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4ba561e978cce95d49cbb0b0e2e79b0ae1e11859"
+      },
+      "externalDocumentId": "DocumentRef-recipe-iptables",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-iptables-a4050920-0c02-5208-93b0-f3bf350f9920"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-iptables-module-xt-mac-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "219cad0c92c6f6e8a68b2475fc5ce03514deee9a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "97d95a7fa0d2580056db35615df8e8d800a182d9155ac12a11d496fd6e77532d"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/xtables/libxt_mac.so",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "iptables-module-xt-mac",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-iptables-module-xt-mac",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-iptables-module-xt-mac-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "iptables-module-xt-mac",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "276ca6f0c7b13f101c14f6e74cb3db24fb711a29"
+      },
+      "versionInfo": "1.8.7"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-iptables:SPDXRef-Recipe-iptables",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-iptables-module-xt-mac"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-iptables-module-xt-mac",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-iptables-module-xt-mac-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-iptables-module-xt-mac"
+    },
+    {
+      "comment": "/usr/include/asm-generic/int-ll64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-mac-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-mac-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-mac-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-mac-1"
+    },
+    {
+      "comment": "/usr/include/netinet/in.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-mac-1"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-mac-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-mac-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-mac-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/build/extensions/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-mac-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/extensions/libxt_mac.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-mac-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/linux/netfilter.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-mac-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/linux/netfilter/x_tables.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-mac-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/linux/netfilter/xt_mac.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-mac-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/linux/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-mac-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/xtables.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-mac-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

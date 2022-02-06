@@ -1,0 +1,145 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:25:13Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/bzip2-dbg-95de3a0b-ddd2-5cae-b2a9-9f9255f8b0a4",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "be812e4326874a45b76fd3cbed90f0dbae2dbe9a"
+      },
+      "externalDocumentId": "DocumentRef-recipe-bzip2",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-bzip2-48d77de4-d76a-580e-82f3-6bfefd5b9795"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-bzip2-dbg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1212722c7342c21c76e621a4be15733356832e13"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "30baf922d65322fb16bb8aa8fb565f570eca4fbb3c10751641c622cd587eeaa1"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/.debug/libbz2.so.1.0.8",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-bzip2-dbg-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "594334fb4ea5e2e19f51a17dddb008bcdf6a2ec1"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c35c2a94c250587b5679c02c5aadb0060a9afdbdd11812799278dca700d6795b"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/.debug/bzip2recover",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-bzip2-dbg-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "112be6e22ff8421776c3ac6447a5f4ec99a6b4d9"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "060d5cb7e786e47801d73454e3674354d9784a131fce4888121975754ed3005c"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/.debug/bzip2.bzip2",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "bzip2-dbg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-bzip2-dbg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-bzip2-dbg-1",
+        "SPDXRef-PackagedFile-bzip2-dbg-2",
+        "SPDXRef-PackagedFile-bzip2-dbg-3"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "bzip2-1.0.6",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "bzip2-dbg",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "e81a6f4a8092665b0150904d79ab4249a67ed466"
+      },
+      "versionInfo": "1.0.8"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-bzip2:SPDXRef-Recipe-bzip2",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-bzip2-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-bzip2-dbg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-bzip2-dbg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-bzip2-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-bzip2-dbg-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-bzip2-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-bzip2-dbg-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-bzip2-dbg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,161 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:06:19Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libpcreposix0-9af76b22-580f-54ca-9d8e-416a8a06144a",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8fb3f0fbac441fb0ede0494e976c2c59f8042a53"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libpcre",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libpcre-88e084af-1d44-5d6d-9956-e2e9125ca895"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libpcreposix0-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "edfb26e6218528f2860e3199e216fe0ad400f17b"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ab89ce849f9c24533f101ee4e5f7627098565a1515b6c398ccee3d3f1c5bd7b8"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libpcreposix.so.0.0.7",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libpcreposix0",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libpcreposix0",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libpcreposix0-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libpcreposix0",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "ca96d1c5ad6bb4080a60792c6c620fd24ed954fb"
+      },
+      "versionInfo": "8.45"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libpcre:SPDXRef-Recipe-libpcre",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libpcreposix0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libpcreposix0",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libpcreposix0-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libpcreposix0"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcreposix0-1"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcreposix0-1"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcreposix0-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcreposix0-1"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcreposix0-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcreposix0-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcreposix0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre/8.45-r0/build/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcreposix0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre/8.45-r0/build/pcre.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcreposix0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre/8.45-r0/pcre-8.45/pcre_internal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcreposix0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre/8.45-r0/pcre-8.45/pcreposix.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcreposix0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre/8.45-r0/pcre-8.45/pcreposix.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcreposix0-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,145 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:28:27Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/bash-completion-2563c92c-67bf-5ebb-8110-43354c2fb212",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5068cf875fa38ec97b1c6afd2104f313df29d95e"
+      },
+      "externalDocumentId": "DocumentRef-recipe-bash-completion",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-bash-completion-449f3c99-4701-554f-9a75-392b0289d6be"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-bash-completion-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7c54123ec53be7fcc7a69f75d7182184d4d602fd"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8decc28095dd6363ed1cf1cc7ef046b04064daf96d3d0a8fbcf5af234dcfefe6"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/bash_completion",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-bash-completion-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "dd8e5f7156c585759b8c3d4d30b4ddf80f0911fb"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0aefd1d6da5bd2ebe7481a88c8033d0ef2641625e3ffc14c9a895ab0944465dc"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/profile.d/bash_completion.sh",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-bash-completion-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "882b20c2a7e7a97cdc1e1c5b080a1f9042b6be2f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2678afe432cb9cf181b5fff2868a81e34cadd69e9d35611116433fe1798029b5"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/bash-completion/bash_completion",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "bash-completion",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-bash-completion",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-bash-completion-1",
+        "SPDXRef-PackagedFile-bash-completion-2",
+        "SPDXRef-PackagedFile-bash-completion-3"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "bash-completion",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "3a771a45eacc29f167eb4b50385b3926f54d6d93"
+      },
+      "versionInfo": "2.11"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-bash-completion:SPDXRef-Recipe-bash-completion",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-bash-completion"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-bash-completion",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-bash-completion-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-bash-completion"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-bash-completion-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-bash-completion"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-bash-completion-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-bash-completion"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

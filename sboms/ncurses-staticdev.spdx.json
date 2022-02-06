@@ -1,0 +1,1029 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:29:42Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/ncurses-staticdev-9ef2fe32-cff0-5d3e-8b7c-9848ebdc4cd5",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "299284c5acb2ec60ee31e86c4822d54e679cd12d"
+      },
+      "externalDocumentId": "DocumentRef-recipe-ncurses",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-ncurses-0e23f426-319c-55a3-92d6-7bae8d64d645"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-ncurses-staticdev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a5ed5596753b06181c74636e900d042db09bc02e"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c64bdaf62a850db302a8f606fa917317f9641957a6b36ba9bc86c242c28eb01c"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libncurses++w.a",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-ncurses-staticdev-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6f0ec475af0c3c3eb19245220a2a5aecc1168e8f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c8278dd06c225e1c2d4762d57abacee274e692a332f45dd8280b99487e906063"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libncurses++.a",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "ncurses-staticdev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-ncurses-staticdev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-ncurses-staticdev-1",
+        "SPDXRef-PackagedFile-ncurses-staticdev-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "ncurses-staticdev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "333d3f3bb3ed6d7c02f41602a86cd4abbe7d6fdf"
+      },
+      "versionInfo": "6.3"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-ncurses:SPDXRef-Recipe-ncurses",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-ncurses-staticdev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ncurses-staticdev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-ncurses-staticdev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-ncurses-staticdev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-ncurses-staticdev-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-ncurses-staticdev"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdlib-bsearch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdlib-float.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/__FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/__fpos_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/__mbstate_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/mbstate_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_tm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/wint_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/bits/wchar2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/bits/wctype-wchar.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/basic_ios.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/basic_ios.tcc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/char_traits.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/exception_ptr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/functexcept.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/ios_base.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/locale_facets.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/ostream.tcc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/ostream_insert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/postypes.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/predefined_ops.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/std_abs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/stl_iterator_base_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/clocale",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/cstdint",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/cstdio",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/cstdlib",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/cwchar",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/cwctype",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/debug/debug.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/iosfwd",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/iostream",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/new",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/ostream",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/system_error",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/type_traits",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/x86_64-poky-linux/bits/c++config.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/locale.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/stdint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/wchar.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/wctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stdarg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/build/narrowc/c++/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/build/narrowc/c++/etip.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/build/narrowc/include/curses.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/build/narrowc/include/form.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/build/narrowc/include/menu.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/build/narrowc/include/panel.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursesapp.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursesapp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursesf.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursesf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursesm.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursesm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursesmain.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursesp.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursesp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursespad.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursesw.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursesw.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursslk.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursslk.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdlib-bsearch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdlib-float.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__fpos_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__mbstate_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/mbstate_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_tm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/wint_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/bits/wchar2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/bits/wctype-wchar.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/basic_ios.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/basic_ios.tcc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/char_traits.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/exception_ptr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/functexcept.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/ios_base.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/locale_facets.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/ostream.tcc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/ostream_insert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/postypes.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/predefined_ops.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/std_abs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/bits/stl_iterator_base_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/clocale",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/cstdint",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/cstdio",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/cstdlib",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/cwchar",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/cwctype",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/debug/debug.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/iosfwd",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/iostream",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/new",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/ostream",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/system_error",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/type_traits",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/c++/11.2.0/x86_64-poky-linux/bits/c++config.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/locale.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/stdint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/wchar.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/include/wctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stdarg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/build/widec/c++/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/build/widec/c++/etip.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/build/widec/include/curses.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/build/widec/include/form.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/build/widec/include/menu.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/build/widec/include/panel.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursesapp.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursesapp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursesf.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursesf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursesm.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursesm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursesmain.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursesp.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursesp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursespad.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursesw.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursesw.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursslk.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    },
+    {
+      "comment": "/usr/src/debug/ncurses/6.3-r0/git/c++/cursslk.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-ncurses-staticdev-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

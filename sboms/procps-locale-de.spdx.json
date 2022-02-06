@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:45:50Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/procps-locale-de-0ba8dace-fb84-5509-bc31-933af37503d5",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c8f304d165b5fa1f7f3c99b0476e41b0c782617c"
+      },
+      "externalDocumentId": "DocumentRef-recipe-procps",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-procps-b2884d32-4212-5421-9a57-e38ba02c6128"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-procps-locale-de-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "418e9fd3773e47af02a1296a54579b5d6d138e6c"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d896c685ca28dfa4619dad5520379ad49f991bb5b60107e95ac79f5031c09324"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/de/LC_MESSAGES/procps-ng.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "procps-locale-de",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-procps-locale-de",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-procps-locale-de-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later AND LGPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "procps-locale-de",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "6a52e5174a888957491545af03aad86c062060ea"
+      },
+      "versionInfo": "3.3.17"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-procps:SPDXRef-Recipe-procps",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-procps-locale-de"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-procps-locale-de",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-procps-locale-de-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-procps-locale-de"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

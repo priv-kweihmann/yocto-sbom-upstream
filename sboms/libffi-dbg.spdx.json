@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:12:59Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libffi-dbg-45a1f5d3-de43-5b5c-90cd-6b65582005fa",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "60ea8583ee33214ba9a6e261e59aed31a6c8e631"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libffi",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libffi-e07aad0a-60d0-5af2-87c1-57fff6c9f659"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libffi-dbg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "12319fed32c96129f1e30cb332f4af97a4165a89"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "85e7959fc43eff82426b2132fb93f03cbdcf2fbebfd4742fdfe74d2176a7c03c"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/.debug/libffi.so.8.1.0",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libffi-dbg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libffi-dbg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libffi-dbg-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libffi-dbg",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "1bbc430ee1be9d5581d0fffc6204aa1dd83bf052"
+      },
+      "versionInfo": "3.4.2"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libffi:SPDXRef-Recipe-libffi",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libffi-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libffi-dbg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libffi-dbg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libffi-dbg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

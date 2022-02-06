@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:06:46Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/xtrans-doc-3bd6fa8d-e90e-5842-b1b0-d7712b9a9410",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f9a097afa0faaeb23197ba6fe1fc9e5fc6bbd6bf"
+      },
+      "externalDocumentId": "DocumentRef-recipe-xtrans",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-xtrans-ac7aaf7a-b35e-5a71-a974-1e48edec20dd"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-xtrans-doc-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e1108be3d353d11a4be86fe16a7f43b697d25f59"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6136d5893e7f29eb00dd0ba5ca942ac922f6d5caea77f219a2cf90c7976dd1d8"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/doc/xtrans/xtrans.xml",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "xtrans-doc",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-xtrans-doc",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-xtrans-doc-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT AND MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "xtrans-doc",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "f021677f63d218a3d03ce1dc2a260b057cbe5867"
+      },
+      "versionInfo": "1.4.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-xtrans:SPDXRef-Recipe-xtrans",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-xtrans-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-xtrans-doc",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-xtrans-doc-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-xtrans-doc"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

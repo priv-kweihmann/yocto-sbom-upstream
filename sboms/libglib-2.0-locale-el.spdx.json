@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:29:57Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libglib-2.0-locale-el-fc3620e6-d879-58e2-9013-dd2f359b1e45",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1da62363225223fd0dd9b4d5fc23ac8f241c407a"
+      },
+      "externalDocumentId": "DocumentRef-recipe-glib-2.0",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-glib-2.0-d0091684-3041-5a99-9476-45ed618feb68"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libglib-2.0-locale-el-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b502e0dc7eff3310963db4241a5f72516f7fa5db"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "675b78010403f8a782d7cbbcea4a39787252c66085de680bfce7d71ab97f0299"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/el/LC_MESSAGES/glib20.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libglib-2.0-locale-el",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libglib-2.0-locale-el",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libglib-2.0-locale-el-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-2.1-or-later AND BSD-3-Clause AND DocumentRef-recipe-glib-2.0:LicenseRef-PD",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libglib-2.0-locale-el",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "5ffc039795b307ebe03754761ae517cbd2b679e4"
+      },
+      "versionInfo": "2.70.3"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-glib-2.0:SPDXRef-Recipe-glib-2.0",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libglib-2.0-locale-el"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libglib-2.0-locale-el",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libglib-2.0-locale-el-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libglib-2.0-locale-el"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

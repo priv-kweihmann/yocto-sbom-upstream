@@ -1,0 +1,145 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T17:08:28Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/shared-mime-info-dev-340d0cb9-901c-55a1-aa0a-702a45d2df15",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e415136a943265f0e4792ae5a7a42de98fd2799e"
+      },
+      "externalDocumentId": "DocumentRef-recipe-shared-mime-info",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-shared-mime-info-501e2e1f-1c5c-510d-bc03-82eb288c553e"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-shared-mime-info-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f7cb152d282740fe735786d43f854cdf378c5506"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "29b5c5fbca3b0017fc678933f21ea314956835ca9af65c74ade0c1cc30829c88"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/pkgconfig/shared-mime-info.pc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-shared-mime-info-dev-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c86ae6400e2f9193f243b27d07217de034d30903"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8ec56973c7f6397b1778fce070c82b83fc9f7a6483667a66588fc2a7449a2deb"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/gettext/its/shared-mime-info.its",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-shared-mime-info-dev-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ae8beb0a4ec900f2fabbee17f4fa7bfee9d008aa"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "138d9191f65d0645115638174c049ac81acdb1ab192c5f0c52c6dab5ec193e41"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/gettext/its/shared-mime-info.loc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "shared-mime-info-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-shared-mime-info-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-shared-mime-info-dev-1",
+        "SPDXRef-PackagedFile-shared-mime-info-dev-2",
+        "SPDXRef-PackagedFile-shared-mime-info-dev-3"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "shared-mime-info-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "a6c6f979a61227eedd10b31ab1f9445f3227f6b0"
+      },
+      "versionInfo": "2.1"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-shared-mime-info:SPDXRef-Recipe-shared-mime-info",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-shared-mime-info-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-shared-mime-info-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-shared-mime-info-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-shared-mime-info-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-shared-mime-info-dev-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-shared-mime-info-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-shared-mime-info-dev-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-shared-mime-info-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

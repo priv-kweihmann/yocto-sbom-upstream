@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:24:21Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libitm-dev-e6772293-80f6-5a1b-879a-66f2f61d7cc6",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "60a673351c9a3395c8bcf8870dbf7d5682b61ca1"
+      },
+      "externalDocumentId": "DocumentRef-recipe-gcc-runtime",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-gcc-runtime-a8177036-816d-5f00-a030-969647302050"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libitm-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fb68ac332052d4a1197b54ae7c7ec69727a43f34"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "66bc196e461b4a8b729e89992421235f7a03a7d873329059faa2100f5d33c335"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libitm.spec",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libitm-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libitm-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libitm-dev-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-with-GCC-exception",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libitm-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "0de68117fb4b189575bc656c3c99a4cf5dda9936"
+      },
+      "versionInfo": "11.2.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-gcc-runtime:SPDXRef-Recipe-gcc-runtime",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libitm-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libitm-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libitm-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libitm-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T17:05:24Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/binutils-locale-sk-6880b1a1-e5af-523a-8f65-80570ab4cfb4",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4eab6220493345c9cd338916e6d360cbfef53217"
+      },
+      "externalDocumentId": "DocumentRef-recipe-binutils",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-binutils-ec16b9df-2ec0-5026-aa12-44c970d7e9fb"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-binutils-locale-sk-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9619117b062b3ef0d7495e23dd86b7fb4ae6d865"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e17156272609a2ad895a0f72718373d489f99b67090e8da6652a80eedcf83233"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/sk/LC_MESSAGES/binutils.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "binutils-locale-sk",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-binutils-locale-sk",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-binutils-locale-sk-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "binutils-locale-sk",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "6da2038b4b240585c0865b8d08740f1bd992dd7c"
+      },
+      "versionInfo": "2.37"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-binutils:SPDXRef-Recipe-binutils",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-binutils-locale-sk"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-binutils-locale-sk",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-binutils-locale-sk-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-binutils-locale-sk"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

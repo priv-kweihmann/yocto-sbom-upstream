@@ -1,0 +1,117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:14:14Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libxdmcp-dev-31e6f396-46a2-5c7b-9658-70796239f2dd",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "529d4f8cb4533834a8dc351e7e54c71993fcd2f3"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libxdmcp",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libxdmcp-7a086720-6a15-5e43-9902-c6c3b099c9d3"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libxdmcp-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "838d34119e8f42d20b269ebd129960b15303ffba"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7326c6b4504939ba0ad61fece04238460020996ef230b8bd9e6b14e4ad5ca426"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/X11/Xdmcp.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libxdmcp-dev-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fa30b91661f589f73a957271cd6bfcceeb5e295d"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "05ea81563594a8b8c684086d0b5ebf083f2a068bc75f7cef5f9a9f22a00169e9"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/pkgconfig/xdmcp.pc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libxdmcp-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libxdmcp-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libxdmcp-dev-1",
+        "SPDXRef-PackagedFile-libxdmcp-dev-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libxdmcp-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "ef39d6206e7d2a0c33f54b5cc4158e127c70c763"
+      },
+      "versionInfo": "1.1.3"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libxdmcp:SPDXRef-Recipe-libxdmcp",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libxdmcp-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libxdmcp-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libxdmcp-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libxdmcp-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libxdmcp-dev-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libxdmcp-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

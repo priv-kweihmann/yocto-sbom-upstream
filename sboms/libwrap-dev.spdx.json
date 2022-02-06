@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:30:51Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libwrap-dev-71634e24-4161-53c5-a322-172296bef9d7",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5dd14b6fc280e0f84ecfbfe507581c879abebb58"
+      },
+      "externalDocumentId": "DocumentRef-recipe-tcp-wrappers",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-tcp-wrappers-df9e9b9d-1f78-5aa7-9013-44ba239c72fa"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libwrap-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b53aada9e49b74015ac85bd6bbed71796d216d7a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "736a730ba2e976cd17c91ac14c3e162a311937fe655a83eca187c6ce30b58f2b"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/tcpd.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libwrap-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libwrap-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libwrap-dev-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-1-Clause",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libwrap-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "2a7990a34d181746eea611d97f045f531cef11dc"
+      },
+      "versionInfo": "7.6"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-tcp-wrappers:SPDXRef-Recipe-tcp-wrappers",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libwrap-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libwrap-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libwrap-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libwrap-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

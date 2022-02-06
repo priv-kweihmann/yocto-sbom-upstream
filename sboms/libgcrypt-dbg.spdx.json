@@ -1,0 +1,173 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:40:29Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libgcrypt-dbg-7e01ba0d-4aa8-5051-96da-11e96fceb9a0",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "67ce6b33d3384b1164604195910f067cff8db7d3"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libgcrypt",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libgcrypt-5bf23291-72b3-5400-b74e-9a6f33fdb451"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libgcrypt-dbg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c29c549319a17ac940a0422f7285f02d7be14599"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "861b3102fe73291928a8f58e4f51f69f4e94a49a3910cb64d918c78311208d94"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/.debug/libgcrypt.so.20.3.4",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libgcrypt-dbg-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4c2e7d2957236207574f7beb85f9abe597aa3502"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a2534aa003a9c605b06d86edf9d522549689b246aa3d16b0232a446ba15347bc"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/.debug/mpicalc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libgcrypt-dbg-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "85679d60e48950108d53ac427b70738a45838beb"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f7ca6ee5017196568c4bee50e1f82af86c381100aeecaa767737d6e0eda30736"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/.debug/dumpsexp",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libgcrypt-dbg-4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "aa0d0172acbf13c9c45a955c3d4036001a26e5b9"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b73ba44bdd92a1e58f1e60328aedc6c53e2721e9950070e68f03cd813b6707b7"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/.debug/hmac256",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libgcrypt-dbg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libgcrypt-dbg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libgcrypt-dbg-1",
+        "SPDXRef-PackagedFile-libgcrypt-dbg-2",
+        "SPDXRef-PackagedFile-libgcrypt-dbg-3",
+        "SPDXRef-PackagedFile-libgcrypt-dbg-4"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later AND LGPL-2.1-or-later AND GPL-3.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libgcrypt-dbg",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "cda694fe6a4725bd8723a29a05fd678238b7f938"
+      },
+      "versionInfo": "1.9.4"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libgcrypt:SPDXRef-Recipe-libgcrypt",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libgcrypt-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libgcrypt-dbg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libgcrypt-dbg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libgcrypt-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libgcrypt-dbg-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libgcrypt-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libgcrypt-dbg-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libgcrypt-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libgcrypt-dbg-4",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libgcrypt-dbg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

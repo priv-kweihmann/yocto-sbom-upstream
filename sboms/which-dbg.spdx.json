@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T17:08:43Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/which-dbg-cc0af1e2-2169-514f-9423-6eedbe8d9112",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f59d802fdd62415d3812982f0db21b83441c8bd2"
+      },
+      "externalDocumentId": "DocumentRef-recipe-which",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-which-f2b9cd00-1f50-5dc4-91d5-bf298ac0aff1"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-which-dbg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8458336a2fa666249d6c547e9cadec82132f0714"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "65bb297edebe93a516dec24988fae3b8f2198ec87a2ce1e65f6ceb3086f114fa"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/.debug/which.which",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "which-dbg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-which-dbg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-which-dbg-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "which-dbg",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "e96065f206262a40bbf92adb7879a5079837044a"
+      },
+      "versionInfo": "2.21"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-which:SPDXRef-Recipe-which",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-which-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-which-dbg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-which-dbg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-which-dbg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

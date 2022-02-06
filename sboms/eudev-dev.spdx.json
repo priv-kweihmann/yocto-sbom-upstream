@@ -1,0 +1,173 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:16:35Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/eudev-dev-eb8fb135-0e6d-589a-8879-911b47ba1def",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f2c31e360eef27d5487a8067c75b9c90516c300b"
+      },
+      "externalDocumentId": "DocumentRef-recipe-eudev",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-eudev-39f5ce1f-7145-5a22-b6a9-8148576e1625"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-eudev-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "611cadef5785eea8e67ca885fd6980f2dd5237d5"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e88f7e6554d8d1e256f05ed7a9f7ac97cd573dfcef3d8e3d5c1a5537d2806b25"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/pkgconfig/udev.pc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-eudev-dev-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7c7e33e9a9039c03c4c3a3371aec1907cb71f3d3"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b5046554def8f086b40451f31f33c12aac67591399d62efaf8b61d85aeaaf59c"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/udev.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-eudev-dev-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ae0659e89728a7b7cf0c8c2416a4c3c6bf449c2e"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "46f12cba8f96574d9c20246fbd71f4d3925b81c4fcbc2463c810525b76703c18"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/libudev.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-eudev-dev-4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "dda4afbdbb370a92b3af4788e0868db4f5906060"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bc30cbe48cf286a792b47117b35293bd5ee0f47e38f6595e17ca39aff580af51"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/pkgconfig/libudev.pc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "eudev-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-eudev-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-eudev-dev-1",
+        "SPDXRef-PackagedFile-eudev-dev-2",
+        "SPDXRef-PackagedFile-eudev-dev-3",
+        "SPDXRef-PackagedFile-eudev-dev-4"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "eudev-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "79eae67dd04616fde685ea15ec3e2df7398696b6"
+      },
+      "versionInfo": "3.2.10"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-eudev:SPDXRef-Recipe-eudev",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-eudev-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-eudev-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-eudev-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-eudev-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-eudev-dev-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-eudev-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-eudev-dev-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-eudev-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-eudev-dev-4",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-eudev-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

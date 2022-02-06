@@ -1,0 +1,117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:07:49Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/sed-doc-7f11144f-84b4-504d-aaf3-4d86a9077808",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "18f0ccb7045bc88099b9960c6115f983ad17d9ea"
+      },
+      "externalDocumentId": "DocumentRef-recipe-sed",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-sed-39d4fc97-e5ee-5421-a16b-89b7425120c8"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-sed-doc-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "39ee60809eb5127f7aee78626af68c2da0afe248"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c0600e0e6cdc4d0dee4129914ff6e85d9675f436811899d0083525dfba83657a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/man/man1/sed.1",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-sed-doc-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "aa1f6e8489e3de45019f8a72571a1346e18d3aed"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4399459719b09df2f60450c472fc88d082672b2e42235d0c4da81d63e9adeea2"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/info/sed.info",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "sed-doc",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-sed-doc",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-sed-doc-1",
+        "SPDXRef-PackagedFile-sed-doc-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "sed-doc",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "25e8f08e1944e7018253fd008e53069f9fc1eb8d"
+      },
+      "versionInfo": "4.8"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-sed:SPDXRef-Recipe-sed",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-sed-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-sed-doc",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-sed-doc-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-sed-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-sed-doc-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-sed-doc"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

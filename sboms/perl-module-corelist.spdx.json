@@ -1,0 +1,117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:40:32Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/perl-module-corelist-756d1d22-1557-555d-a13a-f18f3e4a4236",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "28cbb242f6cc17d08db727eb37a603b7e135e37d"
+      },
+      "externalDocumentId": "DocumentRef-recipe-perl",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-perl-6f42614c-138d-5270-8ad2-6a8ebaf640d1"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-perl-module-corelist-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "edf4f52683ef7b449300523144160b37a99ded18"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "00625cd97c82b1d3d0f2709578466488204d9e714f01f06ddba80d26aac9368e"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/perl5/5.34.0/Module/CoreList.pm",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-perl-module-corelist-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ee148fdab7a4ec22bad4f704bb507a6c02ea5920"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "12f4af26b4796554c4b0aef5547266d63d91383468992710ebb8dd8316e29234"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/perl5/5.34.0/Module/CoreList/Utils.pm",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "perl-module-corelist",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-perl-module-corelist",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-perl-module-corelist-1",
+        "SPDXRef-PackagedFile-perl-module-corelist-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Artistic-1.0 OR GPL-1.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "perl-module-corelist",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "02507c2f1e25cc16e9c74bb2afbe96a7b66240a2"
+      },
+      "versionInfo": "5.34.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-perl:SPDXRef-Recipe-perl",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-perl-module-corelist"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-perl-module-corelist",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-perl-module-corelist-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-perl-module-corelist"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-perl-module-corelist-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-perl-module-corelist"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

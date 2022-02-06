@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:51:48Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/elfutils-locale-pl-6c323759-0c96-5758-a4d7-705e604dde04",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b4357db7f8ca3df914fc63de849b2416a27ce257"
+      },
+      "externalDocumentId": "DocumentRef-recipe-elfutils",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-elfutils-4cdfa240-f049-53bc-bf95-ba542d917d61"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-elfutils-locale-pl-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "387d036f3661ed9448a0769d9193c7bf2e46cd68"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "64092cce8cad1bb8d8b2c2bb45fe4840876005f19cee49dd51d7e63803398888"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/pl/LC_MESSAGES/elfutils.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "elfutils-locale-pl",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-elfutils-locale-pl",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-elfutils-locale-pl-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only AND GPL-2.0-or-later AND LGPL-3.0-or-later AND GPL-3.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "elfutils-locale-pl",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "4344b892de68a12f48fb4f49ddb15901dbec0736"
+      },
+      "versionInfo": "0.186"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-elfutils:SPDXRef-Recipe-elfutils",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-elfutils-locale-pl"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-elfutils-locale-pl",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-elfutils-locale-pl-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-elfutils-locale-pl"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,173 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:42:52Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/netbase-71dc585d-f6ca-56c7-bdb8-31927d544813",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "9444cc96780f169047567a24b4ba35a46e5e200e"
+      },
+      "externalDocumentId": "DocumentRef-recipe-netbase",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-netbase-7b385d09-d0bb-55f0-80b4-172a1e9035fc"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-netbase-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2902538bf5531857042f2b3aff36b076fd384759"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7ef160dfc382b5f927dfb41ceea369936239632d2990dba18fdf6737cc6a5220"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/ethertypes",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-netbase-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a0d7a229bf049f7fe17e8445226236e4024535d0"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f6183055fd949f9c53d49ee620f85d0150123ea691d25ed1bba0c641b4ee2f48"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/services",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-netbase-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "774b67fdac56d2973e3b1e0e3f32f962dea1b8a1"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "93b45c797d096a12aadd5395fc9ae9e613a0f5cda58deefa18c79fd40eeeb3f7"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/rpc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-netbase-4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a262a5a77be01aad99a98cf20ff28735da3cac37"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a90a2be9c2a88be6fbfc1fc73ba76f34698377bb19513e5de503dbb0bfe13be1"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/protocols",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "netbase",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-netbase",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-netbase-1",
+        "SPDXRef-PackagedFile-netbase-2",
+        "SPDXRef-PackagedFile-netbase-3",
+        "SPDXRef-PackagedFile-netbase-4"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "netbase",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "13c61da805ae646d0ae0f3282ec4f698d8e5ae40"
+      },
+      "versionInfo": "6.3"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-netbase:SPDXRef-Recipe-netbase",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-netbase"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-netbase",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-netbase-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-netbase"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-netbase-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-netbase"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-netbase-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-netbase"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-netbase-4",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-netbase"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

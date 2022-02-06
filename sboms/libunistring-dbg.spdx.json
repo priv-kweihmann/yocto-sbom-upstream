@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:16:46Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libunistring-dbg-ac733049-8937-562d-a2a5-41d1c2126514",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2cb4a45d013b7a696090d173d1ecdf1d4af77a91"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libunistring",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libunistring-b2c49db4-ede7-56af-a347-787fbc628189"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libunistring-dbg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "902233ac9ee791fca4315da9ad32f547b24df882"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f7ee57e8420ebeee051ae5219af990395a393418b29da59e886dc1239add42e3"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/.debug/libunistring.so.2.2.0",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libunistring-dbg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libunistring-dbg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libunistring-dbg-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-3.0-or-later OR GPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libunistring-dbg",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "2c9fcbc3994dc12cf11f6f289747940c9c88cf81"
+      },
+      "versionInfo": "1.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libunistring:SPDXRef-Recipe-libunistring",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libunistring-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libunistring-dbg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libunistring-dbg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libunistring-dbg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

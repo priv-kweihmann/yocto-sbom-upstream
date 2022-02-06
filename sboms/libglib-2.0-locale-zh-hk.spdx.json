@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:29:57Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libglib-2.0-locale-zh-hk-e06f0d35-d7f9-5383-b6b5-17b13f9aee6e",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1da62363225223fd0dd9b4d5fc23ac8f241c407a"
+      },
+      "externalDocumentId": "DocumentRef-recipe-glib-2.0",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-glib-2.0-d0091684-3041-5a99-9476-45ed618feb68"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libglib-2.0-locale-zh-hk-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "78e0d1e6ef71017be08eae279adba81be7d5dace"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "85e128e819f82b6eadf1f0798b1603e653f97b1f2ff071df30fd70c458505b71"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/zh_HK/LC_MESSAGES/glib20.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libglib-2.0-locale-zh-hk",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libglib-2.0-locale-zh-hk",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libglib-2.0-locale-zh-hk-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-2.1-or-later AND BSD-3-Clause AND DocumentRef-recipe-glib-2.0:LicenseRef-PD",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libglib-2.0-locale-zh-hk",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "b12f593db6875534002378c01305a34ecf5679b7"
+      },
+      "versionInfo": "2.70.3"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-glib-2.0:SPDXRef-Recipe-glib-2.0",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libglib-2.0-locale-zh-hk"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libglib-2.0-locale-zh-hk",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libglib-2.0-locale-zh-hk-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libglib-2.0-locale-zh-hk"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

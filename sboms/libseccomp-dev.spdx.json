@@ -1,0 +1,145 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:11:46Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libseccomp-dev-de790d08-810c-5a97-aed5-0884e4b4ec8e",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "3db5dc83fa180e41a281e18d94db5cc9b1632f1c"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libseccomp",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libseccomp-7ffe5687-651c-5e5e-9064-62cb4834fa8a"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libseccomp-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fece85dfaef51837c81b9a5bf933a6b7e7b5889f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8a844bb314138640d43ee3279dc8297ad7be6807f9c96ea613c0e9d0ede55eef"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/seccomp-syscalls.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libseccomp-dev-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "291c0dd5cb1251f1062606c77d3392ae64b74b83"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1cbffbe06eadbcd90287fd409d446955137fb0f5fb292ff27397d7ede570fd5c"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/seccomp.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libseccomp-dev-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cb445522072973f2c50d5b2c5e060b1f10b4b603"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b71b058b28d06adac8ce6655975893b076f16c300618775cb32197baa55f91d6"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/pkgconfig/libseccomp.pc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libseccomp-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libseccomp-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libseccomp-dev-1",
+        "SPDXRef-PackagedFile-libseccomp-dev-2",
+        "SPDXRef-PackagedFile-libseccomp-dev-3"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-2.1-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libseccomp-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "62221092581e55f518fa950106bb88d321570c88"
+      },
+      "versionInfo": "2.5.3"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libseccomp:SPDXRef-Recipe-libseccomp",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libseccomp-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libseccomp-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libseccomp-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libseccomp-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libseccomp-dev-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libseccomp-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libseccomp-dev-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libseccomp-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

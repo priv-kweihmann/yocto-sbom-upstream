@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T17:11:09Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/psmisc-locale-uk-8998517d-87c6-5eb0-9bce-b87f08e86a9b",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8dfff535bf443ee15b270b40138ddfae2388e944"
+      },
+      "externalDocumentId": "DocumentRef-recipe-psmisc",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-psmisc-8dd33cf3-0431-52eb-b4f0-33d9e78b9b56"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-psmisc-locale-uk-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "eb37899add7e2f4d572e8fd9d87d6edf0ace93c8"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a3069ad9565406f6abf7df3cd79563c962dbd4dd5f3cdf1c7dd2edbfc52c2d72"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/uk/LC_MESSAGES/psmisc.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "psmisc-locale-uk",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-psmisc-locale-uk",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-psmisc-locale-uk-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "psmisc-locale-uk",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "cb2df5e96bcf011bf58e5a3808dd826a94610ee6"
+      },
+      "versionInfo": "23.4"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-psmisc:SPDXRef-Recipe-psmisc",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-psmisc-locale-uk"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-psmisc-locale-uk",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-psmisc-locale-uk-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-psmisc-locale-uk"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:23:49Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/catchsegv-e34f6e53-0c37-5e16-873a-17719a493919",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e5c506b4b0d321a5d0cc2c40f2b1e3ae84792c22"
+      },
+      "externalDocumentId": "DocumentRef-recipe-glibc",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-glibc-8ec5f1d4-204b-530d-8854-79bbb314d6d7"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-catchsegv-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "73bc740cd6ceee7d96af5a74262b3ca4b99758fc"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8e59ccdc7d3cadc61ae1adb49bbe8b3cec86c6e4470aff95e23d216c5969f97c"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/catchsegv",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "catchsegv",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-catchsegv",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-catchsegv-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "catchsegv",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "82cc0b340361c563e125ad1455058be408cf0392"
+      },
+      "versionInfo": "2.34"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-glibc:SPDXRef-Recipe-glibc",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-catchsegv"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-catchsegv",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-catchsegv-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-catchsegv"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:12:32Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/base-passwd-src-79a8f8ba-732c-5dd3-8e06-cff37307c843",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "dea441beb4873cd4a3c398223acef5c5c0d0e7fc"
+      },
+      "externalDocumentId": "DocumentRef-recipe-base-passwd",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-base-passwd-bb3f3152-7b84-5ef0-95bd-04186ff304e1"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-base-passwd-src-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "199093c6e43d0cac8fe4001fdf89e15c64448cac"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "aeee980eb87a0724f17b9c6ed8e7c76785e3fa2c540d7a4edfc5581721a53372"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/src/debug/base-passwd/3.5.29-r0/base-passwd-3.5.29/update-passwd.c",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "base-passwd-src",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-base-passwd-src",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-base-passwd-src-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "base-passwd-src",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "7dfddcd4de77f1747b0f5ab78c88d5175fae2a8d"
+      },
+      "versionInfo": "3.5.29"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-base-passwd:SPDXRef-Recipe-base-passwd",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-base-passwd-src"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-base-passwd-src",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-base-passwd-src-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-base-passwd-src"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

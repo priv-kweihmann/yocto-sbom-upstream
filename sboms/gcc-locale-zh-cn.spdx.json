@@ -1,0 +1,117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T17:49:13Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/gcc-locale-zh-cn-0eb8ff39-d0ca-51c0-b800-25f03b252547",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1e1721442ae9571222caacf358496bb95ee78a91"
+      },
+      "externalDocumentId": "DocumentRef-recipe-gcc",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-gcc-61a2a676-34fb-5eb3-b180-f5cc0689c335"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-gcc-locale-zh-cn-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9f4be5d0192df856559a16818955d8d75b4ef261"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "53eaf2c8e747c43c2e0af9b9bbad466b45af4e6e5668604b8f7bd35afcab5ed7"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/zh_CN/LC_MESSAGES/gcc.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-gcc-locale-zh-cn-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0ecdb107bc408f1fde322ac0647dbfd6fbf78874"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2c33d59532d09236cb225f80247136db6ccc6e6d8fbd9ca366aa7ca70437a953"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/zh_CN/LC_MESSAGES/cpplib.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "gcc-locale-zh-cn",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-gcc-locale-zh-cn",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-gcc-locale-zh-cn-1",
+        "SPDXRef-PackagedFile-gcc-locale-zh-cn-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-with-GCC-exception AND GPL-3.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "gcc-locale-zh-cn",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "9458578ed58c4f7d44499e4e84ab8e2bd7751954"
+      },
+      "versionInfo": "11.2.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-gcc:SPDXRef-Recipe-gcc",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-gcc-locale-zh-cn"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-gcc-locale-zh-cn",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-gcc-locale-zh-cn-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-gcc-locale-zh-cn"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-gcc-locale-zh-cn-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-gcc-locale-zh-cn"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

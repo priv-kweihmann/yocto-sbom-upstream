@@ -1,0 +1,117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:29:22Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libuuid-dev-02dc508e-5e72-5b1e-b1f2-75b73074ba99",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "319215de57fd82027e05b921079663c708e71f70"
+      },
+      "externalDocumentId": "DocumentRef-recipe-util-linux-libuuid",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-util-linux-libuuid-917cc809-1f9e-5aea-98ec-4c19c576f248"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libuuid-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5a6a700e1c594ce92fabeb607e8ecfcfc4331a25"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a38b1d66dec105686bce76e0663d8e1e2eadc372bb55c786995b1257e1566266"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/uuid/uuid.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libuuid-dev-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "499ab4f42c52c768f5e649aec2dde0dfd9b075a2"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7f73ae08e52552b7cdda2622880d1170e72987127f0531cbdf069a025a8577a5"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/pkgconfig/uuid.pc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libuuid-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libuuid-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libuuid-dev-1",
+        "SPDXRef-PackagedFile-libuuid-dev-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libuuid-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "1f8ad4ab537f631d473cb94530fdfe8f444ea21f"
+      },
+      "versionInfo": "2.37.3"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-util-linux-libuuid:SPDXRef-Recipe-util-linux-libuuid",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libuuid-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libuuid-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libuuid-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libuuid-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libuuid-dev-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libuuid-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

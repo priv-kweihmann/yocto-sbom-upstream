@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:17:12Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libice-dbg-09eb72dd-3108-5010-bc48-cc82464d91e0",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f2899c4d7c8d3733a55b810eafc9e3e0f4bede4f"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libice",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libice-12233329-96ff-5c89-a16a-6bb76e873e3f"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libice-dbg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3a9d59a7abf0a1e06869a0d0edc0477e08df23ef"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7998b4e00f06ea12717133bf31e749f26ea52a46109144aecdb2e3805d1ef735"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/.debug/libICE.so.6.3.0",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libice-dbg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libice-dbg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libice-dbg-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libice-dbg",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "4087c54a9bd2cec27d1c66667be0b992a47eb0cd"
+      },
+      "versionInfo": "1.0.10"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libice:SPDXRef-Recipe-libice",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libice-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libice-dbg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libice-dbg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libice-dbg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

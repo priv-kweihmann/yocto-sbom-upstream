@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:06:19Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/pcretest-doc-6dd813e6-fd62-542d-a276-84cd606192b3",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8fb3f0fbac441fb0ede0494e976c2c59f8042a53"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libpcre",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libpcre-88e084af-1d44-5d6d-9956-e2e9125ca895"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-pcretest-doc-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "50d6a92806f18236c1988c028eda7f06f6d39923"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "26069cf6e0405bbdb8d7e837d1c4dd58c4053e7e5bf8c554c60a8cda8235ca2a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/man/man1/pcretest.1",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "pcretest-doc",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-pcretest-doc",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-pcretest-doc-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "pcretest-doc",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "bb6e8de9c331e7f6a2c9987713586308d613eb26"
+      },
+      "versionInfo": "8.45"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libpcre:SPDXRef-Recipe-libpcre",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-pcretest-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-pcretest-doc",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-pcretest-doc-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-pcretest-doc"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

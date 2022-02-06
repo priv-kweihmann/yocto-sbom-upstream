@@ -1,0 +1,173 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:19:08Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libsm-dev-dac9dcbd-4a2b-5a76-9dda-2f05eb6dec1d",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1bb6c2d488065625eddde444a7b4533333a463b7"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libsm",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libsm-79c00984-3eaf-50e2-8b53-f4f67349a799"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libsm-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5449e90b7bfb767c84e4060430c5a000dce4cca0"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3580529fdcd97370008a713ff8c4e9e22d7ce179b04d1eabad9ab21085cb3373"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/X11/SM/SM.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libsm-dev-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b237c518fb4b99ec71e93f0e8541b5640cf0d7b0"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "965cca37380cf71c0c4a2681c3c8b8e45a49a8807a1c82e7cf2a952cd63ec702"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/X11/SM/SMproto.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libsm-dev-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "833c77d454abd49481d400b123dd78669bcd5e67"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d2aea2243d0ec61de6dbde0a7b389d1d6918aa23adc50354d88f7580f8eac11a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/X11/SM/SMlib.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libsm-dev-4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "751418b17573f203d1e0763f9c31c59348bb151b"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ec33360e51fc5f5e7424597d017c35ac9defc5d2704c6c9bb7a521c9484952ce"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/pkgconfig/sm.pc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libsm-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libsm-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libsm-dev-1",
+        "SPDXRef-PackagedFile-libsm-dev-2",
+        "SPDXRef-PackagedFile-libsm-dev-3",
+        "SPDXRef-PackagedFile-libsm-dev-4"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libsm-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "d7a57a26345e96f8b8081d1f9b4f1a1a589c93fd"
+      },
+      "versionInfo": "1.2.3"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libsm:SPDXRef-Recipe-libsm",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libsm-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libsm-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libsm-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libsm-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libsm-dev-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libsm-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libsm-dev-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libsm-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libsm-dev-4",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libsm-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:47:33Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/iproute2-dev-86b03cd5-38ca-5bed-93f6-1b9e081249c6",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7b01c4fb14b61b1b48e239fe67fdb7a52466b164"
+      },
+      "externalDocumentId": "DocumentRef-recipe-iproute2",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-iproute2-6d877ab9-bf53-50dc-8a38-20733171e4b0"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-iproute2-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ad15b2acccf83f354e0e46cc5275d856a68610e1"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c014cdae68ed40e69569c497321a55e469913896868caca248f67aaa4a882a7a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/iproute2/bpf_elf.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "iproute2-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-iproute2-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-iproute2-dev-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "iproute2-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "a13b8af5e70281f3f45d774d606c5e011d35cf91"
+      },
+      "versionInfo": "5.16.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-iproute2:SPDXRef-Recipe-iproute2",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-iproute2-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-iproute2-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-iproute2-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-iproute2-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

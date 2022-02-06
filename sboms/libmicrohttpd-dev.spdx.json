@@ -1,0 +1,117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:47:18Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libmicrohttpd-dev-b856acb6-3d9a-560b-a101-e5f711be0e2b",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6bc0800b27082353aade6abaf66e7b5dbd2b295f"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libmicrohttpd",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libmicrohttpd-c2da429f-e3c6-5a4a-945e-816377aa73c3"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libmicrohttpd-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "88468770271937027474eb6067e64e7b36f0f27c"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6595bf9fa4dcd0043a0dccffc207b865a88023ab71847557e8ebe257618b40a3"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/microhttpd.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libmicrohttpd-dev-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1c7f9ada2898ca57bd937e5776e1f6e7f9419a49"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "db9258fecb626b1ee7365d3bfbf6498eba606fb345a9237a6df836ea2e2fbaa0"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/pkgconfig/libmicrohttpd.pc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libmicrohttpd-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libmicrohttpd-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libmicrohttpd-dev-1",
+        "SPDXRef-PackagedFile-libmicrohttpd-dev-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-2.1-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libmicrohttpd-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "3986b2986e39b6dfbd8c9fc34da3575466fcdd3e"
+      },
+      "versionInfo": "0.9.75"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libmicrohttpd:SPDXRef-Recipe-libmicrohttpd",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libmicrohttpd-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libmicrohttpd-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libmicrohttpd-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libmicrohttpd-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libmicrohttpd-dev-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libmicrohttpd-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

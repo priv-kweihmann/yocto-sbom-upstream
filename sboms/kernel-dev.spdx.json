@@ -1,0 +1,145 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:28:22Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/kernel-dev-611a8ad4-6900-5b9a-9554-a17e6267e678",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5a3f0c94df520c9ce0ad68a6d6d56439f9cf9977"
+      },
+      "externalDocumentId": "DocumentRef-recipe-linux-yocto",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-linux-yocto-96d5f18f-835e-5fa6-85f3-0916c0b073e3"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-kernel-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "16dbd1718c46c02269a211fc287a5ea7a13999f0"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "80183fe7d9c8b30a5857e9cce46ec54a86e49830055f37b920dec9186c688470"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "boot/Module.symvers-5.15.16-yocto-standard",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-kernel-dev-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f8391a61c999d511a104ffe72364d103f8a2c940"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a9b88bb2c418579e7c4817507d5fbecdb7b0a3a788f745632f18230ae8600155"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "boot/config-5.15.16-yocto-standard",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-kernel-dev-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "597abc42fadf4b5218858b1123c88fc67401c6a9"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "aaebbcf1df30b24468a2f4783ff8dec9f3bce2f90105136700a51e86c63c5966"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "boot/System.map-5.15.16-yocto-standard",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "kernel-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-kernel-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-kernel-dev-1",
+        "SPDXRef-PackagedFile-kernel-dev-2",
+        "SPDXRef-PackagedFile-kernel-dev-3"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "kernel-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "dffd100d96b17c70422e24614afc441b66b933bb"
+      },
+      "versionInfo": "5.15.16+gitAUTOINC+26e884f8c2_f46816a75d"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-linux-yocto:SPDXRef-Recipe-linux-yocto",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-kernel-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-kernel-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-kernel-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-kernel-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-kernel-dev-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-kernel-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-kernel-dev-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-kernel-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

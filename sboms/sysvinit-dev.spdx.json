@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:51:19Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/sysvinit-dev-873581a0-aba8-5db7-943b-cc5c7060f813",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1c65c7f8feb5c3027fad08b407246c368429a043"
+      },
+      "externalDocumentId": "DocumentRef-recipe-sysvinit",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-sysvinit-c1409b6c-1f84-5417-b625-b89d4e164d88"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-sysvinit-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f6801a8d65a1282a250c3d23ddbfcdf98087b134"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "15f8a834d9e243ac950e98a5817c3aa02d733d65994bf7a8411f4899fe631361"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/initreq.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "sysvinit-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-sysvinit-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-sysvinit-dev-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "sysvinit-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "b374585b278cacae2c1350b5f925bf3343bd2ab9"
+      },
+      "versionInfo": "3.01"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-sysvinit:SPDXRef-Recipe-sysvinit",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-sysvinit-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-sysvinit-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-sysvinit-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-sysvinit-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

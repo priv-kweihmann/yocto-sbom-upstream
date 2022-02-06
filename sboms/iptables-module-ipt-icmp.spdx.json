@@ -1,0 +1,203 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:30:30Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/iptables-module-ipt-icmp-7f6e4a9f-991d-5aa1-9243-5645d123a5cf",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4ba561e978cce95d49cbb0b0e2e79b0ae1e11859"
+      },
+      "externalDocumentId": "DocumentRef-recipe-iptables",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-iptables-a4050920-0c02-5208-93b0-f3bf350f9920"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-iptables-module-ipt-icmp-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "13fc67b1aab6e4e5c4ade96ef418051254f7188e"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7e5dc30b07e9ea74830909c29cf3a23c2b3750a62bf1da5c6903ff155951de8f"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/xtables/libipt_icmp.so",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "iptables-module-ipt-icmp",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-iptables-module-ipt-icmp",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-iptables-module-ipt-icmp-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "iptables-module-ipt-icmp",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "23a2705d9af9b2b3b471e5899525897ce33f86f2"
+      },
+      "versionInfo": "1.8.7"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-iptables:SPDXRef-Recipe-iptables",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-iptables-module-ipt-icmp"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-iptables-module-ipt-icmp",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-iptables-module-ipt-icmp-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-iptables-module-ipt-icmp"
+    },
+    {
+      "comment": "/usr/include/asm-generic/int-ll64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ipt-icmp-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ipt-icmp-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ipt-icmp-1"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ipt-icmp-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ipt-icmp-1"
+    },
+    {
+      "comment": "/usr/include/netinet/in.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ipt-icmp-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ipt-icmp-1"
+    },
+    {
+      "comment": "/usr/include/strings.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ipt-icmp-1"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ipt-icmp-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ipt-icmp-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ipt-icmp-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/build/extensions/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ipt-icmp-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/extensions/libipt_icmp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ipt-icmp-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/extensions/libxt_icmp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ipt-icmp-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/linux/netfilter.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ipt-icmp-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/linux/netfilter/x_tables.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ipt-icmp-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/linux/netfilter_ipv4/ip_tables.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ipt-icmp-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/linux/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ipt-icmp-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/xtables.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-ipt-icmp-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

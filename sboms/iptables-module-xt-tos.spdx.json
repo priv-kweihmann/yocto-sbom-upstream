@@ -1,0 +1,321 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:30:30Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/iptables-module-xt-tos-f22f3c58-f2bc-5481-8af6-809b7af91991",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4ba561e978cce95d49cbb0b0e2e79b0ae1e11859"
+      },
+      "externalDocumentId": "DocumentRef-recipe-iptables",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-iptables-a4050920-0c02-5208-93b0-f3bf350f9920"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-iptables-module-xt-tos-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a245244e3198e1a6650b223cad798e4a43579a6d"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "840bcd1bc89e1c3b0f327b259b66f8da07cb748ceb2d49d2c2392d6472b7b0b1"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/xtables/libxt_TOS.so",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-iptables-module-xt-tos-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f48e86945eec0c4aad9bc31499ccb1726f94df97"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "80caf31be17396c16ce4e34ca27e3f47e7469125881a79d6eae953a6be0a2fa0"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/xtables/libxt_tos.so",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "iptables-module-xt-tos",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-iptables-module-xt-tos",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-iptables-module-xt-tos-1",
+        "SPDXRef-PackagedFile-iptables-module-xt-tos-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "iptables-module-xt-tos",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "6da5cb900d27045cabbdeffca905af4a47d9d0c9"
+      },
+      "versionInfo": "1.8.7"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-iptables:SPDXRef-Recipe-iptables",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-iptables-module-xt-tos"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-iptables-module-xt-tos",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-iptables-module-xt-tos-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-iptables-module-xt-tos"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-iptables-module-xt-tos-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-iptables-module-xt-tos"
+    },
+    {
+      "comment": "/usr/include/asm-generic/int-ll64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-1"
+    },
+    {
+      "comment": "/usr/include/bits/getopt_ext.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-1"
+    },
+    {
+      "comment": "/usr/include/netinet/in.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-1"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/build/extensions/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/extensions/libxt_TOS.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/extensions/tos_values.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/linux/netfilter.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/linux/netfilter/x_tables.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/linux/netfilter/xt_DSCP.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/linux/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-1"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/xtables.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-1"
+    },
+    {
+      "comment": "/usr/include/asm-generic/int-ll64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-2"
+    },
+    {
+      "comment": "/usr/include/bits/getopt_ext.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-2"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-2"
+    },
+    {
+      "comment": "/usr/include/netinet/in.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-2"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-2"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/build/extensions/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-2"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/extensions/libxt_tos.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-2"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/extensions/tos_values.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-2"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/linux/netfilter.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-2"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/linux/netfilter/x_tables.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-2"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/linux/netfilter/xt_dscp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-2"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/linux/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-2"
+    },
+    {
+      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/xtables.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-tos-2"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:23:00Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/ptest-runner-dbg-4b217f6b-e279-56a7-bfe4-080f72a9f41d",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "3493afa9b416c1149b0fdb36a8b4a5f66eceb33b"
+      },
+      "externalDocumentId": "DocumentRef-recipe-ptest-runner",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-ptest-runner-e4be66ad-6a9b-5c3f-a4d0-1fc45b8a2655"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-ptest-runner-dbg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1aa19b43a5b8ecad60bcea47db7a33ad389baa0d"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ca8dfffaa4cff2d83d35e5a8877c3475fc7c21a91331294e2f259f6881d06ed2"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/.debug/ptest-runner",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "ptest-runner-dbg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-ptest-runner-dbg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-ptest-runner-dbg-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "ptest-runner-dbg",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "b0f5477366d45d65d607a05dffd0a1ab97a0f84c"
+      },
+      "versionInfo": "2.4.2+gitAUTOINC+bcb82804da"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-ptest-runner:SPDXRef-Recipe-ptest-runner",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-ptest-runner-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ptest-runner-dbg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-ptest-runner-dbg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-ptest-runner-dbg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,173 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:38:35Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/zstd-dev-e80f978a-60f7-5c24-9d23-f41c0703ed15",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "938079973f893f3b487b334934f8a33109839ee2"
+      },
+      "externalDocumentId": "DocumentRef-recipe-zstd",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-zstd-b618f900-5369-5a25-8647-066a4f7a592a"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-zstd-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fcd1f3bfbf142a780456c3803d6bcee913999f88"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cd5ba03dd05083169a9cf5016daadad7fc8326ec3d249d6331db2e73eab86886"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/zstd.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-zstd-dev-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ff1cd5bae1b94b1b52306773ab7fd360fb6fa6f5"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "39105bb1975d62ed34d3494123bde1ba5e4c2698b2c9cb30cddbf3ef6de90dd9"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/zdict.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-zstd-dev-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "915261dc65a2118fb25f4aa87aed53a82f1103bf"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4cf99f343cad91d81bf88c7bbc9197eda6f78ff21f3e85ca1664273f595f0222"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/zstd_errors.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-zstd-dev-4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b7dba6a837d9127530334a3e9047a53ebbcde7d0"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6f5835820be8d8eafe05cf22a87ca29c66006e82c101e58b4e7003af1af704d6"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/pkgconfig/libzstd.pc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "zstd-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-zstd-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-zstd-dev-1",
+        "SPDXRef-PackagedFile-zstd-dev-2",
+        "SPDXRef-PackagedFile-zstd-dev-3",
+        "SPDXRef-PackagedFile-zstd-dev-4"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause AND GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "zstd-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "b45d47cebfd7326b1d8a6cb09cc9a2e7d2583cfb"
+      },
+      "versionInfo": "1.5.2"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-zstd:SPDXRef-Recipe-zstd",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-zstd-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-zstd-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-zstd-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-zstd-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-zstd-dev-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-zstd-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-zstd-dev-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-zstd-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-zstd-dev-4",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-zstd-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

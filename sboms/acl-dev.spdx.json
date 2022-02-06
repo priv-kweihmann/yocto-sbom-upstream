@@ -1,0 +1,145 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:07:45Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/acl-dev-386d2c0f-fb2d-5926-8ea7-f705df50a022",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6d9bf9282614538b5f7d5ebc7b3e29e07acc6ba5"
+      },
+      "externalDocumentId": "DocumentRef-recipe-acl",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-acl-991bebcd-14ce-51cc-8504-78d996f149a0"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-acl-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8186501832e2bc564f6a58649aceee6e2754565f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "04f0336bf33c213ff1becd622c97794d345593203fcc5e3e4ea77296c7f4aff5"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/acl/libacl.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-acl-dev-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "93d8616253370ad4e22e8bb8648bec1a069856a1"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f45fb88f57192ba818bd8dc837fbb7fde62d6c2a2c6852517802b8700417f711"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/sys/acl.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-acl-dev-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "dadccce36e9cd34a373aee0708d9c0543875cb3b"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "850d478c17d45ef5ee705d5b9e3a01bbaa7c2b124a0bd4d14da0923635ff736f"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/pkgconfig/libacl.pc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "acl-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-acl-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-acl-dev-1",
+        "SPDXRef-PackagedFile-acl-dev-2",
+        "SPDXRef-PackagedFile-acl-dev-3"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-2.1-or-later AND GPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "acl-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "5d27b973e25eb7205045ac07b5a1ca0744a302cd"
+      },
+      "versionInfo": "2.3.1"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-acl:SPDXRef-Recipe-acl",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-acl-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-acl-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-acl-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-acl-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-acl-dev-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-acl-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-acl-dev-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-acl-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

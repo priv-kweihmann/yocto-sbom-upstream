@@ -1,0 +1,145 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:36:23Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libgdbm-dev-c5769c59-05a3-594a-9c66-944ba7b4a99d",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "afe24f95177ac49cb445c14bafa447a2903d1d43"
+      },
+      "externalDocumentId": "DocumentRef-recipe-gdbm",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-gdbm-a48e2732-379a-500a-8da1-a82a19dc8ab3"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libgdbm-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f6c20f3203251f3e472046029515be2c49d57a61"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c730c9496c63db3b34d320fcac7fef521438f183f2bafc7ab786ff76af1fa13d"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/dbm.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libgdbm-dev-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "782a4165d97b139cee7d9f87e94d35ec26256450"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e5b5bc4dcf06fa3aea60127475bd58552af270fce2b5979a6cd52bf8c6555b4c"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/ndbm.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libgdbm-dev-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9436bb4b1e3cc60bdeab56bd5e79cb6be8ade353"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9fe48c12f99a3d69a0fd586d31a6e4643d9b2c4eb4f61420e504ba051a0f17d9"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/gdbm.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libgdbm-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libgdbm-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libgdbm-dev-1",
+        "SPDXRef-PackagedFile-libgdbm-dev-2",
+        "SPDXRef-PackagedFile-libgdbm-dev-3"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libgdbm-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "9c95178a66a1e8346791a47e9b49247f409978fc"
+      },
+      "versionInfo": "1.22"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-gdbm:SPDXRef-Recipe-gdbm",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libgdbm-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libgdbm-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libgdbm-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libgdbm-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libgdbm-dev-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libgdbm-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libgdbm-dev-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libgdbm-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

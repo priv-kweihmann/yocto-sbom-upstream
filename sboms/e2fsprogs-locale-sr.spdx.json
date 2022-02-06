@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:54:36Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/e2fsprogs-locale-sr-ca834a89-70a9-5a5d-8258-ad9ef8fb3333",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8d9cafb0266ee3f37cf3c7029745d6a8c7a27dc1"
+      },
+      "externalDocumentId": "DocumentRef-recipe-e2fsprogs",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-e2fsprogs-4717eadb-fa29-52f3-9a62-3544ecd5c823"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-e2fsprogs-locale-sr-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "72252a0f768ea8497fdd8f2a686e39f2a734acb1"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "13d7f23ed79cb53c4dd06488499f6b549dfb1cd9c886ec1e637040625dec0abf"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/sr/LC_MESSAGES/e2fsprogs.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "e2fsprogs-locale-sr",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-e2fsprogs-locale-sr",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-e2fsprogs-locale-sr-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only AND LGPL-2.0-only AND BSD-3-Clause AND MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "e2fsprogs-locale-sr",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "6e6867bef1841424627c78db0a4522ef401f4037"
+      },
+      "versionInfo": "1.46.5"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-e2fsprogs:SPDXRef-Recipe-e2fsprogs",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-e2fsprogs-locale-sr"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-e2fsprogs-locale-sr",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-e2fsprogs-locale-sr-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-e2fsprogs-locale-sr"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

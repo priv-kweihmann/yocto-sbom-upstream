@@ -1,0 +1,117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:36:46Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/util-macros-dev-e1780688-ac94-5a93-9a29-c69d221da187",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ee6fd31b381c5522b028fc925fd30cfa8964019d"
+      },
+      "externalDocumentId": "DocumentRef-recipe-util-macros",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-util-macros-3a788eb9-b380-5e8a-bc7c-01384f914470"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-util-macros-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "95f7033b1ce35413af7d1ae0312b851eccabcf7b"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f7622f8cd3f815e1fdb5f8803c74290f6a32e8215b5b647cd44eb56a967663e1"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/pkgconfig/xorg-macros.pc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-util-macros-dev-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "89a12695aec2f0948ad818aabc4c01d41f3d534a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "146c6fee8dffe6cfc66cd4b2c523d4410918397f86d4cfa3c589427c59b7562f"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/aclocal/xorg-macros.m4",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "util-macros-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-util-macros-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-util-macros-dev-1",
+        "SPDXRef-PackagedFile-util-macros-dev-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT AND MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "util-macros-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "c6ed4423a1c98c62d681aa3ecedf940d091f0913"
+      },
+      "versionInfo": "1.19.3"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-util-macros:SPDXRef-Recipe-util-macros",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-util-macros-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-util-macros-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-util-macros-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-util-macros-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-util-macros-dev-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-util-macros-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

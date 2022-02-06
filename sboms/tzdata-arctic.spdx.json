@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:43:50Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/tzdata-arctic-5e17ffb1-be0a-5a0e-924d-f0775fda39c4",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "9ec727be8808f80020a0069932198ae4b7fcc700"
+      },
+      "externalDocumentId": "DocumentRef-recipe-tzdata",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-tzdata-b20e7fa5-4cc1-5cb7-b186-7bc64705e710"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-tzdata-arctic-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f33a4743869aef5c4865ffaa1d63ae88fe8b8bd2"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3e0b046cc306728dc9ea5e25eb2bc22f5611ef3c9ee0e6de763d08980ffa2cd3"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/zoneinfo/Arctic/Longyearbyen",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "tzdata-arctic",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-tzdata-arctic",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-tzdata-arctic-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "DocumentRef-recipe-tzdata:LicenseRef-PD AND BSD-3-Clause",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "tzdata-arctic",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "95ed26a227f0ca7740185c6e41cce8d58975ffc0"
+      },
+      "versionInfo": "2021e"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-tzdata:SPDXRef-Recipe-tzdata",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-tzdata-arctic"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-tzdata-arctic",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-tzdata-arctic-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-tzdata-arctic"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

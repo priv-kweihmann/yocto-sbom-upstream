@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:12:25Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libtirpc-dbg-744b45ef-04f3-51b1-a974-60258087ee87",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a05b1c25b3b5c873be8085c0b3b0b15ccbd15419"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libtirpc",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libtirpc-03b2a863-bb17-5e82-a092-25d189a10a96"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libtirpc-dbg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d9e5fada2081884c86744cefeaec28ea8bf33f61"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "baf5459269d1ca91dc4ccd52e0d0373feaa3beb17d3bb3e3013b811813a0a435"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/.debug/libtirpc.so.3.0.0",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libtirpc-dbg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libtirpc-dbg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libtirpc-dbg-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libtirpc-dbg",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "6ae389c5887aaa00061fe433e5bb2f9556f23580"
+      },
+      "versionInfo": "1.3.2"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libtirpc:SPDXRef-Recipe-libtirpc",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libtirpc-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libtirpc-dbg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libtirpc-dbg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libtirpc-dbg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

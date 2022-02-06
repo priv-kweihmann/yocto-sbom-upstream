@@ -1,0 +1,145 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:41:16Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/file-doc-6dd712a7-a594-50a3-a2a0-8576c6c7f70a",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6558d4acf145e5db28434475c3e96a377cc49728"
+      },
+      "externalDocumentId": "DocumentRef-recipe-file",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-file-57f32d93-adce-5352-8814-3c197769da6f"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-file-doc-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "73fa5068db42bf0c71fd112095b2ef146f7a5c8b"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "aa13d01c2e9eee1862d7112406d464191e6eb125974eff2293f87397ff4fb417"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/man/man3/libmagic.3",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-file-doc-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "da31a33c338875daff2c40137894415213a3e9d8"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b0a34ee7522c6d519637ded05ae40ff67d6978f787b7ce743aa7df64f52de0ae"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/man/man4/magic.4",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-file-doc-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7470d4d481a224b9dd6eb3bcdbf48456e6fb1774"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4d6d613de1ee859cc6242466c8bf2add536d49099fae7eeef5cf7a6c2d8be594"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/man/man1/file.1",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "file-doc",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-file-doc",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-file-doc-1",
+        "SPDXRef-PackagedFile-file-doc-2",
+        "SPDXRef-PackagedFile-file-doc-3"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-2-Clause",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "file-doc",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "8ea38e54a9fd6dc67d4d8c556eb5ffd2e2b3c05c"
+      },
+      "versionInfo": "5.41"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-file:SPDXRef-Recipe-file",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-file-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-file-doc",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-file-doc-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-file-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-file-doc-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-file-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-file-doc-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-file-doc"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

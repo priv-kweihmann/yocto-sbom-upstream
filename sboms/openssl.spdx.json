@@ -1,0 +1,745 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:44:49Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/openssl-1fbada7d-0576-5253-86e4-df097c078714",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e6d801f3da26a7ef10f15b5865d6edaf1432f78e"
+      },
+      "externalDocumentId": "DocumentRef-recipe-openssl",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-openssl-48156327-17ba-5e34-b313-de0c1f21058e"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-openssl-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a2587c4e97408b64274e5e052b74e3754892c13a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f1c1803d13d1d0b755b13b23c28bd4e20e07baf9f2b744c9337ba5866aa0ec3b"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/ssl-3/ct_log_list.cnf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-openssl-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a2587c4e97408b64274e5e052b74e3754892c13a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f1c1803d13d1d0b755b13b23c28bd4e20e07baf9f2b744c9337ba5866aa0ec3b"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/ssl-3/ct_log_list.cnf.dist",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-openssl-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e203e5b310cc018f1f24a5f275e369bc72ca0b85"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "023a63e4e52666b04712fb94921a39799b363cfa703532ce9b5716a6602851b4"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/ossl-modules/legacy.so",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "openssl",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-openssl",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-openssl-1",
+        "SPDXRef-PackagedFile-openssl-2",
+        "SPDXRef-PackagedFile-openssl-3"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "openssl",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "04a82f797de4721361a86f8e571562aa0e303f8a"
+      },
+      "versionInfo": "3.0.1"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-openssl:SPDXRef-Recipe-openssl",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-openssl"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-openssl",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-openssl-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-openssl"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-openssl-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-openssl"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-openssl-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-openssl"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/include/stdint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stdatomic.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/build/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/build/crypto/md5/md5-x86_64.s",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/build/crypto/x86_64cpuid.s",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/build/include/openssl/asn1.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/build/include/openssl/bio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/build/include/openssl/crypto.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/build/include/openssl/err.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/crypto/cpuid.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/crypto/ctype.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/crypto/des/des_enc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/crypto/des/des_local.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/crypto/des/ncbc_enc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/crypto/des/spr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/crypto/md5/md5_dgst.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/crypto/md5/md5_local.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/crypto/ctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/crypto/evp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/crypto/md32_common.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/internal/constant_time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/internal/cryptlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/internal/refcount.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/blowfish.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/cast.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/core.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/core_dispatch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/des.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/e_os2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/engine.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/evp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/idea.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/md4.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/md5.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/mdc2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/modes.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/params.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/rand.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/rc2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/rc4.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/ripemd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/seed.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/whrlpool.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/common/include/prov/provider_ctx.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/common/include/prov/provider_util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/common/include/prov/providercommon.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/common/provider_ctx.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/common/provider_util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_blowfish.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_blowfish.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_blowfish_hw.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_cast.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_cast5.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_cast5_hw.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_des.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_des.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_des_hw.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_desx.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_desx_hw.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_idea.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_idea.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_idea_hw.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_rc2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_rc2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_rc2_hw.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_rc4.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_rc4.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_rc4_hmac_md5.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_rc4_hmac_md5.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_rc4_hw.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_seed.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_seed.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_seed_hw.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_tdes.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_tdes_common.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/cipher_tdes_default.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/ciphercommon.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/ciphercommon_block.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/ciphers/ciphercommon_local.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/digests/digestcommon.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/digests/md4_prov.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/digests/mdc2_prov.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/digests/ripemd_prov.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/digests/wp_prov.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/include/prov/ciphercommon.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/include/prov/digestcommon.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/include/prov/implementations.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/implementations/kdfs/pbkdf1.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/legacyprov.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/providers/prov_running.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/ssl/record/tls_pad.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-3"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

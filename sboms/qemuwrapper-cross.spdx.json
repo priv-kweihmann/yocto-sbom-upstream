@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:49:40Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/qemuwrapper-cross-3a76efc1-cbba-5c1f-8d59-2fa3034284ac",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a2a4e2bbe842ac3c755f237753c09d2d608b6dc1"
+      },
+      "externalDocumentId": "DocumentRef-recipe-qemuwrapper-cross",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-qemuwrapper-cross-c628602f-bab2-5c6d-970b-4b015de9651e"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-qemuwrapper-cross-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e265aea3a93cacde65a676f74ce7b2b305948683"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "df074e737e602e80df675cafd3d31e01af56fb733cdfc3aea2af2c570a17cabc"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/crossscripts/qemuwrapper",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "qemuwrapper-cross",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-qemuwrapper-cross",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-qemuwrapper-cross-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "qemuwrapper-cross",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "2276cf518a2b2375224c1444e20dda9f38899173"
+      },
+      "versionInfo": "1.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-qemuwrapper-cross:SPDXRef-Recipe-qemuwrapper-cross",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-qemuwrapper-cross"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-qemuwrapper-cross",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-qemuwrapper-cross-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-qemuwrapper-cross"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

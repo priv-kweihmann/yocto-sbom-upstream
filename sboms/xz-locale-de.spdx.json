@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:13:50Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/xz-locale-de-9abca889-3d41-5e5b-8a18-d0fa94f7b2a6",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "342bddbfcd4e57329fc979901bb9f4c6943083b6"
+      },
+      "externalDocumentId": "DocumentRef-recipe-xz",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-xz-0b1dbf00-7439-5d43-bb26-1a70f5d63a71"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-xz-locale-de-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "dcd31daa3501c9a0bac951d8e04c77d9c1dec62c"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d311700e81b00076f204aaddfa77729b0758368d7347b638b5bbd3a88387d5be"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/de/LC_MESSAGES/xz.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "xz-locale-de",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-xz-locale-de",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-xz-locale-de-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later AND GPL-3.0-with-autoconf-exception AND LGPL-2.1-or-later AND DocumentRef-recipe-xz:LicenseRef-PD",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "xz-locale-de",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "a1cf9361bb2bcc9bfed7180dd44c7d0d99cbf06e"
+      },
+      "versionInfo": "5.2.5"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-xz:SPDXRef-Recipe-xz",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-xz-locale-de"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-xz-locale-de",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-xz-locale-de-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-xz-locale-de"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:25:13Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/bzip2-dev-cc706fc7-29b5-57d0-b230-9976ac9ffeda",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "be812e4326874a45b76fd3cbed90f0dbae2dbe9a"
+      },
+      "externalDocumentId": "DocumentRef-recipe-bzip2",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-bzip2-48d77de4-d76a-580e-82f3-6bfefd5b9795"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-bzip2-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "23837895f5f1198bf507ab572f3261e973f25640"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6ac62e811669598ee30c9e1c379b9e627f6ff17a5a3dc1e0b4fa8b8ea75e580d"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/bzlib.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "bzip2-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-bzip2-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-bzip2-dev-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "bzip2-1.0.6",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "bzip2-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "f1ac010fef3eac444732d0b3dda37d63d080bd26"
+      },
+      "versionInfo": "1.0.8"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-bzip2:SPDXRef-Recipe-bzip2",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-bzip2-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-bzip2-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-bzip2-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-bzip2-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

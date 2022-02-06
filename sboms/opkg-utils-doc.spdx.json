@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:24:31Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/opkg-utils-doc-adb0c293-a454-5dda-aa80-888d964ddbd8",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ea2eb483f93d6ab7da6a89a4e2f048d18051665a"
+      },
+      "externalDocumentId": "DocumentRef-recipe-opkg-utils",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-opkg-utils-f3c24e09-f6ff-5f5c-ab93-a37218f4e1a7"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-opkg-utils-doc-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "64a7e9741d0042d87bc6083d4f7cd4561cc758ac"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e1a687bebee56a91fbacd93933547ad4fdf3b3671d0ae2c6fed2ea6fe06531b0"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/man/man1/opkg-build.1",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "opkg-utils-doc",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-opkg-utils-doc",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-opkg-utils-doc-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "opkg-utils-doc",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "e9e4232e072f7f4333eedea9c923195bca50c8ec"
+      },
+      "versionInfo": "0.5.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-opkg-utils:SPDXRef-Recipe-opkg-utils",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-opkg-utils-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-opkg-utils-doc",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-opkg-utils-doc-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-opkg-utils-doc"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

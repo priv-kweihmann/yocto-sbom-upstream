@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:27:08Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libcrypt-dbg-74e615fc-2fef-5b6c-b6a7-5a94eae31566",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "11e079ba38defa0b008f9c31c550c8480a4dc6c3"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libxcrypt",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libxcrypt-efbb6a8f-45ef-56f5-b465-7bb29439adf1"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libcrypt-dbg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "780207798f00ddfa4837e493e7835bd7c0dcee5f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "587be9234c16ce5f5e77a22b0f3361925a302ff4435d2433390c10004bfc266e"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/.debug/libcrypt.so.2.0.0",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libcrypt-dbg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libcrypt-dbg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libcrypt-dbg-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-2.1-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libcrypt-dbg",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "125fb41af47099ba907bac7ad57689a2e3d0cbc5"
+      },
+      "versionInfo": "4.4.27"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libxcrypt:SPDXRef-Recipe-libxcrypt",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libcrypt-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libcrypt-dbg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libcrypt-dbg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libcrypt-dbg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

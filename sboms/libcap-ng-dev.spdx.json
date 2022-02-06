@@ -1,0 +1,145 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:29:52Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libcap-ng-dev-56b03aa4-2ae6-59a7-b870-13a14d48060d",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "9502d1ca55e5ee87a2fa18134cb2267d80e3f439"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libcap-ng",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libcap-ng-67baa97c-2236-5adf-91d3-d28a71356339"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libcap-ng-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "64bac686f60b948959d85fa392b16a80b859bb2c"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6961384eca9416e45c21e8a413447fa38fed89d989a926fba1b48a309d380b2a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/aclocal/cap-ng.m4",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libcap-ng-dev-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9c9339069b5a1835f676a3012c1275eb715d61a8"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "978caee5a40c30ef0badb3a956ae58fa5887e6e5fc4bbb9170f0246272db8df1"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/cap-ng.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libcap-ng-dev-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6052da0acf14c16fe7c661c4299cb48932a6f74f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5aa96cba0e745c6e0058293a5aa774cc83ea9e88c51a21a245ca016c067bf7e7"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/pkgconfig/libcap-ng.pc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libcap-ng-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libcap-ng-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libcap-ng-dev-1",
+        "SPDXRef-PackagedFile-libcap-ng-dev-2",
+        "SPDXRef-PackagedFile-libcap-ng-dev-3"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libcap-ng-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "ed4952c87c336ac84ba13752eee4ea14e90982d6"
+      },
+      "versionInfo": "0.8.2"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libcap-ng:SPDXRef-Recipe-libcap-ng",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libcap-ng-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libcap-ng-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libcap-ng-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libcap-ng-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libcap-ng-dev-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libcap-ng-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libcap-ng-dev-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libcap-ng-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

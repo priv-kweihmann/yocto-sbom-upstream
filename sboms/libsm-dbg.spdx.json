@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:19:08Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libsm-dbg-6c700491-9b78-5184-8e2c-61ff54da8033",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1bb6c2d488065625eddde444a7b4533333a463b7"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libsm",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libsm-79c00984-3eaf-50e2-8b53-f4f67349a799"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libsm-dbg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3b16271f17ff19dd35c7115d73ad73fc3e4ad791"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c7109b316eab7800bde54f58567f89c3c842f48eaae478c70d21a285edf876d9"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/.debug/libSM.so.6.0.1",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libsm-dbg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libsm-dbg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libsm-dbg-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libsm-dbg",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "6eb9740495e04390a9f1f4735901afe452a0d7e3"
+      },
+      "versionInfo": "1.2.3"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libsm:SPDXRef-Recipe-libsm",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libsm-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libsm-dbg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libsm-dbg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libsm-dbg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

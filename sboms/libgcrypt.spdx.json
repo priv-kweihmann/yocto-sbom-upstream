@@ -1,0 +1,1497 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:40:29Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libgcrypt-f74b36a9-2ba6-59b3-8274-afa181edb611",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "67ce6b33d3384b1164604195910f067cff8db7d3"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libgcrypt",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libgcrypt-5bf23291-72b3-5400-b74e-9a6f33fdb451"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libgcrypt-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "924bfbe3738c02178bb1ab3d8605cd8a5e990114"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "da0bd2a17cc2370cb99cebf1127955e156d0eee97c004674e1b5501739ab6281"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libgcrypt.so.20.3.4",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libgcrypt-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "04ee16f43bb6cab9df3af9e9136b85cbedb90c9e"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7e8efefcb411981786ae7f6a75d66f0f90c8522bbd0fe51a976263c78ff8c22e"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/mpicalc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libgcrypt",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libgcrypt",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libgcrypt-1",
+        "SPDXRef-PackagedFile-libgcrypt-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-2.1-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libgcrypt",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "3b13cf4768f77f89442dc709c6e32d3d34164f58"
+      },
+      "versionInfo": "1.9.4"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libgcrypt:SPDXRef-Recipe-libgcrypt",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libgcrypt"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libgcrypt",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libgcrypt-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libgcrypt"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libgcrypt-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libgcrypt"
+    },
+    {
+      "comment": "/usr/include/bits/sockaddr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/include/bits/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/include/ctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/include/gpg-error-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/bits/sockaddr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/csu/abi-note.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/csu/init.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/elf/elf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/inet/netinet/in.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/posix/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/unix/sysv/linux/bits/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/start.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/build/src/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/build/src/gcrypt.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/src/mpicalc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-2"
+    },
+    {
+      "comment": "/usr/include/assert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/bits/confname.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/bits/resource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/bits/select2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/bits/sockaddr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/bits/syslog.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/clock_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/clockid_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_rusage.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timespec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timeval.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/time_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/ctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/gpg-error-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/stdint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/strings.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/sys/capability.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/sys/mman.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/sys/resource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/sys/select.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/sys/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stdarg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/build/cipher/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/build/cipher/gost-sb.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/build/mpi/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/build/mpi/mod-source-info.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/build/mpi/mpih-add1.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/build/mpi/mpih-lshift.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/build/mpi/mpih-mul1.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/build/mpi/mpih-mul2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/build/mpi/mpih-mul3.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/build/mpi/mpih-rshift.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/build/mpi/mpih-sub1.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/build/random/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/build/src/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/build/src/gcrypt.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/arcfour.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/bithelp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/blake2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/blowfish.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/bufhelp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/camellia-glue.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/camellia.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/camellia.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/cast5.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/chacha20.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/cipher-aeswrap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/cipher-cbc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/cipher-ccm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/cipher-cfb.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/cipher-cmac.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/cipher-ctr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/cipher-eax.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/cipher-gcm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/cipher-internal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/cipher-ocb.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/cipher-ofb.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/cipher-poly1305.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/cipher-selftest.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/cipher-selftest.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/cipher-xts.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/cipher.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/crc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/des.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/dsa-common.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/dsa.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/ecc-common.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/ecc-curves.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/ecc-ecdh.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/ecc-ecdsa.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/ecc-eddsa.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/ecc-gost.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/ecc-misc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/ecc-sm2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/ecc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/elgamal.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/gost.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/gost28147.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/gostr3411-94.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/hash-common.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/hash-common.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/idea.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/kdf-internal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/kdf.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/keccak.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/keccak_permute_64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/mac-cmac.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/mac-gmac.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/mac-hmac.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/mac-internal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/mac-poly1305.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/mac.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/md.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/md4.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/md5.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/poly1305-internal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/poly1305.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/primegen.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/pubkey-internal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/pubkey-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/pubkey.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/rfc2268.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/rijndael-internal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/rijndael-tables.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/rijndael.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/rmd160.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/rsa-common.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/rsa.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/salsa20.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/scrypt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/seed.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/serpent.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/sha1.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/sha1.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/sha256.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/sha512.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/sm3.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/sm4.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/stribog.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/tiger.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/twofish.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/cipher/whirlpool.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/compat/compat.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/compat/libcompat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/mpi/ec-ed25519.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/mpi/ec.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/mpi/mpi-add.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/mpi/mpi-bit.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/mpi/mpi-cmp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/mpi/mpi-div.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/mpi/mpi-gcd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/mpi/mpi-inline.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/mpi/mpi-internal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/mpi/mpi-inv.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/mpi/mpi-mod.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/mpi/mpi-mpow.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/mpi/mpi-mul.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/mpi/mpi-pow.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/mpi/mpi-scan.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/mpi/mpicoder.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/mpi/mpih-const-time.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/mpi/mpih-div.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/mpi/mpih-mul.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/mpi/mpiutil.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/random/jitterentropy-base-user.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/random/jitterentropy-base.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/random/jitterentropy.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/random/rand-internal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/random/random-csprng.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/random/random-drbg.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/random/random-system.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/random/random.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/random/random.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/random/rndhw.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/random/rndjent.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/random/rndlinux.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/src/cipher-proto.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/src/cipher.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/src/context.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/src/context.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/src/ec-context.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/src/fips.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/src/g10lib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/src/gcrypt-int.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/src/gcrypt-testapi.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/src/global.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/src/hmac256.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/src/hmac256.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/src/hwfeatures.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/src/misc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/src/mpi.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/src/secmem.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/src/secmem.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/src/sexp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/src/stdmem.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/src/stdmem.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/src/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcrypt/1.9.4-r0/libgcrypt-1.9.4/src/visibility.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcrypt-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

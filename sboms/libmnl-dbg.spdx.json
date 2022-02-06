@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:30:36Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libmnl-dbg-2da4feec-1d4e-57b4-b87c-b90fcbb3d2cb",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d497436410823f70e158d732d9887163c5714485"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libmnl",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libmnl-21fbf1f9-4692-5748-a6c1-d66c06676614"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libmnl-dbg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e32b54a474e9ae796910ecf5fe4fef0543587d88"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5f00dde88122bb5d2045ad7fda76c05650764a5ded4bd4d4818654295fa539e3"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/.debug/libmnl.so.0.2.0",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libmnl-dbg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libmnl-dbg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libmnl-dbg-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-2.1-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libmnl-dbg",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "accc28114c951b532371c8cb49a8767bcde62be3"
+      },
+      "versionInfo": "1.0.4"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libmnl:SPDXRef-Recipe-libmnl",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libmnl-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libmnl-dbg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libmnl-dbg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libmnl-dbg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,145 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T17:06:44Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/unzip-dbg-e791e27e-953b-5c07-8fae-9df54ddf96ac",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ab862749db9893ff71116101757ee3388fccf71c"
+      },
+      "externalDocumentId": "DocumentRef-recipe-unzip",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-unzip-ed2eac0b-2a4d-5616-8308-0313406c24c3"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-unzip-dbg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5b55f614e21246c2db07f53c0700b46d9456497d"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "17dbec3e813c1c81b9f72e99d0e4f2f3c3c4f846e7f9b7a082f28a0bef8bc1e0"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/.debug/unzip.unzip",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-unzip-dbg-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4965772d75e0938cd82b52ee4c8d653a2a98d5e5"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "71e25b70e1bd93adc5045811db65143f1d2572e646761d14c38bd0c469f4db65"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/.debug/unzipsfx",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-unzip-dbg-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "73a7cb7874fde6dba219cded9ceb73d64345da97"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6d4662385d33767a52beca0f623d37135c1264ec095ab72e52d77c9d72fb49a8"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/.debug/funzip",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "unzip-dbg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-unzip-dbg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-unzip-dbg-1",
+        "SPDXRef-PackagedFile-unzip-dbg-2",
+        "SPDXRef-PackagedFile-unzip-dbg-3"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "unzip-dbg",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "ca40165c1101545df4d9bca820b8a2a50e29982d"
+      },
+      "versionInfo": "6.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-unzip:SPDXRef-Recipe-unzip",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-unzip-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-unzip-dbg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-unzip-dbg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-unzip-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-unzip-dbg-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-unzip-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-unzip-dbg-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-unzip-dbg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

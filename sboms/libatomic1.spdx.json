@@ -1,0 +1,263 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:24:21Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libatomic1-8b90e50b-5348-586e-9473-1e12c63976bc",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "60a673351c9a3395c8bcf8870dbf7d5682b61ca1"
+      },
+      "externalDocumentId": "DocumentRef-recipe-gcc-runtime",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-gcc-runtime-a8177036-816d-5f00-a030-969647302050"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libatomic1-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8b068f05ddc0f049f6697cd61cbec51fc2eb8603"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "073987387406ce78d57956646487c8c266b1ec98c177fb5e75a3a70f090ca4e9"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libatomic.so.1.2.0",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libatomic1",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libatomic1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libatomic1-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-with-GCC-exception",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libatomic1",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "1442381d73645ddda499b38803fcbf43139e0240"
+      },
+      "versionInfo": "11.2.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-gcc-runtime:SPDXRef-Recipe-gcc-runtime",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libatomic1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libatomic1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libatomic1-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libatomic1"
+    },
+    {
+      "comment": "/usr/include/bits/pthreadtypes.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_mutex.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/usr/include/bits/thread-shared-types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/usr/include/pthread.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/usr/include/stdint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stdatomic.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/11.2.0-r0/x86_64-poky-linux/libatomic/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/work-shared/gcc-11.2.0-r0/gcc-11.2.0/libatomic/cas_n.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/work-shared/gcc-11.2.0-r0/gcc-11.2.0/libatomic/config/posix/host-config.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/work-shared/gcc-11.2.0-r0/gcc-11.2.0/libatomic/config/posix/lock.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/work-shared/gcc-11.2.0-r0/gcc-11.2.0/libatomic/config/x86/fenv.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/work-shared/gcc-11.2.0-r0/gcc-11.2.0/libatomic/exch_n.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/work-shared/gcc-11.2.0-r0/gcc-11.2.0/libatomic/fence.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/work-shared/gcc-11.2.0-r0/gcc-11.2.0/libatomic/flag.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/work-shared/gcc-11.2.0-r0/gcc-11.2.0/libatomic/fop_n.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/work-shared/gcc-11.2.0-r0/gcc-11.2.0/libatomic/gcas.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/work-shared/gcc-11.2.0-r0/gcc-11.2.0/libatomic/gexch.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/work-shared/gcc-11.2.0-r0/gcc-11.2.0/libatomic/glfree.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/work-shared/gcc-11.2.0-r0/gcc-11.2.0/libatomic/gload.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/work-shared/gcc-11.2.0-r0/gcc-11.2.0/libatomic/gstore.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/work-shared/gcc-11.2.0-r0/gcc-11.2.0/libatomic/host-config.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/work-shared/gcc-11.2.0-r0/gcc-11.2.0/libatomic/libatomic_i.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/work-shared/gcc-11.2.0-r0/gcc-11.2.0/libatomic/load_n.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/work-shared/gcc-11.2.0-r0/gcc-11.2.0/libatomic/store_n.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    },
+    {
+      "comment": "/work-shared/gcc-11.2.0-r0/gcc-11.2.0/libatomic/tas_n.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libatomic1-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

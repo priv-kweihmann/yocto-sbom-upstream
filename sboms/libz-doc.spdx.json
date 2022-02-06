@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:24:37Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libz-doc-e039316e-8971-550e-9033-1ad381427a78",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "0ae531469bfa6f07273350be4428d5567ab7cda8"
+      },
+      "externalDocumentId": "DocumentRef-recipe-zlib",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-zlib-5b14b6f4-7132-524f-8cee-cdebd6df7ce5"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libz-doc-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8b7c3c050d8cfdd1e8455c98a4767bf98752cb74"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5abef003e545566e5599e5ab2e7528e978be59d54546b19d763d062f7a69bac7"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/man/man3/zlib.3",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libz-doc",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libz-doc",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libz-doc-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Zlib",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libz-doc",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "96a098efde8fa94d8a4e340a4d58aa3926de6c83"
+      },
+      "versionInfo": "1.2.11"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-zlib:SPDXRef-Recipe-zlib",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libz-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libz-doc",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libz-doc-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libz-doc"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

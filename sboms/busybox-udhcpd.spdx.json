@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:14:54Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/busybox-udhcpd-34b28ff6-753a-5d60-b10b-a4c150825fe0",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "0cf143e0af2b50c019c8ce1cdb24acb6c8cb5e13"
+      },
+      "externalDocumentId": "DocumentRef-recipe-busybox",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-busybox-1dd695ee-b779-5d09-9314-a0c15f2a4031"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-busybox-udhcpd-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4be1bff475e28c59c1b644a12d8e2c3ae625495a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a48215a7bf6ff35908ff49e66d2f2f3d1d6e6d310ca3811170a1437b84e12747"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/init.d/busybox-udhcpd",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "busybox-udhcpd",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-busybox-udhcpd",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-busybox-udhcpd-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only AND DocumentRef-recipe-busybox:LicenseRef-bzip2-1.0.4",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "busybox-udhcpd",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "473b3029f7f10ce4e557ad985eea7a947fefcb2a"
+      },
+      "versionInfo": "1.35.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-busybox:SPDXRef-Recipe-busybox",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-busybox-udhcpd"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-busybox-udhcpd",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-busybox-udhcpd-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-busybox-udhcpd"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

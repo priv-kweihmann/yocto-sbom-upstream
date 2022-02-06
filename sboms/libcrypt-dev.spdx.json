@@ -1,0 +1,117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:27:08Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libcrypt-dev-34979798-9ee8-57e1-8095-83753601ab6a",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "11e079ba38defa0b008f9c31c550c8480a4dc6c3"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libxcrypt",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libxcrypt-efbb6a8f-45ef-56f5-b465-7bb29439adf1"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libcrypt-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "63c73a7ce7799be17dd88ee2a5cea9ce8094033a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "adeb688c80ce0c998bdcfce94e7e6f242a6ece9203cf9b04a8b7784595f63470"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/crypt.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libcrypt-dev-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "828badb14accd58c7aff8472a0a6a1936580f547"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "aa6d741c2e9d17f4922d584c14e25e8f2ea08aee7690977e0e5bbcd4f3ab6acb"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/pkgconfig/libxcrypt.pc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libcrypt-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libcrypt-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libcrypt-dev-1",
+        "SPDXRef-PackagedFile-libcrypt-dev-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-2.1-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libcrypt-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "190bbd5b631059abc7bedcbbacb92eca4f4c4f4e"
+      },
+      "versionInfo": "4.4.27"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libxcrypt:SPDXRef-Recipe-libxcrypt",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libcrypt-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libcrypt-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libcrypt-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libcrypt-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libcrypt-dev-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libcrypt-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

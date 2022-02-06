@@ -1,0 +1,797 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:44:49Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/openssl-engines-6e03508b-5222-5f5d-ae36-fbb057ae5eaf",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e6d801f3da26a7ef10f15b5865d6edaf1432f78e"
+      },
+      "externalDocumentId": "DocumentRef-recipe-openssl",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-openssl-48156327-17ba-5e34-b313-de0c1f21058e"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-openssl-engines-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2aaa8e22a8202743e0f69ba48e451831e247e1fc"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7940a28285c216e684819b2c0ac09dee9f24443bffacd3d26e9c6afee55ef159"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/engines-3/afalg.so",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-openssl-engines-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b0c3475222290a5babf2906b630d3433a28b8147"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bfeb1d201396b6719e98135bb0bf5d71f71d2e2c8d0f67463d53945e79663bd9"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/engines-3/padlock.so",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-openssl-engines-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f1b5ceae1dba59628fa717712125d0bff64bcfeb"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "297d8f28bda878a21c85a29aa96c038b3a747e6a43e00cd30b895b41c1a65b07"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/engines-3/capi.so",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-openssl-engines-4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b23dd0fcdf0d9a3f4425b3b34811c0fae7e07334"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "78c65bda343eebc199d8820ab272e534800622240394e49a50b94ce9fd5c3d0f"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/engines-3/loader_attic.so",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "openssl-engines",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-openssl-engines",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-openssl-engines-1",
+        "SPDXRef-PackagedFile-openssl-engines-2",
+        "SPDXRef-PackagedFile-openssl-engines-3",
+        "SPDXRef-PackagedFile-openssl-engines-4"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "openssl-engines",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "b7280e68deecd8aec83f5d38c08532326381f44c"
+      },
+      "versionInfo": "3.0.1"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-openssl:SPDXRef-Recipe-openssl",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-openssl-engines"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-openssl-engines",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-openssl-engines-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-openssl-engines"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-openssl-engines-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-openssl-engines"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-openssl-engines-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-openssl-engines"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-openssl-engines-4",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-openssl-engines"
+    },
+    {
+      "comment": "/usr/include/asm-generic/int-ll64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/include/asm-generic/posix_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/include/bits/sockaddr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket_type.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_iovec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timespec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/include/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/include/linux/aio_abi.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/include/linux/fs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/include/linux/if_alg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/include/sys/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/include/sys/utsname.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/build/include/openssl/crypto.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/build/include/openssl/err.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/engines/e_afalg.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/engines/e_afalg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/engines/e_afalg_err.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/async.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/engine.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/evp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-1"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-3"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-3"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/engines/e_capi.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/engine.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-3"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-3"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/include/bits/struct_stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timespec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/include/ctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/include/strings.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stdatomic.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/build/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/build/include/openssl/asn1.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/build/include/openssl/bio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/build/include/openssl/crypto.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/build/include/openssl/err.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/build/include/openssl/pkcs12.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/build/include/openssl/ui.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/build/include/openssl/x509.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/crypto/pem/pvkfmt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/engines/e_loader_attic.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/engines/e_loader_attic_err.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/crypto/ecx.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/crypto/evp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/crypto/pem.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/crypto/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/internal/asn1.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/internal/cryptlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/internal/o_dir.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/internal/refcount.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/bn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/buffer.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/core.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/core_dispatch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/dsa.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/engine.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/evp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/pem.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/rand.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/rsa.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/stack.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/store.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-4"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-2"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-2"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.34-r0/git/sysdeps/x86_64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-2"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/build/engines/e_padlock-x86_64.s",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-2"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/build/include/openssl/asn1.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-2"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/build/include/openssl/bio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-2"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/build/include/openssl/crypto.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-2"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/engines/e_padlock.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-2"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/aes.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-2"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/engine.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-2"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/evp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-2"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/modes.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-2"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/rand.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-2"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.0.1-r0/openssl-3.0.1/include/openssl/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssl-engines-2"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

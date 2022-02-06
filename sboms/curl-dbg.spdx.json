@@ -1,0 +1,117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:32:14Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/curl-dbg-c87bc30d-6c9a-5063-92e0-7df9d2a371a7",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "30e1ba3b6c2251662220a805c9f366e24a3a3429"
+      },
+      "externalDocumentId": "DocumentRef-recipe-curl",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-curl-7e789dad-d3f9-51e4-9376-94160ef66824"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-curl-dbg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e65b45f71b59388f81c8216045d909c630b91a12"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f47ed9e3fd353999e85ad4232915142724f50460becd0ceba819b5f4f9595f14"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/.debug/libcurl.so.4.7.0",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-curl-dbg-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a3f3215c669b468fca91963349b01139b4a1cc84"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "97ba460483f71334c4996b449593df1583090ef7c86e77b8ad3ff8aab6084657"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/.debug/curl",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "curl-dbg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-curl-dbg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-curl-dbg-1",
+        "SPDXRef-PackagedFile-curl-dbg-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "curl-dbg",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "322a120801f707baf24262537330abb1c2f11dfd"
+      },
+      "versionInfo": "7.81.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-curl:SPDXRef-Recipe-curl",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-curl-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-curl-dbg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-curl-dbg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-curl-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-curl-dbg-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-curl-dbg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

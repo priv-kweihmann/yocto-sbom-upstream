@@ -1,0 +1,145 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:42:56Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libarchive-dev-1320d782-38b1-52f7-b22e-2723298302bb",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "483660fb4430675dc48f6314c824e49427b645bd"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libarchive",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libarchive-c957a076-e41b-5324-b215-ff8740630913"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libarchive-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ff25e79bcf5412c7b9fcd8e9254be28ca6429fac"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b2d446e79ac30b9332d885eb2661e6e448da2ef4be6f70a24fd66030b5db6cce"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/archive.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libarchive-dev-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "44c21caf289ff028c54f2f0addfd71cd418fc10e"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "83462fd4e4205499e2ebedbca9cf86549b164e333d7c3b6fec103fd17e2f6e4d"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/archive_entry.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libarchive-dev-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "404d04dc07cc5031cd4d48c0ca611514c909e365"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7e47d6b5cd057665fc26ea8d21d249f095ddca8d9b6aee98ddd276c126441873"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/pkgconfig/libarchive.pc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libarchive-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libarchive-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libarchive-dev-1",
+        "SPDXRef-PackagedFile-libarchive-dev-2",
+        "SPDXRef-PackagedFile-libarchive-dev-3"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-2-Clause",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libarchive-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "dbb20bb5e2c06d6ac614e2add1dc51507aca4172"
+      },
+      "versionInfo": "3.5.2"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libarchive:SPDXRef-Recipe-libarchive",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libarchive-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libarchive-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libarchive-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libarchive-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libarchive-dev-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libarchive-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libarchive-dev-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libarchive-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

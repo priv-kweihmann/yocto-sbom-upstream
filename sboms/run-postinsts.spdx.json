@@ -1,0 +1,117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T17:12:13Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/run-postinsts-03bc3468-e357-5f03-af22-7b6ba1528753",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e81a37ddda74115c68b70562ddc5aff841202007"
+      },
+      "externalDocumentId": "DocumentRef-recipe-run-postinsts",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-run-postinsts-b286248b-f0d5-5f4f-9f3d-1ed7c90b9071"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-run-postinsts-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c1eb7e745234968ea0000142711658630cde73a8"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "048487504db89c239a21f518d91d9ee584b7e6b11d6dbc0d492dc6337554916e"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/init.d/run-postinsts",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-run-postinsts-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "90f333a3144b727015be9b8d1ca80849e0aa1b82"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8016cf770a996b9c95da2aa5be110694e702729035c696d92ac0ca21e8fb9594"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/sbin/run-postinsts",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "run-postinsts",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-run-postinsts",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-run-postinsts-1",
+        "SPDXRef-PackagedFile-run-postinsts-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "run-postinsts",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "5497cf1dc16599670bda40ee5efff3c3788b1293"
+      },
+      "versionInfo": "1.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-run-postinsts:SPDXRef-Recipe-run-postinsts",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-run-postinsts"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-run-postinsts",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-run-postinsts-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-run-postinsts"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-run-postinsts-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-run-postinsts"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

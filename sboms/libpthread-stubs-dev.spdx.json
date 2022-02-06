@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:13:32Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libpthread-stubs-dev-965ba6b7-29ed-50ae-b70b-b907396df478",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "73015ebd65be242cf10a1c0acb7cce8f77baa3eb"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libpthread-stubs",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libpthread-stubs-309e2119-b099-599e-aa18-c7bdc9bc187e"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libpthread-stubs-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c7747fdf7155714ddaa5e68e13c36240b47187a4"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3f46f35f58fad39a0c2921ee06a6e296d7f61f2d3e8b6ee83be40e606695515f"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/pkgconfig/pthread-stubs.pc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libpthread-stubs-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libpthread-stubs-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libpthread-stubs-dev-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libpthread-stubs-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "9ae1be7c5e000f38e16dba15814d6c1837dad69c"
+      },
+      "versionInfo": "0.4"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libpthread-stubs:SPDXRef-Recipe-libpthread-stubs",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libpthread-stubs-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libpthread-stubs-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libpthread-stubs-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libpthread-stubs-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

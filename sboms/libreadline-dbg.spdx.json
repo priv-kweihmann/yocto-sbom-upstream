@@ -1,0 +1,117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:18:59Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libreadline-dbg-cd16bccc-e9b3-55d9-8c86-a6a9f00d52d3",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d7993befba97cd36e10c2b5349a477beab80a2f7"
+      },
+      "externalDocumentId": "DocumentRef-recipe-readline",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-readline-c3815bde-1cd5-5568-bcc2-54e657e67a2d"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libreadline-dbg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "48f9e5162bfd97df812327c6710e432be8fd32e0"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9412b27b2b2c68b8430be2972cb73511b6e085882e916e77ef51e1eb9b83f547"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/.debug/libreadline.so.8.1",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libreadline-dbg-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f9dee6b927b61a746468a8d02069f8f8e635549b"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d4f9e0ca9763b709b2d629aa634e5d645fee949d7aea5c23aa34d356cc050f7e"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/.debug/libhistory.so.8.1",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libreadline-dbg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libreadline-dbg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libreadline-dbg-1",
+        "SPDXRef-PackagedFile-libreadline-dbg-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libreadline-dbg",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "593e01e4c563655ba5d32734763d603516881652"
+      },
+      "versionInfo": "8.1.2"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-readline:SPDXRef-Recipe-readline",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libreadline-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libreadline-dbg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libreadline-dbg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libreadline-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libreadline-dbg-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libreadline-dbg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

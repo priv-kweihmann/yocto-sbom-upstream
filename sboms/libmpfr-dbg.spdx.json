@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:25:13Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libmpfr-dbg-049e81d1-2d1e-5dc6-b226-c67fa9565c25",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b7d8ba1afca43baa607e210ee8852cad037fcb5f"
+      },
+      "externalDocumentId": "DocumentRef-recipe-mpfr",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-mpfr-14950b97-da79-5e77-be1b-ed080d36c7fe"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libmpfr-dbg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5a20b9584fa27cdb03321a097ec8fbe00094bd48"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "032422f8839ee50d8342423b5b35a65251bd936be2f36c415cea73c8a2a35684"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/.debug/libmpfr.so.6.1.0",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libmpfr-dbg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libmpfr-dbg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libmpfr-dbg-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-3.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libmpfr-dbg",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "efa268a4d5f379c1f21000982944030696c8270f"
+      },
+      "versionInfo": "4.1.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-mpfr:SPDXRef-Recipe-mpfr",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libmpfr-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libmpfr-dbg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libmpfr-dbg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libmpfr-dbg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

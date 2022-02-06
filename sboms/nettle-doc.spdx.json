@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:12:08Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/nettle-doc-5b34e5c5-b6c7-58ca-9145-b47fe70c3e6e",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c8db13714255bfafe5bf2d5dde081b18509105f5"
+      },
+      "externalDocumentId": "DocumentRef-recipe-nettle",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-nettle-6294b6f1-8fde-547d-9e4f-c71996b278b9"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-nettle-doc-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "54a4ccf80420f76203caffee85dfb2c88d884713"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4a6711b5f7c5f6be31e4a7f7093500b7aa3efbc7cd6d9c365964928704451efc"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/info/nettle.info",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "nettle-doc",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-nettle-doc",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-nettle-doc-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-3.0-or-later OR GPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "nettle-doc",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "9ee907acd36163fca4845fdc04be5e525d582bcf"
+      },
+      "versionInfo": "3.7.3"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-nettle:SPDXRef-Recipe-nettle",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-nettle-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-nettle-doc",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-nettle-doc-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-nettle-doc"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

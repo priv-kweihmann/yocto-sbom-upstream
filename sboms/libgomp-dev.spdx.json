@@ -1,0 +1,173 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:24:21Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libgomp-dev-68857d64-e298-5ff7-87ce-e6bbba60ec60",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "60a673351c9a3395c8bcf8870dbf7d5682b61ca1"
+      },
+      "externalDocumentId": "DocumentRef-recipe-gcc-runtime",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-gcc-runtime-a8177036-816d-5f00-a030-969647302050"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libgomp-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3308223be2845d57eaf760f5b1d80b4a54e19da7"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f1148cdbf2cc2c57013e1e1c41a54751b710fefe5cfe19088f3c558778567810"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libgomp.spec",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libgomp-dev-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0a731ff4fb718bbbc7cf0c805b1517aab604c668"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "28db1960e82df49d078382b2b175284f49df4bd4c15daa45ebc5192ea8e51c54"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/x86_64-poky-linux/11.2.0/include/omp.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libgomp-dev-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "130e179ccf7c0670c9521fea713e9858645dd191"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f84e708fdb0df0a7c86fc0756dbe7950fa3ff62ddcd9b5c29bd0855f8490b943"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/x86_64-poky-linux/11.2.0/include/openacc.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libgomp-dev-4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bba926cf5588acd37b3dcc1b24d6bbcb12f8a5e3"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "61e0c52da5e05f9d688b65a2f218cafcbe697ddfa146149ed81a3a4ebab916ab"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/x86_64-poky-linux/11.2.0/include/acc_prof.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libgomp-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libgomp-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libgomp-dev-1",
+        "SPDXRef-PackagedFile-libgomp-dev-2",
+        "SPDXRef-PackagedFile-libgomp-dev-3",
+        "SPDXRef-PackagedFile-libgomp-dev-4"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-with-GCC-exception",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libgomp-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "a7ec5e27ab37fb95ac0d06265c30f528326b0840"
+      },
+      "versionInfo": "11.2.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-gcc-runtime:SPDXRef-Recipe-gcc-runtime",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libgomp-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libgomp-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libgomp-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libgomp-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libgomp-dev-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libgomp-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libgomp-dev-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libgomp-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libgomp-dev-4",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libgomp-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

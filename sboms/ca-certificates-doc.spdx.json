@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:43:20Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/ca-certificates-doc-5cc81ff1-f1f4-531f-9b11-a1590f12446e",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8ed62c452ef38f1a5ba342459b9e89a2fb7b0fd2"
+      },
+      "externalDocumentId": "DocumentRef-recipe-ca-certificates",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-ca-certificates-270e1ebf-f8f7-5405-96ad-f5b63f78e175"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-ca-certificates-doc-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "331664ab776ffb5e696b7e9ea54485f99441be0b"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3f83aafbee7fd1f68fb9f901caf2f4e732f6b8e4ddcecb9964aadce6a2d3c727"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/man/man8/update-ca-certificates.8",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "ca-certificates-doc",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-ca-certificates-doc",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-ca-certificates-doc-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later AND MPL-2.0",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "ca-certificates-doc",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "cb89d13e7111279c4630c7cb06bf15c02c8afa3d"
+      },
+      "versionInfo": "20211016"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-ca-certificates:SPDXRef-Recipe-ca-certificates",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-ca-certificates-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ca-certificates-doc",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-ca-certificates-doc-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-ca-certificates-doc"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

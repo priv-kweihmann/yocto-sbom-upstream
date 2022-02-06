@@ -1,0 +1,145 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:07:49Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/sed-dbg-6d40673a-40cf-54c2-a6b2-da3f68dc2668",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "18f0ccb7045bc88099b9960c6115f983ad17d9ea"
+      },
+      "externalDocumentId": "DocumentRef-recipe-sed",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-sed-39d4fc97-e5ee-5421-a16b-89b7425120c8"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-sed-dbg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f089760a97fa85c0f90ec5cff19fe7d3ce6ebb59"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "abd67751d4e545c5d6938da08f9aa5ed4eb83e6b72cd52643ac0ebb133c0fef2"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/sed/ptest/testsuite/.debug/test-mbrtowc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-sed-dbg-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7bf9a53b45d975f04d16876b1e49879483d504d8"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "75a33a2cd37a8cafeefeec86bf5c009f3f1141d23c537764e6bd38e938730311"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/sed/ptest/testsuite/.debug/get-mb-cur-max",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-sed-dbg-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "44269bdc0981ef1a3d6c8041ef62bdef0d3f3e3a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1d3bd1e8096992fb4d80e5e65f20c4fb1a4223ae1e6f91fc061b38081005c3b5"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "bin/.debug/sed.sed",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "sed-dbg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-sed-dbg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-sed-dbg-1",
+        "SPDXRef-PackagedFile-sed-dbg-2",
+        "SPDXRef-PackagedFile-sed-dbg-3"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "sed-dbg",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "344d07161f7431735b07c20fec8dbd443b713923"
+      },
+      "versionInfo": "4.8"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-sed:SPDXRef-Recipe-sed",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-sed-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-sed-dbg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-sed-dbg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-sed-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-sed-dbg-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-sed-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-sed-dbg-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-sed-dbg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

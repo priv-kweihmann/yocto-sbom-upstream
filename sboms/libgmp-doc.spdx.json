@@ -1,0 +1,145 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:10:20Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libgmp-doc-2993f431-cbe5-52b8-8cc8-6e191566bf0e",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "517398becb9b5a49724068c74a58440a21e9fe39"
+      },
+      "externalDocumentId": "DocumentRef-recipe-gmp",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-gmp-8041e67e-54c2-57e0-bd18-8c7738052971"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libgmp-doc-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "20f1312717d24a83bbb5707f5cf32afb12b7d610"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b5e40cce79506dd1478d0cffd4a7d541df492783094c8d1c01893e6315ea22fb"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/info/gmp.info",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libgmp-doc-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3875a93eca93411c522f09c514fcc2352c5e05e0"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "efa500fb0ae8b4ae2632a238a4d7def02777ae1963646a716b7dda427cfd85a1"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/info/gmp.info-1",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libgmp-doc-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0d0b14037f58b10a5bcba24703528fc9feba9df7"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5e7c2f97937488b57b47e896feb2a60a2f9d6654257f5856f4d2ce83700b7f7f"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/info/gmp.info-2",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libgmp-doc",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libgmp-doc",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libgmp-doc-1",
+        "SPDXRef-PackagedFile-libgmp-doc-2",
+        "SPDXRef-PackagedFile-libgmp-doc-3"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libgmp-doc",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "9e43e5581321060f9eed6b767b7619da83fc7801"
+      },
+      "versionInfo": "6.2.1"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-gmp:SPDXRef-Recipe-gmp",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libgmp-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libgmp-doc",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libgmp-doc-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libgmp-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libgmp-doc-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libgmp-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libgmp-doc-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libgmp-doc"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

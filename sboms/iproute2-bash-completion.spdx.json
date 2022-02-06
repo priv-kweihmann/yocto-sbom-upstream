@@ -1,0 +1,117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:47:33Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/iproute2-bash-completion-865e4b5c-1dcd-59f8-9d5f-b02c28d6f5c7",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7b01c4fb14b61b1b48e239fe67fdb7a52466b164"
+      },
+      "externalDocumentId": "DocumentRef-recipe-iproute2",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-iproute2-6d877ab9-bf53-50dc-8a38-20733171e4b0"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-iproute2-bash-completion-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "49b9e9047956e079154a78107b766f5f9aed63aa"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "90fa3c2587de1682c0c0388b045dca1e016e2146f7c5e46f1244d3054056dac3"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/bash-completion/completions/devlink",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-iproute2-bash-completion-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4e637ae6f97a77ee7df270cc37440ad96fc23cd7"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c2ce6dc9e646bde5372aea22cae22f2eb77904dfbb9b554806820e6704f23a91"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/bash-completion/completions/tc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "iproute2-bash-completion",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-iproute2-bash-completion",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-iproute2-bash-completion-1",
+        "SPDXRef-PackagedFile-iproute2-bash-completion-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "iproute2-bash-completion",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "e0901a9ef872e3b72ec0aae43860d8e31505b7b9"
+      },
+      "versionInfo": "5.16.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-iproute2:SPDXRef-Recipe-iproute2",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-iproute2-bash-completion"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-iproute2-bash-completion",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-iproute2-bash-completion-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-iproute2-bash-completion"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-iproute2-bash-completion-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-iproute2-bash-completion"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

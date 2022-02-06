@@ -1,0 +1,117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:10:48Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/kmod-dev-952d88ab-2379-538f-8148-077bb8ec338b",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d4538b46a94e1e0bd3b4237592a7d7c32cd33e90"
+      },
+      "externalDocumentId": "DocumentRef-recipe-kmod",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-kmod-20bdd709-d6c7-5444-8085-cc59b1bedf3f"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-kmod-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "46ec1226051f18e2e79fc9d2b20f09efff589ff4"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4c5821606372f68acadcde4eee20897dba3bc9f4dd24910eedd043e36a90cc29"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/libkmod.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-kmod-dev-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "207694fa3bb16c7f109719fb21924b80def3794f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1256382c60e75ded8a93f0089dc4ee1fd67a0a7063b0b40aaa2674031f91d16b"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/pkgconfig/libkmod.pc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "kmod-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-kmod-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-kmod-dev-1",
+        "SPDXRef-PackagedFile-kmod-dev-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "kmod-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "c55721e952793efed8a38deca43a6494b11c8c38"
+      },
+      "versionInfo": "29"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-kmod:SPDXRef-Recipe-kmod",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-kmod-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-kmod-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-kmod-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-kmod-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-kmod-dev-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-kmod-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

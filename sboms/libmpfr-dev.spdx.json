@@ -1,0 +1,145 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:25:13Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libmpfr-dev-a64d7d85-dd06-56a0-ac54-16cb241e816c",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b7d8ba1afca43baa607e210ee8852cad037fcb5f"
+      },
+      "externalDocumentId": "DocumentRef-recipe-mpfr",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-mpfr-14950b97-da79-5e77-be1b-ed080d36c7fe"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libmpfr-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3bedf63987175bd6a53541c48110bf1f62f065d7"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "12853f68be28845148ec913e2a31a37f2e5ab1391efaf122ef6c526582d8bfec"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/mpf2mpfr.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libmpfr-dev-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "93dab0dfa789129952830cf1bec87e24ca3e270c"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d800395eec628225e0c5ebd4d4bf21097e67e88e153af4e7a9e89a37c7befc58"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/mpfr.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libmpfr-dev-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4cf0c34ad89067c92800db52874c17b2a69a4c46"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d54fc9c668a146d9fe551c3ca1e6ba918432fc1835eb249b4be0b3f7a1a46559"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/pkgconfig/mpfr.pc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libmpfr-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libmpfr-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libmpfr-dev-1",
+        "SPDXRef-PackagedFile-libmpfr-dev-2",
+        "SPDXRef-PackagedFile-libmpfr-dev-3"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-3.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libmpfr-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "a9156facc0ebed534c1145d789ee757bd1ced1b3"
+      },
+      "versionInfo": "4.1.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-mpfr:SPDXRef-Recipe-mpfr",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libmpfr-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libmpfr-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libmpfr-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libmpfr-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libmpfr-dev-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libmpfr-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libmpfr-dev-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libmpfr-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:26:48Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/python3-ptest-789efd78-c36e-5c8a-ad36-803739496250",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "3eac61a58fbadb6e8965cc5f32a84e8199204d8a"
+      },
+      "externalDocumentId": "DocumentRef-recipe-python3",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-python3-8efcec7f-0548-5fda-987e-947c0d22391f"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-python3-ptest-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9a48979d95c550df9d9750e2c8fbf119d1f13f11"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4e789902f48f4ff8f432eb3d3bc4fdc6bf785ea4f5fd3ceb0764d92cb2a2410d"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/python3/ptest/run-ptest",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "python3-ptest",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-python3-ptest",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-python3-ptest-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "PSF-2.0",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "python3-ptest",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "69c69241b9d18a27378f8f33541f15c338deece3"
+      },
+      "versionInfo": "3.10.2"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-python3:SPDXRef-Recipe-python3",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-python3-ptest"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-python3-ptest",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-python3-ptest-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-python3-ptest"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

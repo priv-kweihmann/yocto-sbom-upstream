@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:19:29Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libnsl-dbg-b01673cb-1541-582a-86b6-9cb3094ace91",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "90c425e69ecb0ad074f6f5bf699c182b7fda7ae9"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libnsl2",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libnsl2-b9aef6fc-7a15-5b2e-8c92-3bf580d97cc0"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libnsl-dbg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e911138006f8b6cab9ba1c3ff78357994b237d64"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "44e97a42e192a2de4c8ba6ea89f62092dc791f65bda90d52dbeeefa5ea8707e9"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/.debug/libnsl.so.3.0.0",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libnsl-dbg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libnsl-dbg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libnsl-dbg-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-2.1-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libnsl-dbg",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "06bc399483491d849cd8750e8c639c8e58da21b3"
+      },
+      "versionInfo": "2.0.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libnsl2:SPDXRef-Recipe-libnsl2",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libnsl-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libnsl-dbg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libnsl-dbg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libnsl-dbg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

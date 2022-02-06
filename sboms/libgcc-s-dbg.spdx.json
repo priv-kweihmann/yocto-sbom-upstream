@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T14:24:04Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libgcc-s-dbg-8b56ec06-7053-5c5e-bb61-937dbce2dcb5",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ad113f2be4505b0ca56b91561eba237363ae6093"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libgcc",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libgcc-df9557c5-65f1-57eb-9bd9-76620c52cf82"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libgcc-s-dbg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f65bf945458a55a3f779a94409a0922d5b49e447"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b2d00a536f4ec4b2016ad5d828e7617e6fbdef8135ceae16c46ba1a64b086f88"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "lib/.debug/libgcc_s.so.1",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libgcc-s-dbg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libgcc-s-dbg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libgcc-s-dbg-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-with-GCC-exception",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libgcc-s-dbg",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "d6eb4892fb868813c4e894181bef32c90c776640"
+      },
+      "versionInfo": "11.2.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libgcc:SPDXRef-Recipe-libgcc",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libgcc-s-dbg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libgcc-s-dbg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libgcc-s-dbg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libgcc-s-dbg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

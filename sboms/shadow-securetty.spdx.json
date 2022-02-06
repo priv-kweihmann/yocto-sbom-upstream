@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T16:52:06Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/shadow-securetty-3d9f4740-df93-56a6-b6ac-4efa24b2bf77",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f9a5e80c535ff3c85eab12927a66b85459a241b3"
+      },
+      "externalDocumentId": "DocumentRef-recipe-shadow-securetty",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-shadow-securetty-44ece1e5-21a2-5a7a-9db1-d0613b3582c0"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-shadow-securetty-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "29a98036fe64daf79c1df31f6a95627ee2c664f1"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f23d555aa09016af53fcb748af9ed777e3a8921531a0214870c382b06caa358c"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/securetty",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "shadow-securetty",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-shadow-securetty",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-shadow-securetty-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "shadow-securetty",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "950650698c4fbfde4258b0180abb3c4b0b840274"
+      },
+      "versionInfo": "4.6"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-shadow-securetty:SPDXRef-Recipe-shadow-securetty",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-shadow-securetty"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-shadow-securetty",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-shadow-securetty-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-shadow-securetty"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

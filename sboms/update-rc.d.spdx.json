@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:18:25Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/update-rc.d-fde24237-98eb-54c2-b3e8-cc69971dd42c",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "97b7cc07043bfeb78c70e3985b0b47824e419a10"
+      },
+      "externalDocumentId": "DocumentRef-recipe-update-rc.d",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-update-rc.d-87cf57af-6fc6-500b-8aa5-8b53c9c11554"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-update-rc.d-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8cabd995976443050be511510920ca5ecfc057c9"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5426fe8d447719957b51bdce842fb857816a6d5cd5053f7586ffbf66b48111d2"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/sbin/update-rc.d",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "update-rc.d",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-update-rc.d",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-update-rc.d-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "update-rc.d",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "35e8e3f99d23c8b20ea0ccfc4a21222fdc8eff34"
+      },
+      "versionInfo": "0.8"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-update-rc.d:SPDXRef-Recipe-update-rc.d",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-update-rc.d"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-update-rc.d",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-update-rc.d-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-update-rc.d"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T15:41:16Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/file-dev-61563f7f-57e2-5a8a-9bfd-cb1ad69f4ef8",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6558d4acf145e5db28434475c3e96a377cc49728"
+      },
+      "externalDocumentId": "DocumentRef-recipe-file",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-file-57f32d93-adce-5352-8814-3c197769da6f"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-file-dev-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4b0669e11d2b982470baefd0fb145383591ee209"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "da3ea3b49c1f2bb7d4a8b231667ab20739965d48fbe69394c8672787bfa472dc"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/include/magic.h",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-file-dev-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "429c239bb64847e42d487eb625731da67d960112"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "08db5b193854745a4fd951562daef5bea39c193582466f4977aad5f6689a4941"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/pkgconfig/libmagic.pc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "file-dev",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-file-dev",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-file-dev-1",
+        "SPDXRef-PackagedFile-file-dev-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-2-Clause",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "file-dev",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "307a359c48de9761f4fb3cf95eba5f1ac858db40"
+      },
+      "versionInfo": "5.41"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-file:SPDXRef-Recipe-file",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-file-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-file-dev",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-file-dev-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-file-dev"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-file-dev-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-file-dev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

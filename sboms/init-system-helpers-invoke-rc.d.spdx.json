@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-02-06T17:11:24Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/init-system-helpers-invoke-rc.d-c0c8de72-c294-5ad0-be96-a86c283a5686",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7915ebc378be695f0e632911d67f82797f169e35"
+      },
+      "externalDocumentId": "DocumentRef-recipe-init-system-helpers",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-init-system-helpers-3446e12b-460d-567d-8fb0-419cc6869120"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-init-system-helpers-invoke-rc.d-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "dd1ddc110628008a815e55f395e769df7a257589"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "31879884b1fb86b53ecb18b96fd72af54ef2b17c7e3cc638fb32d6bab1edda46"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/sbin/invoke-rc.d",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "init-system-helpers-invoke-rc.d",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-init-system-helpers-invoke-rc.d",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-init-system-helpers-invoke-rc.d-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause AND GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "init-system-helpers-invoke-rc.d",
+      "packageSupplier": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "c2a388c3596c1840381022519550af16201f2561"
+      },
+      "versionInfo": "1.60"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-init-system-helpers:SPDXRef-Recipe-init-system-helpers",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-init-system-helpers-invoke-rc.d"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-init-system-helpers-invoke-rc.d",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-init-system-helpers-invoke-rc.d-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-init-system-helpers-invoke-rc.d"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}
