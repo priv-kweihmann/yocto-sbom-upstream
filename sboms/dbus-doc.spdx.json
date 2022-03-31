@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
     "comment": "This document was created by analyzing packages created during the build.",
-    "created": "2022-02-24T12:22:36Z",
+    "created": "2022-03-31T13:14:59Z",
     "creators": [
       "Tool: OpenEmbedded Core create-spdx.bbclass",
       "Organization: OpenEmbedded ()",
@@ -16,7 +16,7 @@
     {
       "checksum": {
         "algorithm": "SHA1",
-        "checksumValue": "03cd979b3cf6f01e9282c780b1f51ba920d2184f"
+        "checksumValue": "c71f3c6df902b16d196e23f38601cddfd3a6e6ee"
       },
       "externalDocumentId": "DocumentRef-recipe-dbus",
       "spdxDocument": "http://spdx.org/spdxdoc/recipe-dbus-71a464b4-138c-59b6-b5fa-4e7ee7d3cef8"
@@ -138,6 +138,28 @@
       "checksums": [
         {
           "algorithm": "SHA1",
+          "checksumValue": "fae27e42462d35b3bb9bee8fd144bd7818dbd911"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3c340785681ec1a73d497575c8ad44ee5de6f098c25055863b90d3fbcba7d8d7"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/doc/dbus/examples/example-system-hardening-without-traditional-activation.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-dbus-doc-7",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
           "checksumValue": "74986beaba23af3e7295a60290cb5ca9bbb629fe"
         },
         {
@@ -168,7 +190,8 @@
         "SPDXRef-PackagedFile-dbus-doc-3",
         "SPDXRef-PackagedFile-dbus-doc-4",
         "SPDXRef-PackagedFile-dbus-doc-5",
-        "SPDXRef-PackagedFile-dbus-doc-6"
+        "SPDXRef-PackagedFile-dbus-doc-6",
+        "SPDXRef-PackagedFile-dbus-doc-7"
       ],
       "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "AFL-2.1 OR GPL-2.0-or-later",
@@ -178,9 +201,9 @@
       "name": "dbus-doc",
       "packageSupplier": "Organization: OpenEmbedded ()",
       "packageVerificationCode": {
-        "packageVerificationCodeValue": "24cb2a2948f9232810e2a97cb4b1776297efaedb"
+        "packageVerificationCodeValue": "c1e45dc6bd440d2d684f021e850e88ad78fefda0"
       },
-      "versionInfo": "1.12.20"
+      "versionInfo": "1.14.0"
     }
   ],
   "relationships": [
@@ -221,6 +244,11 @@
     },
     {
       "relatedSpdxElement": "SPDXRef-PackagedFile-dbus-doc-6",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-dbus-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-dbus-doc-7",
       "relationshipType": "CONTAINS",
       "spdxElementId": "SPDXRef-Package-dbus-doc"
     }
