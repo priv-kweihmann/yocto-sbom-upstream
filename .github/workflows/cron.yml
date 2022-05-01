@@ -40,7 +40,6 @@ jobs:
       run: |
         mkdir -p sources
         git clone git://git.yoctoproject.org/poky.git sources/poky
-        git config --global --add safe.directory /github/workspace
       shell: bash
     - name: setup
       run: |
@@ -62,7 +61,7 @@ jobs:
         -type f -name "*.json" -exec ${GITHUB_WORKSPACE}/scripts/prettify {} ${GITHUB_WORKSPACE}/sboms/ \;
       shell: bash
     - name: push
-      uses: github-actions-x/commit@v2.8
+      uses: github-actions-x/commit@v2.9
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: 'master'
