@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
     "comment": "This document was created by analyzing packages created during the build.",
-    "created": "2022-04-07T12:10:40Z",
+    "created": "2022-05-05T12:24:02Z",
     "creators": [
       "Tool: OpenEmbedded Core create-spdx.bbclass",
       "Organization: OpenEmbedded ()",
@@ -16,7 +16,7 @@
     {
       "checksum": {
         "algorithm": "SHA1",
-        "checksumValue": "75d8ff17e6821c7745b36a53d9a08d6d308a1aa0"
+        "checksumValue": "f93e6827d0b7a25454e6aadfe5eedfbfe64a667b"
       },
       "externalDocumentId": "DocumentRef-recipe-libcap",
       "spdxDocument": "http://spdx.org/spdxdoc/recipe-libcap-71d96c70-9f88-56e2-add1-19af56887698"
@@ -28,33 +28,11 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "755c21f8fb15766b0c525871e2d89399c27c1fb1"
+          "checksumValue": "5f497fd3468488f0b8a79a3e1ed191065d77eec1"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "983fc63ff11d14d707a298173dc38e9939a753ee759fabb3c3f5c1040c640e19"
-        }
-      ],
-      "copyrightText": "NOASSERTION",
-      "fileName": "usr/sbin/capsh",
-      "fileTypes": [
-        "BINARY"
-      ],
-      "licenseConcluded": "NOASSERTION",
-      "licenseInfoInFiles": [
-        "NOASSERTION"
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-PackagedFile-libcap-bin-2",
-      "checksums": [
-        {
-          "algorithm": "SHA1",
-          "checksumValue": "36b9fca9e40cc479ea7f56668891862e3cdc14b0"
-        },
-        {
-          "algorithm": "SHA256",
-          "checksumValue": "1687eb7ada8b1f2f8a7230d21d2cf385d90a28bb66c43c83e3530457eab198ab"
+          "checksumValue": "d59648236e77c4a7b084365df4f8c924f18eefa794be47f21586f2c5b1ff6048"
         }
       ],
       "copyrightText": "NOASSERTION",
@@ -68,15 +46,37 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-PackagedFile-libcap-bin-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4f23caf19b82af7a6acdc493a455cbf11e4274aa"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cd01d37bb738e74ddcc0ede06d81815ae6d1267c4f59ded88f7e695e5d69170c"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/sbin/setcap",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-PackagedFile-libcap-bin-3",
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "5966f528c5d96148ced3d784f774f8281783ac5d"
+          "checksumValue": "1d637415d4bdcb04363188dbf3ae51e7b3a8226b"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "d22472c72956e325a3df4bb82cdea56bb4d51f3ff02292fbe7f5850dbdb32fdf"
+          "checksumValue": "9d41f04be038416adf995dcff99766d4de7d67372d087355e84b18307b9606a9"
         }
       ],
       "copyrightText": "NOASSERTION",
@@ -94,15 +94,15 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "041d7234968e992f079c52989a5e0c623b2f79e9"
+          "checksumValue": "9a94fa6589a4d7a3da44b4ced76819c7417e44ee"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "c8c471a37ce94326c83a12fd980a4767b0bf99cbfa008bcbad0c34435950505a"
+          "checksumValue": "ff7d16a34c0be7c940ffa27cde65f7fe8f7350f43a309aff36d96753d81f9da3"
         }
       ],
       "copyrightText": "NOASSERTION",
-      "fileName": "usr/sbin/setcap",
+      "fileName": "usr/sbin/capsh",
       "fileTypes": [
         "BINARY"
       ],
@@ -132,9 +132,9 @@
       "name": "libcap-bin",
       "packageSupplier": "Organization: OpenEmbedded ()",
       "packageVerificationCode": {
-        "packageVerificationCodeValue": "d6d19f475b0ca805c7ab7b9a39ee0e31635dbd2a"
+        "packageVerificationCodeValue": "5db4297678d9af1376d6db27a24804f05d24fe15"
       },
-      "versionInfo": "2.63"
+      "versionInfo": "2.64"
     }
   ],
   "relationships": [
@@ -172,229 +172,229 @@
       "comment": "/usr/include/bits/confname.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/include/bits/stdio2.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/include/bits/string_fortified.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/include/bits/types.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/include/bits/types/FILE.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/include/bits/types/struct_FILE.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/include/bits/unistd.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/include/ctype.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/include/errno.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/include/grp.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/include/linux/rseq.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/include/pwd.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/include/signal.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/include/stdio.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/include/stdlib.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/include/string.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/include/sys/prctl.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/include/sys/types.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/include/sys/wait.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/include/unistd.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
-      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.3.0/include/stddef.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/sockaddr.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/stdint-intn.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/stdint-uintn.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/csu/abi-note.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/csu/init.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/elf/elf.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/inet/netinet/in.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/posix/bits/types.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/unix/sysv/linux/bits/socket.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/crti.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/crtn.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/start.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
-      "comment": "/usr/src/debug/libcap/2.63-r0/libcap-2.63/libcap/include/sys/capability.h",
+      "comment": "/usr/src/debug/libcap/2.64-r0/libcap-2.64/libcap/include/sys/capability.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
-      "comment": "/usr/src/debug/libcap/2.63-r0/libcap-2.63/progs/<built-in>",
+      "comment": "/usr/src/debug/libcap/2.64-r0/libcap-2.64/progs/<built-in>",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
-      "comment": "/usr/src/debug/libcap/2.63-r0/libcap-2.63/progs/capsh.c",
+      "comment": "/usr/src/debug/libcap/2.64-r0/libcap-2.64/progs/capsh.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
-      "comment": "/usr/src/debug/libcap/2.63-r0/libcap-2.63/progs/capshdoc.c",
+      "comment": "/usr/src/debug/libcap/2.64-r0/libcap-2.64/progs/capshdoc.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
-      "comment": "/usr/src/debug/libcap/2.63-r0/libcap-2.63/progs/capshdoc.h",
+      "comment": "/usr/src/debug/libcap/2.64-r0/libcap-2.64/progs/capshdoc.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
     },
     {
       "comment": "/usr/include/bits/getopt_core.h",
@@ -481,7 +481,7 @@
       "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-3"
     },
     {
-      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.3.0/include/stddef.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-3"
@@ -559,19 +559,19 @@
       "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-3"
     },
     {
-      "comment": "/usr/src/debug/libcap/2.63-r0/libcap-2.63/libcap/include/sys/capability.h",
+      "comment": "/usr/src/debug/libcap/2.64-r0/libcap-2.64/libcap/include/sys/capability.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-3"
     },
     {
-      "comment": "/usr/src/debug/libcap/2.63-r0/libcap-2.63/progs/<built-in>",
+      "comment": "/usr/src/debug/libcap/2.64-r0/libcap-2.64/progs/<built-in>",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-3"
     },
     {
-      "comment": "/usr/src/debug/libcap/2.63-r0/libcap-2.63/progs/getcap.c",
+      "comment": "/usr/src/debug/libcap/2.64-r0/libcap-2.64/progs/getcap.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-3"
@@ -580,319 +580,319 @@
       "comment": "/usr/include/bits/stdio2.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
     },
     {
       "comment": "/usr/include/bits/types.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
     },
     {
       "comment": "/usr/include/bits/types/FILE.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
     },
     {
       "comment": "/usr/include/bits/types/struct_FILE.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
     },
     {
       "comment": "/usr/include/errno.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
     },
     {
       "comment": "/usr/include/linux/rseq.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
     },
     {
       "comment": "/usr/include/stdio.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
     },
     {
       "comment": "/usr/include/stdlib.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
     },
     {
       "comment": "/usr/include/string.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
     },
     {
       "comment": "/usr/include/sys/types.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
     },
     {
-      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.3.0/include/stddef.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/sockaddr.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/stdint-intn.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/stdint-uintn.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/csu/abi-note.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/csu/init.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/elf/elf.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/inet/netinet/in.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/posix/bits/types.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/unix/sysv/linux/bits/socket.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/crti.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/crtn.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/start.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
     },
     {
-      "comment": "/usr/src/debug/libcap/2.63-r0/libcap-2.63/libcap/include/sys/capability.h",
+      "comment": "/usr/src/debug/libcap/2.64-r0/libcap-2.64/libcap/include/sys/capability.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
     },
     {
-      "comment": "/usr/src/debug/libcap/2.63-r0/libcap-2.63/progs/<built-in>",
+      "comment": "/usr/src/debug/libcap/2.64-r0/libcap-2.64/progs/<built-in>",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
     },
     {
-      "comment": "/usr/src/debug/libcap/2.63-r0/libcap-2.63/progs/getpcaps.c",
+      "comment": "/usr/src/debug/libcap/2.64-r0/libcap-2.64/progs/getpcaps.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-1"
     },
     {
       "comment": "/usr/include/bits/stdio2.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
     },
     {
       "comment": "/usr/include/bits/types.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
     },
     {
       "comment": "/usr/include/bits/types/FILE.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
     },
     {
       "comment": "/usr/include/bits/types/struct_FILE.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
     },
     {
       "comment": "/usr/include/bits/unistd.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
     },
     {
       "comment": "/usr/include/errno.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
     },
     {
       "comment": "/usr/include/linux/rseq.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
     },
     {
       "comment": "/usr/include/stdio.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
     },
     {
       "comment": "/usr/include/stdlib.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
     },
     {
       "comment": "/usr/include/string.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
     },
     {
       "comment": "/usr/include/sys/types.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
     },
     {
-      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.3.0/include/stddef.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/sockaddr.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/stdint-intn.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/stdint-uintn.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/csu/abi-note.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/csu/init.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/elf/elf.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/inet/netinet/in.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/posix/bits/types.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/unix/sysv/linux/bits/socket.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/crti.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/crtn.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/start.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
     },
     {
-      "comment": "/usr/src/debug/libcap/2.63-r0/libcap-2.63/libcap/include/sys/capability.h",
+      "comment": "/usr/src/debug/libcap/2.64-r0/libcap-2.64/libcap/include/sys/capability.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
     },
     {
-      "comment": "/usr/src/debug/libcap/2.63-r0/libcap-2.63/progs/<built-in>",
+      "comment": "/usr/src/debug/libcap/2.64-r0/libcap-2.64/progs/<built-in>",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
     },
     {
-      "comment": "/usr/src/debug/libcap/2.63-r0/libcap-2.63/progs/setcap.c",
+      "comment": "/usr/src/debug/libcap/2.64-r0/libcap-2.64/progs/setcap.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-bin-2"
     }
   ],
   "spdxVersion": "SPDX-2.2"

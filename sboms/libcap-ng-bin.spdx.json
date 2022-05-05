@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
     "comment": "This document was created by analyzing packages created during the build.",
-    "created": "2022-04-07T11:33:44Z",
+    "created": "2022-05-05T11:42:18Z",
     "creators": [
       "Tool: OpenEmbedded Core create-spdx.bbclass",
       "Organization: OpenEmbedded ()",
@@ -16,7 +16,7 @@
     {
       "checksum": {
         "algorithm": "SHA1",
-        "checksumValue": "58e0eb4cf0e71c19c05a08b706a15c5afa63836f"
+        "checksumValue": "b1cda406e75d5ff440f315bd13909fcb40ee57fe"
       },
       "externalDocumentId": "DocumentRef-recipe-libcap-ng",
       "spdxDocument": "http://spdx.org/spdxdoc/recipe-libcap-ng-67baa97c-2236-5adf-91d3-d28a71356339"
@@ -28,33 +28,11 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "06e46505bcc9ce555b6d9586037d677a5509f3d3"
+          "checksumValue": "b9154cf7cbdc105a0d309e2ecf8199f6426f26cb"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "d81a5e436b487b4fbfa4558777372878bdd75c7124eb8b410cbe34f14338451d"
-        }
-      ],
-      "copyrightText": "NOASSERTION",
-      "fileName": "usr/bin/filecap",
-      "fileTypes": [
-        "BINARY"
-      ],
-      "licenseConcluded": "NOASSERTION",
-      "licenseInfoInFiles": [
-        "NOASSERTION"
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-PackagedFile-libcap-ng-bin-2",
-      "checksums": [
-        {
-          "algorithm": "SHA1",
-          "checksumValue": "7e43fe9333ecda0a8185e5a2be7551517376e39a"
-        },
-        {
-          "algorithm": "SHA256",
-          "checksumValue": "8e56087f213c562ad99522c060302f10430b41b96252eb62375195d081eb68bb"
+          "checksumValue": "540aebd7c3e3806cb8a3be1e8a1f2e31ca7a8f910873b0643783936b95f654b6"
         }
       ],
       "copyrightText": "NOASSERTION",
@@ -68,15 +46,37 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-PackagedFile-libcap-ng-bin-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9ce71431256e24d8aba99a9ea0f6d82cd78731e2"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d29525df6c48dda7e14c45f8b2ca724416936305970f0c7fc1ba4e0f1669ca75"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/captest",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-PackagedFile-libcap-ng-bin-3",
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "5bf8b652b883d63f36f7682cbe589e6b342822f3"
+          "checksumValue": "9a3eb1763eb5c2724c0fc7408e5c549024f5e6c0"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "3eeb4a1b51aded07322723146111bb1ffe27e2074046f65a6032378f6f47120f"
+          "checksumValue": "38d85c87979d2bc707aa3999c127d54bd2c80d47c05ef4a54797f3b2fe3539ea"
         }
       ],
       "copyrightText": "NOASSERTION",
@@ -94,15 +94,15 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "a551aed574d26522af50d4df1d1ff9afe7bfe68d"
+          "checksumValue": "d834732108460e84bebb0d292da4886ab51ff227"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "9d4e5009da585098e89ad7614e85c0c2698ce712466dc8ec94991e97341deef3"
+          "checksumValue": "5697b4624854c3e7bd68041a033d753544a9ba4ce1774bdb80be4c8b7e917aae"
         }
       ],
       "copyrightText": "NOASSERTION",
-      "fileName": "usr/bin/captest",
+      "fileName": "usr/bin/filecap",
       "fileTypes": [
         "BINARY"
       ],
@@ -132,9 +132,9 @@
       "name": "libcap-ng-bin",
       "packageSupplier": "Organization: OpenEmbedded ()",
       "packageVerificationCode": {
-        "packageVerificationCodeValue": "3ef03c739887749d35d7493163bddc6cf8d1f16a"
+        "packageVerificationCodeValue": "9c7a6a9945200d9815f226d618d3b326269ecb82"
       },
-      "versionInfo": "0.8.2"
+      "versionInfo": "0.8.3"
     }
   ],
   "relationships": [
@@ -172,325 +172,325 @@
       "comment": "/usr/include/bits/stdio2.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
     },
     {
       "comment": "/usr/include/bits/types.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
     },
     {
       "comment": "/usr/include/errno.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
     },
     {
       "comment": "/usr/include/linux/rseq.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
     },
     {
       "comment": "/usr/include/stdlib.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
     },
     {
       "comment": "/usr/include/string.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
     },
     {
       "comment": "/usr/include/sys/prctl.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
     },
     {
       "comment": "/usr/include/unistd.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/sockaddr.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/stdint-intn.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/stdint-uintn.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/csu/abi-note.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/csu/init.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/elf/elf.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/inet/netinet/in.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/posix/bits/types.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/unix/sysv/linux/bits/socket.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/crti.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/crtn.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/start.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
     },
     {
-      "comment": "/usr/src/debug/libcap-ng/0.8.2-r0/build/utils/<built-in>",
+      "comment": "/usr/src/debug/libcap-ng/0.8.3-r0/build/utils/<built-in>",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
     },
     {
-      "comment": "/usr/src/debug/libcap-ng/0.8.2-r0/libcap-ng-0.8.2/src/cap-ng.h",
+      "comment": "/usr/src/debug/libcap-ng/0.8.3-r0/libcap-ng-0.8.3/src/cap-ng.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
     },
     {
-      "comment": "/usr/src/debug/libcap-ng/0.8.2-r0/libcap-ng-0.8.2/utils/captest.c",
+      "comment": "/usr/src/debug/libcap-ng/0.8.3-r0/libcap-ng-0.8.3/utils/captest.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
     },
     {
       "comment": "/usr/include/bits/fcntl2.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
       "comment": "/usr/include/bits/stdio2.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
       "comment": "/usr/include/bits/struct_stat.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
       "comment": "/usr/include/bits/types.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
       "comment": "/usr/include/bits/types/FILE.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
       "comment": "/usr/include/bits/types/struct_FILE.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
       "comment": "/usr/include/bits/types/struct_timespec.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
       "comment": "/usr/include/errno.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
       "comment": "/usr/include/ftw.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
       "comment": "/usr/include/linux/rseq.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
       "comment": "/usr/include/stdio.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
       "comment": "/usr/include/stdlib.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
       "comment": "/usr/include/string.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
       "comment": "/usr/include/sys/stat.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
       "comment": "/usr/include/unistd.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
-      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.3.0/include/stddef.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/sockaddr.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/stdint-intn.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/stdint-uintn.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/csu/abi-note.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/csu/init.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/elf/elf.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/inet/netinet/in.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/posix/bits/types.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/unix/sysv/linux/bits/socket.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/crti.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/crtn.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/start.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
-      "comment": "/usr/src/debug/libcap-ng/0.8.2-r0/build/utils/<built-in>",
+      "comment": "/usr/src/debug/libcap-ng/0.8.3-r0/build/utils/<built-in>",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
-      "comment": "/usr/src/debug/libcap-ng/0.8.2-r0/libcap-ng-0.8.2/src/cap-ng.h",
+      "comment": "/usr/src/debug/libcap-ng/0.8.3-r0/libcap-ng-0.8.3/src/cap-ng.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
-      "comment": "/usr/src/debug/libcap-ng/0.8.2-r0/libcap-ng-0.8.2/utils/filecap.c",
+      "comment": "/usr/src/debug/libcap-ng/0.8.3-r0/libcap-ng-0.8.3/utils/filecap.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-4"
     },
     {
       "comment": "/usr/include/bits/dirent.h",
@@ -601,7 +601,7 @@
       "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-3"
     },
     {
-      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.3.0/include/stddef.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-3"
@@ -679,31 +679,31 @@
       "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-3"
     },
     {
-      "comment": "/usr/src/debug/libcap-ng/0.8.2-r0/build/utils/<built-in>",
+      "comment": "/usr/src/debug/libcap-ng/0.8.3-r0/build/utils/<built-in>",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-3"
     },
     {
-      "comment": "/usr/src/debug/libcap-ng/0.8.2-r0/libcap-ng-0.8.2/src/cap-ng.h",
+      "comment": "/usr/src/debug/libcap-ng/0.8.3-r0/libcap-ng-0.8.3/src/cap-ng.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-3"
     },
     {
-      "comment": "/usr/src/debug/libcap-ng/0.8.2-r0/libcap-ng-0.8.2/utils/netcap.c",
+      "comment": "/usr/src/debug/libcap-ng/0.8.3-r0/libcap-ng-0.8.3/utils/netcap.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-3"
     },
     {
-      "comment": "/usr/src/debug/libcap-ng/0.8.2-r0/libcap-ng-0.8.2/utils/proc-llist.c",
+      "comment": "/usr/src/debug/libcap-ng/0.8.3-r0/libcap-ng-0.8.3/utils/proc-llist.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-3"
     },
     {
-      "comment": "/usr/src/debug/libcap-ng/0.8.2-r0/libcap-ng-0.8.2/utils/proc-llist.h",
+      "comment": "/usr/src/debug/libcap-ng/0.8.3-r0/libcap-ng-0.8.3/utils/proc-llist.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-3"
@@ -712,223 +712,223 @@
       "comment": "/usr/include/bits/dirent.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/include/bits/fcntl2.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/include/bits/stdio2.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/include/bits/string_fortified.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/include/bits/struct_stat.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/include/bits/types.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/include/bits/types/FILE.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/include/bits/types/struct_FILE.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/include/bits/types/struct_timespec.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/include/bits/unistd.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/include/dirent.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/include/errno.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/include/linux/rseq.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/include/pwd.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/include/stdio.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/include/stdio_ext.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/include/stdlib.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/include/string.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/include/sys/stat.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/include/sys/types.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/include/unistd.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
-      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.2.0/include/stddef.h",
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.3.0/include/stddef.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/sockaddr.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/stdint-intn.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/stdint-uintn.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/csu/abi-note.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/csu/init.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/elf/elf.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/inet/netinet/in.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/posix/bits/types.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/unix/sysv/linux/bits/socket.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/crti.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/crtn.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
       "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/start.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
-      "comment": "/usr/src/debug/libcap-ng/0.8.2-r0/build/utils/<built-in>",
+      "comment": "/usr/src/debug/libcap-ng/0.8.3-r0/build/utils/<built-in>",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
-      "comment": "/usr/src/debug/libcap-ng/0.8.2-r0/libcap-ng-0.8.2/src/cap-ng.h",
+      "comment": "/usr/src/debug/libcap-ng/0.8.3-r0/libcap-ng-0.8.3/src/cap-ng.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     },
     {
-      "comment": "/usr/src/debug/libcap-ng/0.8.2-r0/libcap-ng-0.8.2/utils/pscap.c",
+      "comment": "/usr/src/debug/libcap-ng/0.8.3-r0/libcap-ng-0.8.3/utils/pscap.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-2"
+      "spdxElementId": "SPDXRef-PackagedFile-libcap-ng-bin-1"
     }
   ],
   "spdxVersion": "SPDX-2.2"
