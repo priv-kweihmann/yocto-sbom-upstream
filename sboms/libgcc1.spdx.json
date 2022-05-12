@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
     "comment": "This document was created by analyzing packages created during the build.",
-    "created": "2022-05-05T11:28:05Z",
+    "created": "2022-05-12T11:24:50Z",
     "creators": [
       "Tool: OpenEmbedded Core create-spdx.bbclass",
       "Organization: OpenEmbedded ()",
@@ -16,7 +16,7 @@
     {
       "checksum": {
         "algorithm": "SHA1",
-        "checksumValue": "b8d6ce3530ea9ff28e3d4630e9d222e45889cc47"
+        "checksumValue": "b1d7b2791414acbde51aeba2dad2ac19af6ad12b"
       },
       "externalDocumentId": "DocumentRef-recipe-libgcc",
       "spdxDocument": "http://spdx.org/spdxdoc/recipe-libgcc-df9557c5-65f1-57eb-9bd9-76620c52cf82"
@@ -28,11 +28,11 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "e1bd6bfff12458baedc857a8442f476e4a129a1d"
+          "checksumValue": "962bbe72580e7cc39b0ddb3deb3564ea63e496d8"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "b68f2cda05f6eb3a49e2ad0b5d8bcbf884f92991d57f82bc99528b444a87caf1"
+          "checksumValue": "03978278130c2be92cca6848d7ea8f9867886ed3e6cfe51f4542bc027be52641"
         }
       ],
       "copyrightText": "NOASSERTION",
@@ -63,9 +63,9 @@
       "name": "libgcc1",
       "packageSupplier": "Organization: OpenEmbedded ()",
       "packageVerificationCode": {
-        "packageVerificationCodeValue": "6af21aa46359c62fbcc1344f1f63b3fdf3b5c07b"
+        "packageVerificationCodeValue": "317ee2a888a544cd69297a22e960623a4fe3f3be"
       },
-      "versionInfo": "11.3.0"
+      "versionInfo": "12.1.0"
     }
   ],
   "relationships": [
@@ -92,6 +92,12 @@
     },
     {
       "comment": "/usr/include/bits/sigcontext.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-intn.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
@@ -145,6 +151,12 @@
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
+      "comment": "/usr/include/dlfcn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
+    },
+    {
       "comment": "/usr/include/elf.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
@@ -181,19 +193,19 @@
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.3.0/include/cetintrin.h",
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/12.1.0/include/cetintrin.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.3.0/include/cpuid.h",
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/12.1.0/include/cpuid.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.3.0/include/stddef.h",
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/12.1.0/include/stddef.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
@@ -211,343 +223,439 @@
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/src/debug/libgcc/11.3.0-r0/gcc-11.3.0/build.x86_64-poky-linux.x86_64-poky-linux/libgcc/<built-in>",
+      "comment": "/usr/src/debug/libgcc/12.1.0-r0/gcc-12.1.0/build.x86_64-poky-linux.x86_64-poky-linux/libgcc/<built-in>",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/src/debug/libgcc/11.3.0-r0/gcc-11.3.0/build.x86_64-poky-linux.x86_64-poky-linux/libgcc/enable-execute-stack.c",
+      "comment": "/usr/src/debug/libgcc/12.1.0-r0/gcc-12.1.0/build.x86_64-poky-linux.x86_64-poky-linux/libgcc/enable-execute-stack.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/src/debug/libgcc/11.3.0-r0/gcc-11.3.0/build.x86_64-poky-linux.x86_64-poky-linux/libgcc/gthr-default.h",
+      "comment": "/usr/src/debug/libgcc/12.1.0-r0/gcc-12.1.0/build.x86_64-poky-linux.x86_64-poky-linux/libgcc/gthr-default.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/src/debug/libgcc/11.3.0-r0/gcc-11.3.0/build.x86_64-poky-linux.x86_64-poky-linux/libgcc/md-unwind-support.h",
+      "comment": "/usr/src/debug/libgcc/12.1.0-r0/gcc-12.1.0/build.x86_64-poky-linux.x86_64-poky-linux/libgcc/md-unwind-support.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/src/debug/libgcc/11.3.0-r0/gcc-11.3.0/build.x86_64-poky-linux.x86_64-poky-linux/libgcc/sfp-machine.h",
+      "comment": "/usr/src/debug/libgcc/12.1.0-r0/gcc-12.1.0/build.x86_64-poky-linux.x86_64-poky-linux/libgcc/sfp-machine.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/src/debug/libgcc/11.3.0-r0/gcc-11.3.0/build.x86_64-poky-linux.x86_64-poky-linux/libgcc/unwind.h",
+      "comment": "/usr/src/debug/libgcc/12.1.0-r0/gcc-12.1.0/build.x86_64-poky-linux.x86_64-poky-linux/libgcc/unwind.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/gcc/common/config/i386/cpuinfo.h",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/gcc/common/config/i386/cpuinfo.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/gcc/common/config/i386/i386-cpuinfo.h",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/gcc/common/config/i386/i386-cpuinfo.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/gcc/config/i386/i386.h",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/gcc/config/i386/i386.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/include/dwarf2.def",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/include/dwarf2.def",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/config/i386/64/sfp-machine.h",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/config/i386/64/sfp-machine.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/config/i386/cpuinfo.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/config/i386/cpuinfo.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/config/i386/sfp-exceptions.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/config/i386/sfp-exceptions.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/emutls.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/emutls.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/gbl-ctors.h",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/gbl-ctors.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/libgcc2.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/libgcc2.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/libgcc2.h",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/libgcc2.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/addtf3.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/addtf3.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/divtf3.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/divtf3.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/double.h",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/double.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/eqtf2.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/eqhf2.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/extenddftf2.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/eqtf2.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/extended.h",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/extenddftf2.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/extendsftf2.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/extended.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/extendxftf2.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/extendhfdf2.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/fixtfdi.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/extendhfsf2.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/fixtfsi.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/extendhftf2.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/fixtfti.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/extendhfxf2.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/fixunstfdi.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/extendsfdf2.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/fixunstfsi.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/extendsftf2.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/fixunstfti.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/extendxftf2.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/floatditf.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/fixhfti.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/floatsitf.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/fixtfdi.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/floattitf.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/fixtfsi.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/floatunditf.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/fixtfti.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/floatunsitf.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/fixunshfti.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/floatuntitf.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/fixunstfdi.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/getf2.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/fixunstfsi.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/letf2.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/fixunstfti.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/multf3.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/floatditf.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/negtf2.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/floatsitf.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/quad.h",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/floattihf.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/single.h",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/floattitf.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/soft-fp.h",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/floatunditf.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/subtf3.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/floatunsitf.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/trunctfdf2.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/floatuntihf.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/trunctfsf2.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/floatuntitf.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/trunctfxf2.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/getf2.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/soft-fp/unordtf2.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/half.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/unwind-c.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/letf2.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/unwind-dw2-fde-dip.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/multf3.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/unwind-dw2-fde.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/negtf2.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/unwind-dw2-fde.h",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/quad.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/unwind-dw2.c",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/single.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/unwind-dw2.h",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/soft-fp.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/unwind-pe.h",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/subtf3.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
     },
     {
-      "comment": "/usr/work-shared/gcc-11.3.0-r0/gcc-11.3.0/libgcc/unwind.inc",
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/truncdfhf2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
+    },
+    {
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/truncdfsf2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
+    },
+    {
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/truncsfhf2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
+    },
+    {
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/trunctfdf2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
+    },
+    {
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/trunctfhf2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
+    },
+    {
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/trunctfsf2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
+    },
+    {
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/trunctfxf2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
+    },
+    {
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/truncxfhf2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
+    },
+    {
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/soft-fp/unordtf2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
+    },
+    {
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/unwind-c.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
+    },
+    {
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/unwind-dw2-fde-dip.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
+    },
+    {
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/unwind-dw2-fde.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
+    },
+    {
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/unwind-dw2-fde.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
+    },
+    {
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/unwind-dw2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
+    },
+    {
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/unwind-dw2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
+    },
+    {
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/unwind-pe.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"
+    },
+    {
+      "comment": "/usr/work-shared/gcc-12.1.0-r0/gcc-12.1.0/libgcc/unwind.inc",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libgcc1-1"

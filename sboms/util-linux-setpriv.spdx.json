@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
     "comment": "This document was created by analyzing packages created during the build.",
-    "created": "2022-05-05T11:46:39Z",
+    "created": "2022-05-12T11:40:27Z",
     "creators": [
       "Tool: OpenEmbedded Core create-spdx.bbclass",
       "Organization: OpenEmbedded ()",
@@ -16,7 +16,7 @@
     {
       "checksum": {
         "algorithm": "SHA1",
-        "checksumValue": "a4c19618ced8cbf5704bfb5ed59b7319bd27bbd3"
+        "checksumValue": "fb89489522e813d3fdd1f7fa98644aa8c757879d"
       },
       "externalDocumentId": "DocumentRef-recipe-util-linux",
       "spdxDocument": "http://spdx.org/spdxdoc/recipe-util-linux-03796bcc-1e40-51f7-b208-58742d376218"
@@ -28,11 +28,11 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "21de8ff5e276e3e18a2930dcd61acd25bbc8c662"
+          "checksumValue": "36850a15b51c2ad86acb4716f202bd0ee31724eb"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "e657720d33b76e791d1920209faa324f3ed5d86beb4a7851fcbd5797bcb0c33b"
+          "checksumValue": "9ce5e15d4ae8429e127fa934bd22c1411892e6679bd5133bb66ad2eeba3f32c9"
         }
       ],
       "copyrightText": "NOASSERTION",
@@ -63,9 +63,9 @@
       "name": "util-linux-setpriv",
       "packageSupplier": "Organization: OpenEmbedded ()",
       "packageVerificationCode": {
-        "packageVerificationCodeValue": "013bc5824a461b741a041216601e476627d5c8d1"
+        "packageVerificationCodeValue": "ec824a21878bc8550688c326450216bd77626401"
       },
-      "versionInfo": "2.37.4"
+      "versionInfo": "2.38"
     }
   ],
   "relationships": [
@@ -86,6 +86,12 @@
     },
     {
       "comment": "/usr/include/assert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
+    },
+    {
+      "comment": "/usr/include/bits/cpu-set.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
@@ -223,6 +229,12 @@
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
     },
     {
+      "comment": "/usr/include/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
+    },
+    {
       "comment": "/usr/include/grp.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
@@ -307,6 +319,12 @@
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
     },
     {
+      "comment": "/usr/include/sys/sendfile.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
+    },
+    {
       "comment": "/usr/include/sys/stat.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
@@ -314,6 +332,12 @@
     },
     {
       "comment": "/usr/include/sys/statfs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
+    },
+    {
+      "comment": "/usr/include/sys/sysmacros.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
@@ -337,13 +361,13 @@
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
     },
     {
-      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.3.0/include/stdarg.h",
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/12.1.0/include/stdarg.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
     },
     {
-      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.3.0/include/stddef.h",
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/12.1.0/include/stddef.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
@@ -439,109 +463,151 @@
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/build/<built-in>",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/build/<built-in>",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/all-io.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/all-io.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/c.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/c.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/caputils.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/caputils.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/cctype.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/cctype.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/closestream.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/closestream.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/env.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/cpuset.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/fileutils.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/debug.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/optutils.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/debugobj.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/procutils.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/env.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/signames.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/fileutils.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/strutils.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/optutils.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/xalloc.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/path.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/lib/caputils.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/procfs.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/lib/procutils.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/signames.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/lib/signames.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/strutils.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/lib/strutils.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/xalloc.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/sys-utils/setpriv.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/caputils.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/cpuset.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/fileutils.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/path.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/procfs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/signames.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/strutils.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/sys-utils/setpriv.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-setpriv-1"

@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
     "comment": "This document was created by analyzing packages created during the build.",
-    "created": "2022-05-05T11:46:39Z",
+    "created": "2022-05-12T11:40:27Z",
     "creators": [
       "Tool: OpenEmbedded Core create-spdx.bbclass",
       "Organization: OpenEmbedded ()",
@@ -16,7 +16,7 @@
     {
       "checksum": {
         "algorithm": "SHA1",
-        "checksumValue": "a4c19618ced8cbf5704bfb5ed59b7319bd27bbd3"
+        "checksumValue": "fb89489522e813d3fdd1f7fa98644aa8c757879d"
       },
       "externalDocumentId": "DocumentRef-recipe-util-linux",
       "spdxDocument": "http://spdx.org/spdxdoc/recipe-util-linux-03796bcc-1e40-51f7-b208-58742d376218"
@@ -28,11 +28,11 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "31b7e095136f6bd37332eb6e01c6cfc96b7dbe84"
+          "checksumValue": "6a9077469dbef24e5f32ccb470160efe8b93e709"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "6b817159f989c54414dff65e00e8326180ef0cfa9fdb3ef51262118339bfbe79"
+          "checksumValue": "dd13ce6bd1cc5baffae586353a7b19383cbf91d7a9d1527b32130a3d0bf53dcd"
         }
       ],
       "copyrightText": "NOASSERTION",
@@ -63,9 +63,9 @@
       "name": "util-linux-rename",
       "packageSupplier": "Organization: OpenEmbedded ()",
       "packageVerificationCode": {
-        "packageVerificationCodeValue": "2276fd6e0464ab6821cbed5e0df0dd674324b641"
+        "packageVerificationCodeValue": "7b8327414c7f017f6253f25dd0e793ea52bfc54c"
       },
-      "versionInfo": "2.37.4"
+      "versionInfo": "2.38"
     }
   ],
   "relationships": [
@@ -83,6 +83,12 @@
       "relatedSpdxElement": "SPDXRef-PackagedFile-util-linux-rename-1",
       "relationshipType": "CONTAINS",
       "spdxElementId": "SPDXRef-Package-util-linux-rename"
+    },
+    {
+      "comment": "/usr/include/assert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-rename-1"
     },
     {
       "comment": "/usr/include/bits/getopt_core.h",
@@ -223,7 +229,7 @@
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-rename-1"
     },
     {
-      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.3.0/include/stddef.h",
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/12.1.0/include/stddef.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-rename-1"
@@ -319,25 +325,37 @@
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-rename-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/build/<built-in>",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/build/<built-in>",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-rename-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/closestream.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/cctype.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-rename-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/xalloc.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/closestream.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-rename-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/misc-utils/rename.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/optutils.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-rename-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/xalloc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-rename-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/misc-utils/rename.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-rename-1"

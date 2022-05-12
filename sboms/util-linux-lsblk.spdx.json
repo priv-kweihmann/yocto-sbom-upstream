@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
     "comment": "This document was created by analyzing packages created during the build.",
-    "created": "2022-05-05T11:46:39Z",
+    "created": "2022-05-12T11:40:27Z",
     "creators": [
       "Tool: OpenEmbedded Core create-spdx.bbclass",
       "Organization: OpenEmbedded ()",
@@ -16,7 +16,7 @@
     {
       "checksum": {
         "algorithm": "SHA1",
-        "checksumValue": "a4c19618ced8cbf5704bfb5ed59b7319bd27bbd3"
+        "checksumValue": "fb89489522e813d3fdd1f7fa98644aa8c757879d"
       },
       "externalDocumentId": "DocumentRef-recipe-util-linux",
       "spdxDocument": "http://spdx.org/spdxdoc/recipe-util-linux-03796bcc-1e40-51f7-b208-58742d376218"
@@ -28,11 +28,11 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "d0d483f3efdd4684fa8e00c26ba24f4d9b96f0e2"
+          "checksumValue": "31c1d64cc116ee121d62f69de341f5932e0e9b28"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "d83efb5e4ed0b6fa9330f6275e55751f3c66dc8f56bfa52d6906e2da4dd513c6"
+          "checksumValue": "8e8bfab663f5529ea4da7407868c72ef9cb8ca231b7ea53d6092bca26d7052c5"
         }
       ],
       "copyrightText": "NOASSERTION",
@@ -63,9 +63,9 @@
       "name": "util-linux-lsblk",
       "packageSupplier": "Organization: OpenEmbedded ()",
       "packageVerificationCode": {
-        "packageVerificationCodeValue": "d2df34f3afbee27c424ce18969b71d655a980854"
+        "packageVerificationCodeValue": "07bede8022a0a473b8b188d9333162219ca7b4ec"
       },
-      "versionInfo": "2.37.4"
+      "versionInfo": "2.38"
     }
   ],
   "relationships": [
@@ -83,6 +83,12 @@
       "relatedSpdxElement": "SPDXRef-PackagedFile-util-linux-lsblk-1",
       "relationshipType": "CONTAINS",
       "spdxElementId": "SPDXRef-Package-util-linux-lsblk"
+    },
+    {
+      "comment": "/usr/include/asm-generic/int-ll64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
       "comment": "/usr/include/assert.h",
@@ -175,6 +181,18 @@
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
+      "comment": "/usr/include/bits/types/__mbstate_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/mbstate_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
+    },
+    {
       "comment": "/usr/include/bits/types/struct_FILE.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
@@ -199,7 +217,19 @@
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
+      "comment": "/usr/include/bits/types/wint_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
+    },
+    {
       "comment": "/usr/include/bits/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
+    },
+    {
+      "comment": "/usr/include/bits/wctype-wchar.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
@@ -254,6 +284,12 @@
     },
     {
       "comment": "/usr/include/libintl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
+    },
+    {
+      "comment": "/usr/include/linux/blkzoned.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
@@ -379,13 +415,19 @@
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.3.0/include/stdarg.h",
+      "comment": "/usr/include/wchar.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.3.0/include/stddef.h",
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/12.1.0/include/stdarg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/12.1.0/include/stddef.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
@@ -481,241 +523,253 @@
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/build/<built-in>",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/build/<built-in>",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/build/libblkid/src/blkid.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/build/libblkid/src/blkid.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/build/libmount/src/libmount.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/build/libmount/src/libmount.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/build/libsmartcols/src/libsmartcols.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/build/libsmartcols/src/libsmartcols.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/all-io.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/all-io.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/blkdev.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/blkdev.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/buffer.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/buffer.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/c.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/c.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/canonicalize.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/canonicalize.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/cctype.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/cctype.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/closestream.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/closestream.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/cpuset.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/cpuset.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/debug.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/debug.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/debugobj.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/debugobj.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/fileutils.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/fileutils.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/linux_version.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/linux_version.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/list.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/list.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/loopdev.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/loopdev.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/mangle.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/mangle.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/optutils.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/mbsalign.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/path.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/optutils.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/strutils.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/path.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/sysfs.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/strutils.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/xalloc.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/sysfs.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/lib/blkdev.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/xalloc.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/lib/buffer.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/blkdev.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/lib/canonicalize.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/buffer.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/lib/cpuset.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/canonicalize.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/lib/fileutils.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/cpuset.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/lib/linux_version.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/fileutils.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/lib/loopdev.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/linux_version.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/lib/mangle.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/loopdev.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/lib/path.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/mangle.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/lib/strutils.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/mbsalign.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/lib/sysfs.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/path.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/misc-utils/lsblk-devtree.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/strutils.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/misc-utils/lsblk-mnt.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/sysfs.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/misc-utils/lsblk-properties.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/misc-utils/lsblk-devtree.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/misc-utils/lsblk.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/misc-utils/lsblk-mnt.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/misc-utils/lsblk.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/misc-utils/lsblk-properties.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/misc-utils/lsblk.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/misc-utils/lsblk.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-lsblk-1"

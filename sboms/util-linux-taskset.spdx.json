@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
     "comment": "This document was created by analyzing packages created during the build.",
-    "created": "2022-05-05T11:46:39Z",
+    "created": "2022-05-12T11:40:27Z",
     "creators": [
       "Tool: OpenEmbedded Core create-spdx.bbclass",
       "Organization: OpenEmbedded ()",
@@ -16,7 +16,7 @@
     {
       "checksum": {
         "algorithm": "SHA1",
-        "checksumValue": "a4c19618ced8cbf5704bfb5ed59b7319bd27bbd3"
+        "checksumValue": "fb89489522e813d3fdd1f7fa98644aa8c757879d"
       },
       "externalDocumentId": "DocumentRef-recipe-util-linux",
       "spdxDocument": "http://spdx.org/spdxdoc/recipe-util-linux-03796bcc-1e40-51f7-b208-58742d376218"
@@ -28,11 +28,11 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "83094cd6cc5c45699a48d8386fc76a9461d19c97"
+          "checksumValue": "56c448aa68f1d8fbfb82088892be8e99907f3a6b"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "53de40afa114dfa976e83908765025377d8e0beeb10ab451dd8942c4eb3b2249"
+          "checksumValue": "0be61e0102e6e04bd2d810386c1ee08caaa4a4b969316ffd1601bb9def650321"
         }
       ],
       "copyrightText": "NOASSERTION",
@@ -63,9 +63,9 @@
       "name": "util-linux-taskset",
       "packageSupplier": "Organization: OpenEmbedded ()",
       "packageVerificationCode": {
-        "packageVerificationCodeValue": "a2944d6183602f1bf3485c2b67569a464b1fbe18"
+        "packageVerificationCodeValue": "009bacb5e53dfa025fd21d48aff29e0cfbe90a9b"
       },
-      "versionInfo": "2.37.4"
+      "versionInfo": "2.38"
     }
   ],
   "relationships": [
@@ -223,6 +223,12 @@
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"
     },
     {
+      "comment": "/usr/include/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"
+    },
+    {
       "comment": "/usr/include/inttypes.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
@@ -277,6 +283,12 @@
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"
     },
     {
+      "comment": "/usr/include/sys/sendfile.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"
+    },
+    {
       "comment": "/usr/include/sys/stat.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
@@ -284,6 +296,12 @@
     },
     {
       "comment": "/usr/include/sys/statfs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"
+    },
+    {
+      "comment": "/usr/include/sys/sysmacros.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"
@@ -307,13 +325,13 @@
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"
     },
     {
-      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.3.0/include/stdarg.h",
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/12.1.0/include/stdarg.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"
     },
     {
-      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.3.0/include/stddef.h",
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/12.1.0/include/stddef.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"
@@ -409,79 +427,109 @@
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/build/<built-in>",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/build/<built-in>",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/all-io.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/all-io.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/c.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/c.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/closestream.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/closestream.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/cpuset.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/cpuset.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/fileutils.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/debug.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/procutils.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/debugobj.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/strutils.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/fileutils.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/xalloc.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/path.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/lib/cpuset.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/procfs.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/lib/procutils.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/strutils.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/lib/strutils.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/xalloc.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/schedutils/taskset.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/cpuset.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/fileutils.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/path.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/procfs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/strutils.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/schedutils/taskset.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-taskset-1"

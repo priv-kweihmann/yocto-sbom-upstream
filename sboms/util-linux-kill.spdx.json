@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
     "comment": "This document was created by analyzing packages created during the build.",
-    "created": "2022-05-05T11:46:39Z",
+    "created": "2022-05-12T11:40:27Z",
     "creators": [
       "Tool: OpenEmbedded Core create-spdx.bbclass",
       "Organization: OpenEmbedded ()",
@@ -16,7 +16,7 @@
     {
       "checksum": {
         "algorithm": "SHA1",
-        "checksumValue": "a4c19618ced8cbf5704bfb5ed59b7319bd27bbd3"
+        "checksumValue": "fb89489522e813d3fdd1f7fa98644aa8c757879d"
       },
       "externalDocumentId": "DocumentRef-recipe-util-linux",
       "spdxDocument": "http://spdx.org/spdxdoc/recipe-util-linux-03796bcc-1e40-51f7-b208-58742d376218"
@@ -28,11 +28,11 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "b38daec88b7294c634c5eef8b648d69b96ff3c7e"
+          "checksumValue": "38524c687ae2c869cb07cac7b80ed61d4935efd0"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "104e08221eb59658cb4375e8dcb63b0617eb428a772608463d41911984addbfa"
+          "checksumValue": "51b168f7fd3cfd696826839990e888d687c64c7f4a378ef0744e25c1c29c38a4"
         }
       ],
       "copyrightText": "NOASSERTION",
@@ -63,9 +63,9 @@
       "name": "util-linux-kill",
       "packageSupplier": "Organization: OpenEmbedded ()",
       "packageVerificationCode": {
-        "packageVerificationCodeValue": "06475b030c0bc03710cf5400dd3bfea138973461"
+        "packageVerificationCodeValue": "f532c232d2d78f73d1eee2da3a247d98d991fa01"
       },
-      "versionInfo": "2.37.4"
+      "versionInfo": "2.38"
     }
   ],
   "relationships": [
@@ -86,6 +86,12 @@
     },
     {
       "comment": "/usr/include/assert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
+    },
+    {
+      "comment": "/usr/include/bits/cpu-set.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
@@ -235,6 +241,12 @@
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
     },
     {
+      "comment": "/usr/include/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
+    },
+    {
       "comment": "/usr/include/inttypes.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
@@ -307,6 +319,12 @@
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
     },
     {
+      "comment": "/usr/include/sys/sendfile.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
+    },
+    {
       "comment": "/usr/include/sys/stat.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
@@ -314,6 +332,12 @@
     },
     {
       "comment": "/usr/include/sys/statfs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
+    },
+    {
+      "comment": "/usr/include/sys/sysmacros.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
@@ -337,13 +361,13 @@
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
     },
     {
-      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.3.0/include/stdarg.h",
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/12.1.0/include/stdarg.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
     },
     {
-      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/11.3.0/include/stddef.h",
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/12.1.0/include/stddef.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
@@ -439,103 +463,145 @@
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/build/<built-in>",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/build/<built-in>",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/all-io.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/all-io.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/c.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/c.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/closestream.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/closestream.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/fileutils.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/cpuset.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/list.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/debug.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/pidfd-utils.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/debugobj.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/procutils.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/fileutils.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/signames.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/list.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/strutils.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/path.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/ttyutils.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/pidfd-utils.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/include/xalloc.h",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/procfs.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/lib/procutils.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/signames.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/lib/signames.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/strutils.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/lib/strutils.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/ttyutils.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/lib/ttyutils.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/include/xalloc.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
     },
     {
-      "comment": "/usr/src/debug/util-linux/2.37.4-r0/util-linux-2.37.4/misc-utils/kill.c",
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/cpuset.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/fileutils.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/path.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/procfs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/signames.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/strutils.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/lib/ttyutils.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.38-r0/util-linux-2.38/misc-utils/kill.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-util-linux-kill-1"
