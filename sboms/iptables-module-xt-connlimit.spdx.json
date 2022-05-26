@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
     "comment": "This document was created by analyzing packages created during the build.",
-    "created": "2022-05-19T13:47:31Z",
+    "created": "2022-05-26T12:36:21Z",
     "creators": [
       "Tool: OpenEmbedded Core create-spdx.bbclass",
       "Organization: OpenEmbedded ()",
@@ -16,7 +16,7 @@
     {
       "checksum": {
         "algorithm": "SHA1",
-        "checksumValue": "59fd011277ad4a542ebd83deeceeabaed9aad045"
+        "checksumValue": "0028a9b3087b26d1008f3267b034d99d6ebd3167"
       },
       "externalDocumentId": "DocumentRef-recipe-iptables",
       "spdxDocument": "http://spdx.org/spdxdoc/recipe-iptables-a4050920-0c02-5208-93b0-f3bf350f9920"
@@ -28,11 +28,11 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "780bba5784efb2be567241cbd63c4e0862bb9343"
+          "checksumValue": "528e7e1862edfe010c682107f1d223ec9a784a81"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "6123df4cc70e2b870a8641b4434308272f574b18bbff4653a85b245a8bf96d34"
+          "checksumValue": "4dde092b3d8a872a105aabe77ca9fd582f066c0b6463ba8230f2d7e91b951a5c"
         }
       ],
       "copyrightText": "NOASSERTION",
@@ -63,9 +63,9 @@
       "name": "iptables-module-xt-connlimit",
       "packageSupplier": "Organization: OpenEmbedded ()",
       "packageVerificationCode": {
-        "packageVerificationCodeValue": "6892981b1c5b0795f92532608c1cffeda278509c"
+        "packageVerificationCodeValue": "f4735638799ea684b4edcbd8534a53a2948d2c4b"
       },
-      "versionInfo": "1.8.7"
+      "versionInfo": "1.8.8"
     }
   ],
   "relationships": [
@@ -85,6 +85,12 @@
       "spdxElementId": "SPDXRef-Package-iptables-module-xt-connlimit"
     },
     {
+      "comment": "/usr/include/arpa/inet.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-connlimit-1"
+    },
+    {
       "comment": "/usr/include/asm-generic/int-ll64.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
@@ -92,6 +98,12 @@
     },
     {
       "comment": "/usr/include/bits/byteswap.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-connlimit-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-connlimit-1"
@@ -145,43 +157,43 @@
       "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-connlimit-1"
     },
     {
-      "comment": "/usr/src/debug/iptables/1.8.7-r0/build/extensions/<built-in>",
+      "comment": "/usr/src/debug/iptables/1.8.8-r0/build/extensions/<built-in>",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-connlimit-1"
     },
     {
-      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/extensions/libxt_connlimit.c",
+      "comment": "/usr/src/debug/iptables/1.8.8-r0/iptables-1.8.8/extensions/libxt_connlimit.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-connlimit-1"
     },
     {
-      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/linux/netfilter.h",
+      "comment": "/usr/src/debug/iptables/1.8.8-r0/iptables-1.8.8/include/linux/netfilter.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-connlimit-1"
     },
     {
-      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/linux/netfilter/x_tables.h",
+      "comment": "/usr/src/debug/iptables/1.8.8-r0/iptables-1.8.8/include/linux/netfilter/x_tables.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-connlimit-1"
     },
     {
-      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/linux/netfilter/xt_connlimit.h",
+      "comment": "/usr/src/debug/iptables/1.8.8-r0/iptables-1.8.8/include/linux/netfilter/xt_connlimit.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-connlimit-1"
     },
     {
-      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/linux/types.h",
+      "comment": "/usr/src/debug/iptables/1.8.8-r0/iptables-1.8.8/include/linux/types.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-connlimit-1"
     },
     {
-      "comment": "/usr/src/debug/iptables/1.8.7-r0/iptables-1.8.7/include/xtables.h",
+      "comment": "/usr/src/debug/iptables/1.8.8-r0/iptables-1.8.8/include/xtables.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-iptables-module-xt-connlimit-1"
