@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
     "comment": "This document was created by analyzing packages created during the build.",
-    "created": "2022-07-07T12:40:41Z",
+    "created": "2022-07-14T12:51:25Z",
     "creators": [
       "Tool: OpenEmbedded Core create-spdx.bbclass",
       "Organization: OpenEmbedded ()",
@@ -16,7 +16,7 @@
     {
       "checksum": {
         "algorithm": "SHA1",
-        "checksumValue": "390deda0666a1e5b92e53dec23073b98dd765f94"
+        "checksumValue": "c77ce1c3764e27119ce07466c285c5c07c192af7"
       },
       "externalDocumentId": "DocumentRef-recipe-kmod",
       "spdxDocument": "http://spdx.org/spdxdoc/recipe-kmod-20bdd709-d6c7-5444-8085-cc59b1bedf3f"
@@ -28,15 +28,15 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "8d5c6e27196a031d524c445e5dd11d365a02f3b1"
+          "checksumValue": "6369e2e346cb85c51ab37a7e20b5b8b70a1b1411"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "e6d17c24e24111c49c2d5414ff2d6f2c5c144f6ac65e8c37d72f44c814202f7f"
+          "checksumValue": "ef9f7f634083b86af68ceb4282a6586753cd975e1631d44bd42937c7f6f396e9"
         }
       ],
       "copyrightText": "NOASSERTION",
-      "fileName": "usr/lib/libkmod.so.2.3.7",
+      "fileName": "usr/lib/libkmod.so.2.4.0",
       "fileTypes": [
         "BINARY"
       ],
@@ -63,9 +63,9 @@
       "name": "libkmod2",
       "packageSupplier": "Organization: OpenEmbedded ()",
       "packageVerificationCode": {
-        "packageVerificationCodeValue": "0ff9747f8d35eeff9f11875f0252ee5ba395617b"
+        "packageVerificationCodeValue": "16e5cea9e3e68bddb61f55b801f290e652d51ceb"
       },
-      "versionInfo": "29"
+      "versionInfo": "30"
     }
   ],
   "relationships": [
@@ -170,6 +170,12 @@
     },
     {
       "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/clockid_t.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
@@ -283,6 +289,12 @@
       "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
     },
     {
+      "comment": "/usr/include/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
+    },
+    {
       "comment": "/usr/include/unistd.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
@@ -325,145 +337,145 @@
       "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
     },
     {
-      "comment": "/usr/src/debug/kmod/29-r0/build/<built-in>",
+      "comment": "/usr/src/debug/kmod/30-r0/build/<built-in>",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
     },
     {
-      "comment": "/usr/src/debug/kmod/29-r0/git/libkmod/libkmod-builtin.c",
+      "comment": "/usr/src/debug/kmod/30-r0/git/libkmod/libkmod-builtin.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
     },
     {
-      "comment": "/usr/src/debug/kmod/29-r0/git/libkmod/libkmod-config.c",
+      "comment": "/usr/src/debug/kmod/30-r0/git/libkmod/libkmod-config.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
     },
     {
-      "comment": "/usr/src/debug/kmod/29-r0/git/libkmod/libkmod-elf.c",
+      "comment": "/usr/src/debug/kmod/30-r0/git/libkmod/libkmod-elf.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
     },
     {
-      "comment": "/usr/src/debug/kmod/29-r0/git/libkmod/libkmod-file.c",
+      "comment": "/usr/src/debug/kmod/30-r0/git/libkmod/libkmod-file.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
     },
     {
-      "comment": "/usr/src/debug/kmod/29-r0/git/libkmod/libkmod-index.c",
+      "comment": "/usr/src/debug/kmod/30-r0/git/libkmod/libkmod-index.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
     },
     {
-      "comment": "/usr/src/debug/kmod/29-r0/git/libkmod/libkmod-index.h",
+      "comment": "/usr/src/debug/kmod/30-r0/git/libkmod/libkmod-index.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
     },
     {
-      "comment": "/usr/src/debug/kmod/29-r0/git/libkmod/libkmod-internal.h",
+      "comment": "/usr/src/debug/kmod/30-r0/git/libkmod/libkmod-internal.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
     },
     {
-      "comment": "/usr/src/debug/kmod/29-r0/git/libkmod/libkmod-list.c",
+      "comment": "/usr/src/debug/kmod/30-r0/git/libkmod/libkmod-list.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
     },
     {
-      "comment": "/usr/src/debug/kmod/29-r0/git/libkmod/libkmod-module.c",
+      "comment": "/usr/src/debug/kmod/30-r0/git/libkmod/libkmod-module.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
     },
     {
-      "comment": "/usr/src/debug/kmod/29-r0/git/libkmod/libkmod-signature.c",
+      "comment": "/usr/src/debug/kmod/30-r0/git/libkmod/libkmod-signature.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
     },
     {
-      "comment": "/usr/src/debug/kmod/29-r0/git/libkmod/libkmod.c",
+      "comment": "/usr/src/debug/kmod/30-r0/git/libkmod/libkmod.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
     },
     {
-      "comment": "/usr/src/debug/kmod/29-r0/git/libkmod/libkmod.h",
+      "comment": "/usr/src/debug/kmod/30-r0/git/libkmod/libkmod.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
     },
     {
-      "comment": "/usr/src/debug/kmod/29-r0/git/shared/array.c",
+      "comment": "/usr/src/debug/kmod/30-r0/git/shared/array.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
     },
     {
-      "comment": "/usr/src/debug/kmod/29-r0/git/shared/array.h",
+      "comment": "/usr/src/debug/kmod/30-r0/git/shared/array.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
     },
     {
-      "comment": "/usr/src/debug/kmod/29-r0/git/shared/hash.c",
+      "comment": "/usr/src/debug/kmod/30-r0/git/shared/hash.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
     },
     {
-      "comment": "/usr/src/debug/kmod/29-r0/git/shared/hash.h",
+      "comment": "/usr/src/debug/kmod/30-r0/git/shared/hash.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
     },
     {
-      "comment": "/usr/src/debug/kmod/29-r0/git/shared/missing.h",
+      "comment": "/usr/src/debug/kmod/30-r0/git/shared/missing.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
     },
     {
-      "comment": "/usr/src/debug/kmod/29-r0/git/shared/scratchbuf.c",
+      "comment": "/usr/src/debug/kmod/30-r0/git/shared/scratchbuf.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
     },
     {
-      "comment": "/usr/src/debug/kmod/29-r0/git/shared/scratchbuf.h",
+      "comment": "/usr/src/debug/kmod/30-r0/git/shared/scratchbuf.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
     },
     {
-      "comment": "/usr/src/debug/kmod/29-r0/git/shared/strbuf.c",
+      "comment": "/usr/src/debug/kmod/30-r0/git/shared/strbuf.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
     },
     {
-      "comment": "/usr/src/debug/kmod/29-r0/git/shared/strbuf.h",
+      "comment": "/usr/src/debug/kmod/30-r0/git/shared/strbuf.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
     },
     {
-      "comment": "/usr/src/debug/kmod/29-r0/git/shared/util.c",
+      "comment": "/usr/src/debug/kmod/30-r0/git/shared/util.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
     },
     {
-      "comment": "/usr/src/debug/kmod/29-r0/git/shared/util.h",
+      "comment": "/usr/src/debug/kmod/30-r0/git/shared/util.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libkmod2-1"
