@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-07-28T13:01:45Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/kernel-module-v4l2-dv-timings-5.15.54-yocto-standard-776f7744-8e04-56bc-8573-e6717e6f5998",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8e24d118f7222d08354ca67a90617469330d2ccb"
+      },
+      "externalDocumentId": "DocumentRef-recipe-linux-yocto",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-linux-yocto-96d5f18f-835e-5fa6-85f3-0916c0b073e3"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-kernel-module-v4l2-dv-timings-5.15.54-yocto-standard-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "45a07fc5d36d9cf91bd9695444bf0f8e9032fa36"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "651150881d77f1a0d53cff61778c63bf7369a4a9114d0c021e62e2fc38fb7c36"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "lib/modules/5.15.54-yocto-standard/kernel/drivers/media/v4l2-core/v4l2-dv-timings.ko",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "kernel-module-v4l2-dv-timings-5.15.54-yocto-standard",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-kernel-module-v4l2-dv-timings-5.15.54-yocto-standard",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-kernel-module-v4l2-dv-timings-5.15.54-yocto-standard-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "kernel-module-v4l2-dv-timings-5.15.54-yocto-standard",
+      "packageSupplier": "Organization: OpenEmbedded ()",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "ba0adb6f9f8b64c9d9639d6b5e1115afb4f6462d"
+      },
+      "versionInfo": "5.15.54+gitAUTOINC+0e3a81a5ae_a40d2daf27"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-linux-yocto:SPDXRef-Recipe-linux-yocto",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-kernel-module-v4l2-dv-timings-5.15.54-yocto-standard"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-kernel-module-v4l2-dv-timings-5.15.54-yocto-standard",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-kernel-module-v4l2-dv-timings-5.15.54-yocto-standard-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-kernel-module-v4l2-dv-timings-5.15.54-yocto-standard"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

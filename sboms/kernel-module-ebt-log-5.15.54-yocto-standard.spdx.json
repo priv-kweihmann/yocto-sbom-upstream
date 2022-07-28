@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-07-28T13:01:45Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/kernel-module-ebt-log-5.15.54-yocto-standard-5ba35b57-1d28-5c23-89e5-b44a18312cc7",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8e24d118f7222d08354ca67a90617469330d2ccb"
+      },
+      "externalDocumentId": "DocumentRef-recipe-linux-yocto",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-linux-yocto-96d5f18f-835e-5fa6-85f3-0916c0b073e3"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-kernel-module-ebt-log-5.15.54-yocto-standard-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "78d1c3c0557988eeca48753036130c5933106b51"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d8d1834f996e54253eaf5a7b79a87b9d944afceec35a331b73a30e2a8f737d39"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "lib/modules/5.15.54-yocto-standard/kernel/net/bridge/netfilter/ebt_log.ko",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "kernel-module-ebt-log-5.15.54-yocto-standard",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-kernel-module-ebt-log-5.15.54-yocto-standard",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-kernel-module-ebt-log-5.15.54-yocto-standard-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "kernel-module-ebt-log-5.15.54-yocto-standard",
+      "packageSupplier": "Organization: OpenEmbedded ()",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "2c64b0de10f5f9d21639434d3f39c26b0018631a"
+      },
+      "versionInfo": "5.15.54+gitAUTOINC+0e3a81a5ae_a40d2daf27"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-linux-yocto:SPDXRef-Recipe-linux-yocto",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-kernel-module-ebt-log-5.15.54-yocto-standard"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-kernel-module-ebt-log-5.15.54-yocto-standard",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-kernel-module-ebt-log-5.15.54-yocto-standard-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-kernel-module-ebt-log-5.15.54-yocto-standard"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

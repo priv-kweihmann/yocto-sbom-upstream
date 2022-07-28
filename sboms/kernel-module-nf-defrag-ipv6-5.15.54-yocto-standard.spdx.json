@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-07-28T13:01:45Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/kernel-module-nf-defrag-ipv6-5.15.54-yocto-standard-09a4d2b8-9675-54a0-833c-b5ae13364e46",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8e24d118f7222d08354ca67a90617469330d2ccb"
+      },
+      "externalDocumentId": "DocumentRef-recipe-linux-yocto",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-linux-yocto-96d5f18f-835e-5fa6-85f3-0916c0b073e3"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-kernel-module-nf-defrag-ipv6-5.15.54-yocto-standard-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c1c8481d207861c04129031916a92cc45b9b3e4c"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "37611f4e716b935ce4ea98abac3f0bf574d5e499c5ad1c639dad7254109f04c8"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "lib/modules/5.15.54-yocto-standard/kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "kernel-module-nf-defrag-ipv6-5.15.54-yocto-standard",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-kernel-module-nf-defrag-ipv6-5.15.54-yocto-standard",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-kernel-module-nf-defrag-ipv6-5.15.54-yocto-standard-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "kernel-module-nf-defrag-ipv6-5.15.54-yocto-standard",
+      "packageSupplier": "Organization: OpenEmbedded ()",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "bebfd1da712513ff24296a90f250c2646c643c4d"
+      },
+      "versionInfo": "5.15.54+gitAUTOINC+0e3a81a5ae_a40d2daf27"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-linux-yocto:SPDXRef-Recipe-linux-yocto",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-kernel-module-nf-defrag-ipv6-5.15.54-yocto-standard"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-kernel-module-nf-defrag-ipv6-5.15.54-yocto-standard",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-kernel-module-nf-defrag-ipv6-5.15.54-yocto-standard-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-kernel-module-nf-defrag-ipv6-5.15.54-yocto-standard"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

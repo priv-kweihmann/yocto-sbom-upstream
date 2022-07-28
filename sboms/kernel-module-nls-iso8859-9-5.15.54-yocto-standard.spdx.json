@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-07-28T13:01:45Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/kernel-module-nls-iso8859-9-5.15.54-yocto-standard-356026fc-3c29-56c7-8e3b-31b54dc770c9",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8e24d118f7222d08354ca67a90617469330d2ccb"
+      },
+      "externalDocumentId": "DocumentRef-recipe-linux-yocto",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-linux-yocto-96d5f18f-835e-5fa6-85f3-0916c0b073e3"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-kernel-module-nls-iso8859-9-5.15.54-yocto-standard-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c0763f245b14ea3ce1ecfdbf2e11432fdd92ca1a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4b3710e790e979716a8b77b89325e2b68c6004df6d91e48e07171f55b12b4452"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "lib/modules/5.15.54-yocto-standard/kernel/fs/nls/nls_iso8859-9.ko",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "kernel-module-nls-iso8859-9-5.15.54-yocto-standard",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-kernel-module-nls-iso8859-9-5.15.54-yocto-standard",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-kernel-module-nls-iso8859-9-5.15.54-yocto-standard-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "kernel-module-nls-iso8859-9-5.15.54-yocto-standard",
+      "packageSupplier": "Organization: OpenEmbedded ()",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "af2fc8ece0f97971d42d8c2d93f71177c77e57f9"
+      },
+      "versionInfo": "5.15.54+gitAUTOINC+0e3a81a5ae_a40d2daf27"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-linux-yocto:SPDXRef-Recipe-linux-yocto",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-kernel-module-nls-iso8859-9-5.15.54-yocto-standard"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-kernel-module-nls-iso8859-9-5.15.54-yocto-standard",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-kernel-module-nls-iso8859-9-5.15.54-yocto-standard-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-kernel-module-nls-iso8859-9-5.15.54-yocto-standard"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

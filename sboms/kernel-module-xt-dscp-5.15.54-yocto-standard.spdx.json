@@ -1,0 +1,117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-07-28T13:01:45Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/kernel-module-xt-dscp-5.15.54-yocto-standard-ba5f429b-da09-5ac6-89f7-23f84cc6a914",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8e24d118f7222d08354ca67a90617469330d2ccb"
+      },
+      "externalDocumentId": "DocumentRef-recipe-linux-yocto",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-linux-yocto-96d5f18f-835e-5fa6-85f3-0916c0b073e3"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-kernel-module-xt-dscp-5.15.54-yocto-standard-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9be270988045f2379a1b95a84b5dc0e1020aaa2c"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e24c757e68df0a35b3ad5f2d9eeb4360a8a3d7d596d5035e9e653952fa2b6251"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "lib/modules/5.15.54-yocto-standard/kernel/net/netfilter/xt_DSCP.ko",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-kernel-module-xt-dscp-5.15.54-yocto-standard-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cd54cca4be215b491518774342fe32316123bce5"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1b2aff874e64caebe1937c9637805972b07a4b39698e22a1ada5da161e4918b3"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "lib/modules/5.15.54-yocto-standard/kernel/net/netfilter/xt_dscp.ko",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "kernel-module-xt-dscp-5.15.54-yocto-standard",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-kernel-module-xt-dscp-5.15.54-yocto-standard",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-kernel-module-xt-dscp-5.15.54-yocto-standard-1",
+        "SPDXRef-PackagedFile-kernel-module-xt-dscp-5.15.54-yocto-standard-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "kernel-module-xt-dscp-5.15.54-yocto-standard",
+      "packageSupplier": "Organization: OpenEmbedded ()",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "98404426cfe4c5fb41ea7c90a49c9cc60e78a146"
+      },
+      "versionInfo": "5.15.54+gitAUTOINC+0e3a81a5ae_a40d2daf27"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-linux-yocto:SPDXRef-Recipe-linux-yocto",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-kernel-module-xt-dscp-5.15.54-yocto-standard"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-kernel-module-xt-dscp-5.15.54-yocto-standard",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-kernel-module-xt-dscp-5.15.54-yocto-standard-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-kernel-module-xt-dscp-5.15.54-yocto-standard"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-kernel-module-xt-dscp-5.15.54-yocto-standard-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-kernel-module-xt-dscp-5.15.54-yocto-standard"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

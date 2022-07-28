@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-07-28T11:43:52Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libidn2-locale-ka-ceceb1c4-af32-5cbb-bdda-32a1ec1a437f",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5dbf42a1766a8edb0a9c873ca32a6a82696a787e"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libidn2",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libidn2-84a7cdd0-ac50-5fc3-b90e-d89205bcf1b8"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libidn2-locale-ka-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e65850dd4ca03720edd73d40c8cd428fee00ec8a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "87704024f7f6920b10e0d112b5dcce7dedb22d5a1c48d98860587567033720c7"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/ka/LC_MESSAGES/libidn2.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libidn2-locale-ka",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libidn2-locale-ka",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libidn2-locale-ka-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "( GPL-2.0-or-later OR LGPL-3.0-only ) AND GPL-3.0-or-later AND Unicode-DFS-2016",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libidn2-locale-ka",
+      "packageSupplier": "Organization: OpenEmbedded ()",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "c688c4f2d55bfc71bee176a6cb2926a2fdce7932"
+      },
+      "versionInfo": "2.3.3"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libidn2:SPDXRef-Recipe-libidn2",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libidn2-locale-ka"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libidn2-locale-ka",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libidn2-locale-ka-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libidn2-locale-ka"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}
