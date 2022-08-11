@@ -1,0 +1,117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-08-11T12:49:25Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/kernel-module-xt-tcpmss-5.19.0-yocto-standard-560f2ef1-2617-5d88-90ff-b03c65d67e59",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "3982381ee4dcaf6b48e86049e10c93c536f426ad"
+      },
+      "externalDocumentId": "DocumentRef-recipe-linux-yocto",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-linux-yocto-96d5f18f-835e-5fa6-85f3-0916c0b073e3"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-kernel-module-xt-tcpmss-5.19.0-yocto-standard-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0705aabf097d9e658cdff35e4ca03d213ef1a44b"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "40e9477b8bc777ab1e3663566b010a24dee6c0e10d687655aaa00649554e359d"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "lib/modules/5.19.0-yocto-standard/kernel/net/netfilter/xt_TCPMSS.ko",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-kernel-module-xt-tcpmss-5.19.0-yocto-standard-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c451db30a916f0cc4156a5852848c3747dde7704"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c942610e7511213687513ffe2b530632d38775f1e554fa125e09d8a463383857"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "lib/modules/5.19.0-yocto-standard/kernel/net/netfilter/xt_tcpmss.ko",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "kernel-module-xt-tcpmss-5.19.0-yocto-standard",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-kernel-module-xt-tcpmss-5.19.0-yocto-standard",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-kernel-module-xt-tcpmss-5.19.0-yocto-standard-1",
+        "SPDXRef-PackagedFile-kernel-module-xt-tcpmss-5.19.0-yocto-standard-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "kernel-module-xt-tcpmss-5.19.0-yocto-standard",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "5c8e87d2a29b3d4c58ecba406dc3d31b25000821"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "5.19+gitAUTOINC+89fdc2046b_e0e977e1b0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-linux-yocto:SPDXRef-Recipe-linux-yocto",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-kernel-module-xt-tcpmss-5.19.0-yocto-standard"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-kernel-module-xt-tcpmss-5.19.0-yocto-standard",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-kernel-module-xt-tcpmss-5.19.0-yocto-standard-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-kernel-module-xt-tcpmss-5.19.0-yocto-standard"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-kernel-module-xt-tcpmss-5.19.0-yocto-standard-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-kernel-module-xt-tcpmss-5.19.0-yocto-standard"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}
