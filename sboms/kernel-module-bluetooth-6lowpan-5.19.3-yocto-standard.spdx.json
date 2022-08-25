@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-08-25T14:10:28Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/kernel-module-bluetooth-6lowpan-5.19.3-yocto-standard-0dd81b46-5046-5df5-b208-36b25edb52ae",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ea052922a1e68bf61528bd5bd77daf4824f20d81"
+      },
+      "externalDocumentId": "DocumentRef-recipe-linux-yocto",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-linux-yocto-96d5f18f-835e-5fa6-85f3-0916c0b073e3"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-kernel-module-bluetooth-6lowpan-5.19.3-yocto-standard-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f226b116eda1279e49e8507b82768ee0dd8493ca"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "934f42d57fecb0e1f3a834a758a8bd66c4e4cd880eb4c2c0cf44c17b7fab594a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "lib/modules/5.19.3-yocto-standard/kernel/net/bluetooth/bluetooth_6lowpan.ko",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "kernel-module-bluetooth-6lowpan-5.19.3-yocto-standard",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-kernel-module-bluetooth-6lowpan-5.19.3-yocto-standard",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-kernel-module-bluetooth-6lowpan-5.19.3-yocto-standard-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "kernel-module-bluetooth-6lowpan-5.19.3-yocto-standard",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "056e029f967d6c856cd32909740b36092d175222"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "5.19.3+gitAUTOINC+5eb0fa93f8_4d93345670"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-linux-yocto:SPDXRef-Recipe-linux-yocto",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-kernel-module-bluetooth-6lowpan-5.19.3-yocto-standard"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-kernel-module-bluetooth-6lowpan-5.19.3-yocto-standard",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-kernel-module-bluetooth-6lowpan-5.19.3-yocto-standard-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-kernel-module-bluetooth-6lowpan-5.19.3-yocto-standard"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-08-25T14:34:42Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/glibc-localedata-rif-ma-2ba284e7-b2f5-5064-97ca-816cda870b0f",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ec50a09bb794216beed63d3faab2ea78194590b8"
+      },
+      "externalDocumentId": "DocumentRef-recipe-glibc-locale",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-glibc-locale-47f2a024-76b3-5cce-b0ab-d34e50dc4570"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-glibc-localedata-rif-ma-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f86c61105ae00555222bb8bb7122efcb3808ab94"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "19959a63290cdc7c02a8004dac9454a0f7209c745e270ac261736d270bf0b283"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/i18n/locales/rif_MA",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "glibc-localedata-rif-ma",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-glibc-localedata-rif-ma",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-glibc-localedata-rif-ma-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "glibc-localedata-rif-ma",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "9554e3cf419840e6b0ccb6eb741e18cc809a477d"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "2.36"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-glibc-locale:SPDXRef-Recipe-glibc-locale",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-glibc-localedata-rif-ma"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-glibc-localedata-rif-ma",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-glibc-localedata-rif-ma-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-glibc-localedata-rif-ma"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

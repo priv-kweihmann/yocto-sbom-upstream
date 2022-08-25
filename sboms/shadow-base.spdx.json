@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
     "comment": "This document was created by analyzing packages created during the build.",
-    "created": "2022-08-11T13:22:58Z",
+    "created": "2022-08-25T14:13:36Z",
     "creators": [
       "Tool: OpenEmbedded Core create-spdx.bbclass",
       "Organization: OpenEmbedded ()",
@@ -16,7 +16,7 @@
     {
       "checksum": {
         "algorithm": "SHA1",
-        "checksumValue": "46acf4a40975ab4c8b000d463a9fd77001730a58"
+        "checksumValue": "fb5adf0909fe60c7a41f24cdf5644630231f7dc4"
       },
       "externalDocumentId": "DocumentRef-recipe-shadow",
       "spdxDocument": "http://spdx.org/spdxdoc/recipe-shadow-6845d95c-0853-56dd-b976-caae5a99461e"
@@ -25,50 +25,6 @@
   "files": [
     {
       "SPDXID": "SPDXRef-PackagedFile-shadow-base-1",
-      "checksums": [
-        {
-          "algorithm": "SHA1",
-          "checksumValue": "241e2cf7f1bbe4d40245f4fb4a8fe53381693fa4"
-        },
-        {
-          "algorithm": "SHA256",
-          "checksumValue": "bbeff633ca82317f54ec8ce8956e531984a628a9bed527b2e39348d096ed7a46"
-        }
-      ],
-      "copyrightText": "NOASSERTION",
-      "fileName": "bin/su.shadow",
-      "fileTypes": [
-        "BINARY"
-      ],
-      "licenseConcluded": "NOASSERTION",
-      "licenseInfoInFiles": [
-        "NOASSERTION"
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-PackagedFile-shadow-base-2",
-      "checksums": [
-        {
-          "algorithm": "SHA1",
-          "checksumValue": "753c96fa72f4f833e19eb743708a64b3496443ef"
-        },
-        {
-          "algorithm": "SHA256",
-          "checksumValue": "a0f0f2735eddce4126b99f4ee90242c5608a6246734d5dba445f5f1f3309f93f"
-        }
-      ],
-      "copyrightText": "NOASSERTION",
-      "fileName": "bin/login.shadow",
-      "fileTypes": [
-        "BINARY"
-      ],
-      "licenseConcluded": "NOASSERTION",
-      "licenseInfoInFiles": [
-        "NOASSERTION"
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-PackagedFile-shadow-base-3",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -90,15 +46,59 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-PackagedFile-shadow-base-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0f3b9e60f42604c00c855df703f0de3e591aa092"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a71ad19bb8484cc2e6ff54ea0402c35eb9774eff6e3dc9312ab9d889e48fc40e"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "bin/login.shadow",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-shadow-base-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9f840057902203849ff2fc23c35290dc66df0df8"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "450126024e97fcb1ed6ebe7242e7adae779db22adf576b90f58014bd08276bc5"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "bin/su.shadow",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-PackagedFile-shadow-base-4",
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "477bf865abc9906027dc6af99ee99c53859524dc"
+          "checksumValue": "6bd39b98b214dceab3518567689ae9bea6acbb32"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "7878d07994d7498868366d4dca694a9fba0c5ab413b26414bc9d6ec1faf1b0d2"
+          "checksumValue": "7a03943bc52534589355a140aa52692437f187f998805fdab6964f00d0a48fd9"
         }
       ],
       "copyrightText": "NOASSERTION",
@@ -116,11 +116,11 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "31356a1d18e868f5896a00a5fc20fcac29666add"
+          "checksumValue": "49dbbf30198340c50a780a4ccc99b0bd17f26cf8"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "1c781bea31d7bfb157e7b14e75a11ea37292d116757ac40695ff1f9eda51eace"
+          "checksumValue": "e45f46d240ad73ca21bf4c37141055660a135ff5132d29a163317351ecfed710"
         }
       ],
       "copyrightText": "NOASSERTION",
@@ -154,10 +154,10 @@
       ],
       "name": "shadow-base",
       "packageVerificationCode": {
-        "packageVerificationCodeValue": "44a04c17befa96b109789d35b7d0b844463ae7af"
+        "packageVerificationCodeValue": "a8bda42d7c11074522f438828785e698ae08c806"
       },
       "supplier": "Organization: OpenEmbedded ()",
-      "versionInfo": "4.11.1"
+      "versionInfo": "4.12.1"
     }
   ],
   "relationships": [
@@ -539,397 +539,391 @@
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/12.1.0/include/stddef.h",
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/12.2.0/include/stddef.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/sockaddr.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/bits/sockaddr.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/stdint-intn.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/bits/stdint-intn.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/stdint-uintn.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/bits/stdint-uintn.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/csu/abi-note.c",
+      "comment": "/usr/src/debug/glibc/2.36-r0/csu/abi-note.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/csu/init.c",
+      "comment": "/usr/src/debug/glibc/2.36-r0/csu/init.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/elf/elf.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/elf/elf.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/inet/netinet/in.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/inet/netinet/in.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/posix/bits/types.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/posix/bits/types.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/unix/sysv/linux/bits/socket.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/sysdeps/unix/sysv/linux/bits/socket.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/crti.S",
+      "comment": "/usr/src/debug/glibc/2.36-r0/sysdeps/x86_64/crti.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/crtn.S",
+      "comment": "/usr/src/debug/glibc/2.36-r0/sysdeps/x86_64/crtn.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/start.S",
+      "comment": "/usr/src/debug/glibc/2.36-r0/sysdeps/x86_64/start.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/build/lib/<built-in>",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/<built-in>",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/build/libmisc/<built-in>",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/encrypt.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/build/src/<built-in>",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/faillog.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/encrypt.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/fputsx.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/faillog.h",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/getdef.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/fputsx.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/getdef.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/getdef.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/getlong.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/getdef.h",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/getulong.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/getlong.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/groupmem.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/getulong.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/gshadow.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/groupmem.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/gshadow_.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/gshadow.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/port.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/gshadow_.h",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/port.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/port.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/prototypes.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/port.h",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/pwauth.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/prototypes.h",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/pwauth.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/pwauth.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/pwmem.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/pwauth.h",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/shadowlog.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/pwmem.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/shadowlog.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/shadowlog.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/shadowlog_internal.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/shadowlog.h",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/shadowmem.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/shadowlog_internal.h",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/<built-in>",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/shadowmem.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/addgrps.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/addgrps.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/age.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/age.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/basename.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/basename.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/chowntty.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/chowntty.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/console.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/console.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/env.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/env.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/failure.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/failure.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/failure.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/failure.h",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/getgr_nam_gid.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/getgr_nam_gid.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/hushed.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/hushed.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/isexpired.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/isexpired.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/limits.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/limits.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/list.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/list.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/log.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/log.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/loginprompt.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/loginprompt.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/mail.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/mail.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/motd.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/motd.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/setugid.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/rlogin.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/setupenv.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/setugid.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/shell.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/setupenv.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/sub.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/shell.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/ttytype.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/sub.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/tz.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/ttytype.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/ulimit.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/tz.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/utmp.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/ulimit.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/xgetXXbyYY.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/utmp.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/xmalloc.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/xgetXXbyYY.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/src/<built-in>",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/xmalloc.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/src/login.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/src/login.c",
-      "relatedSpdxElement": "NOASSERTION",
-      "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
-    },
-    {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/src/login_nopam.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/src/login_nopam.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-2"
@@ -938,589 +932,589 @@
       "comment": "/usr/include/assert.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/bits/confname.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/bits/fcntl2.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/bits/getopt_core.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/bits/getopt_ext.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/bits/resource.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/bits/stdint-intn.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/bits/stdio2-decl.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/bits/stdio2.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/bits/string_fortified.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/bits/syslog.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/bits/termios-struct.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/bits/termios.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/bits/types.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/bits/types/FILE.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/bits/types/struct_FILE.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/bits/types/struct_tm.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/bits/types/time_t.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/bits/unistd.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/bits/utmp.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/crypt.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/ctype.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/errno.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/grp.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/libintl.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/linux/rseq.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/locale.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/pwd.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/shadow.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/signal.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/stdio.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/stdlib.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/string.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/strings.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/sys/ioctl.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/sys/resource.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/sys/stat.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/sys/syslog.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/sys/types.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/sys/wait.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/termios.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/time.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/ulimit.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/unistd.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/utmp.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/12.1.0/include/stddef.h",
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/12.2.0/include/stddef.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/sockaddr.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/bits/sockaddr.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/stdint-intn.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/bits/stdint-intn.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/stdint-uintn.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/bits/stdint-uintn.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/csu/abi-note.c",
+      "comment": "/usr/src/debug/glibc/2.36-r0/csu/abi-note.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/csu/init.c",
+      "comment": "/usr/src/debug/glibc/2.36-r0/csu/init.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/elf/elf.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/elf/elf.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/inet/netinet/in.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/inet/netinet/in.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/posix/bits/types.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/posix/bits/types.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/unix/sysv/linux/bits/socket.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/sysdeps/unix/sysv/linux/bits/socket.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/crti.S",
+      "comment": "/usr/src/debug/glibc/2.36-r0/sysdeps/x86_64/crti.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/crtn.S",
+      "comment": "/usr/src/debug/glibc/2.36-r0/sysdeps/x86_64/crtn.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/start.S",
+      "comment": "/usr/src/debug/glibc/2.36-r0/sysdeps/x86_64/start.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/build/lib/<built-in>",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/<built-in>",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/build/libmisc/<built-in>",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/encrypt.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/build/src/<built-in>",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/fputsx.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/encrypt.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/getdef.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/fputsx.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/getdef.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/getdef.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/getlong.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/getdef.h",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/getulong.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/getlong.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/gshadow.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/getulong.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/gshadow_.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/gshadow.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/port.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/gshadow_.h",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/port.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/port.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/prototypes.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/port.h",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/pwauth.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/prototypes.h",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/pwauth.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/pwauth.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/pwmem.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/pwauth.h",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/shadowlog.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/pwmem.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/shadowlog.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/shadowlog.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/shadowlog_internal.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/shadowlog.h",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/<built-in>",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/shadowlog_internal.h",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/addgrps.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/addgrps.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/age.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/age.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/basename.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/basename.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/console.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/console.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/env.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/env.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/isexpired.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/isexpired.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/limits.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/limits.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/list.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/list.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/myname.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/myname.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/setugid.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/setugid.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/setupenv.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/setupenv.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/shell.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/shell.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/sub.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/sub.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/sulog.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/sulog.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/tz.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/tz.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/ulimit.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/ulimit.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/xgetXXbyYY.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/xgetXXbyYY.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/xmalloc.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/xmalloc.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/src/<built-in>",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/src/su.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/src/su.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/src/suauth.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/src/suauth.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-1"
+      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-3"
     },
     {
       "comment": "/usr/include/assert.h",
@@ -1643,133 +1637,133 @@
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-4"
     },
     {
-      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/12.1.0/include/stddef.h",
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/12.2.0/include/stddef.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-4"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/sockaddr.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/bits/sockaddr.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-4"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/stdint-intn.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/bits/stdint-intn.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-4"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/stdint-uintn.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/bits/stdint-uintn.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-4"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/csu/abi-note.c",
+      "comment": "/usr/src/debug/glibc/2.36-r0/csu/abi-note.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-4"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/csu/init.c",
+      "comment": "/usr/src/debug/glibc/2.36-r0/csu/init.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-4"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/elf/elf.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/elf/elf.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-4"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/inet/netinet/in.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/inet/netinet/in.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-4"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/posix/bits/types.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/posix/bits/types.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-4"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/unix/sysv/linux/bits/socket.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/sysdeps/unix/sysv/linux/bits/socket.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-4"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/crti.S",
+      "comment": "/usr/src/debug/glibc/2.36-r0/sysdeps/x86_64/crti.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-4"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/crtn.S",
+      "comment": "/usr/src/debug/glibc/2.36-r0/sysdeps/x86_64/crtn.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-4"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/start.S",
+      "comment": "/usr/src/debug/glibc/2.36-r0/sysdeps/x86_64/start.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-4"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/build/libmisc/<built-in>",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/prototypes.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-4"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/prototypes.h",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/shadowlog.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-4"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/shadowlog.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/shadowlog.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-4"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/shadowlog.h",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/shadowlog_internal.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-4"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/shadowlog_internal.h",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/<built-in>",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-4"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/basename.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/basename.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-4"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/list.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/list.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-4"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/xmalloc.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/xmalloc.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-4"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/src/groups.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/src/groups.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-4"
@@ -1931,235 +1925,229 @@
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/12.1.0/include/stddef.h",
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/12.2.0/include/stddef.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/sockaddr.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/bits/sockaddr.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/stdint-intn.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/bits/stdint-intn.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/bits/stdint-uintn.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/bits/stdint-uintn.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/csu/abi-note.c",
+      "comment": "/usr/src/debug/glibc/2.36-r0/csu/abi-note.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/csu/init.c",
+      "comment": "/usr/src/debug/glibc/2.36-r0/csu/init.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/elf/elf.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/elf/elf.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/inet/netinet/in.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/inet/netinet/in.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/posix/bits/types.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/posix/bits/types.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/unix/sysv/linux/bits/socket.h",
+      "comment": "/usr/src/debug/glibc/2.36-r0/sysdeps/unix/sysv/linux/bits/socket.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/crti.S",
+      "comment": "/usr/src/debug/glibc/2.36-r0/sysdeps/x86_64/crti.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/crtn.S",
+      "comment": "/usr/src/debug/glibc/2.36-r0/sysdeps/x86_64/crtn.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.35-r0/git/sysdeps/x86_64/start.S",
+      "comment": "/usr/src/debug/glibc/2.36-r0/sysdeps/x86_64/start.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/build/lib/<built-in>",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/<built-in>",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/build/libmisc/<built-in>",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/encrypt.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/build/src/<built-in>",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/fputsx.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/encrypt.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/getdef.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/fputsx.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/getdef.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/getdef.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/getlong.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/getdef.h",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/getulong.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/getlong.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/groupmem.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/getulong.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/gshadow.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/groupmem.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/gshadow_.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/gshadow.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/prototypes.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/gshadow_.h",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/pwmem.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/prototypes.h",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/shadowlog.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/pwmem.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/shadowlog.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/shadowlog.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/shadowlog_internal.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/shadowlog.h",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/lib/shadowmem.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/shadowlog_internal.h",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/<built-in>",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/lib/shadowmem.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/basename.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/basename.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/env.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/env.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/list.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/list.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/myname.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/myname.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/shell.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/shell.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/xgetXXbyYY.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/xgetXXbyYY.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/libmisc/xmalloc.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
     },
     {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/libmisc/xmalloc.c",
-      "relatedSpdxElement": "NOASSERTION",
-      "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
-    },
-    {
-      "comment": "/usr/src/debug/shadow/4.11.1-r0/shadow-4.11.1/src/newgrp.c",
+      "comment": "/usr/src/debug/shadow/4.12.1-r0/src/newgrp.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-shadow-base-5"
