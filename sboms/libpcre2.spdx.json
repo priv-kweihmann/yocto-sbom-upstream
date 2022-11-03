@@ -1,0 +1,453 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-11-03T12:45:03Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libpcre2-f49fb0d4-ac3d-5436-8f73-b77227cabcae",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c0c0e9a3cd4b84db6770a0feeed470fe26776e8f"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libpcre2",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libpcre2-7798a571-49be-53a1-9577-9caed1b18ac3"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libpcre2-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d6b82595e2e881c2cfbcfb0b9cc51040d405b1b0"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "29417e1b6f0995a4a5b46b0dcc69afae0b7c4e4415a93453b5907091b912dc52"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libpcre2-posix.so.3.0.2",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libpcre2-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3a7869d506b4576f62254956eebd8200d182bd02"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0fa113d928b424c31eb85684fb3aa1eb8c3dc8c40c87386e46d7ec18310c0b8f"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libpcre2-8.so.0.11.0",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libpcre2",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libpcre2",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libpcre2-1",
+        "SPDXRef-PackagedFile-libpcre2-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libpcre2",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "99730c8bbe84d19e43e2e95d3226e894838bd245"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "10.40"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libpcre2:SPDXRef-Recipe-libpcre2",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libpcre2"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libpcre2",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libpcre2-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libpcre2"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libpcre2-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libpcre2"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/include/ctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/12.2.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.36-r0/sysdeps/x86_64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.36-r0/sysdeps/x86_64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_auto_possess.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_chartables.c.dist",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_compile.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_config.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_context.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_convert.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_dfa_match.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_error.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_extuni.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_find_bracket.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_internal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_intmodedep.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_jit_compile.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_jit_match.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_jit_misc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_maketables.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_match.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_match_data.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_newline.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_ord2utf.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_pattern_info.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_script_run.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_serialize.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_string_utils.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_study.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_substitute.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_substring.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_tables.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_ucd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_ucp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_ucptables.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_valid_utf.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2_xclass.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-1"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/12.2.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.36-r0/sysdeps/x86_64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.36-r0/sysdeps/x86_64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-1"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-1"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-1"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2posix.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-1"
+    },
+    {
+      "comment": "/usr/src/debug/libpcre2/10.40-r0/src/pcre2posix.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libpcre2-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

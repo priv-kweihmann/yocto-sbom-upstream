@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-11-03T12:45:03Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/pcre2test-doc-3e630764-7dc1-59a0-ac26-a8880da2262b",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c0c0e9a3cd4b84db6770a0feeed470fe26776e8f"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libpcre2",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-libpcre2-7798a571-49be-53a1-9577-9caed1b18ac3"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-pcre2test-doc-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "23cd36aef4d444ed43c7e501b836c7660de2bc79"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "22c19f8b40591b2973b411f37ff428b495b23cf4cf6be57e8d02c36f90c98aa6"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/man/man1/pcre2test.1",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "pcre2test-doc",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-pcre2test-doc",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-pcre2test-doc-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "pcre2test-doc",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "59e195a16669290085bca8061a4415f1d5a1f5be"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "10.40"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libpcre2:SPDXRef-Recipe-libpcre2",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-pcre2test-doc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-pcre2test-doc",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-pcre2test-doc-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-pcre2test-doc"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}
