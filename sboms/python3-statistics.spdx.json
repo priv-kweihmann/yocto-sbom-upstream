@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
     "comment": "This document was created by analyzing packages created during the build.",
-    "created": "2022-11-03T12:19:00Z",
+    "created": "2022-11-10T12:18:31Z",
     "creators": [
       "Tool: OpenEmbedded Core create-spdx.bbclass",
       "Organization: OpenEmbedded ()",
@@ -16,7 +16,7 @@
     {
       "checksum": {
         "algorithm": "SHA1",
-        "checksumValue": "d74e77dce8802c2f4c88882bf41db38e1d0e84d4"
+        "checksumValue": "783804d38587c44e787f24fc7926939a3cb40d86"
       },
       "externalDocumentId": "DocumentRef-recipe-python3",
       "spdxDocument": "http://spdx.org/spdxdoc/recipe-python3-8efcec7f-0548-5fda-987e-947c0d22391f"
@@ -66,6 +66,28 @@
       "licenseInfoInFiles": [
         "NOASSERTION"
       ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-python3-statistics-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9f557eeb0bbfaf5f952acb2e5c275ff4c086c90f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "897a62442bedcf7ef1e5aced4f75ac8ddbfd96a75c41358de0e6303407f4bf3b"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/python3.11/lib-dynload/_statistics.cpython-311-x86_64-linux-gnu.so",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
     }
   ],
   "name": "python3-statistics",
@@ -76,7 +98,8 @@
       "downloadLocation": "NOASSERTION",
       "hasFiles": [
         "SPDXRef-PackagedFile-python3-statistics-1",
-        "SPDXRef-PackagedFile-python3-statistics-2"
+        "SPDXRef-PackagedFile-python3-statistics-2",
+        "SPDXRef-PackagedFile-python3-statistics-3"
       ],
       "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "PSF-2.0",
@@ -85,7 +108,7 @@
       ],
       "name": "python3-statistics",
       "packageVerificationCode": {
-        "packageVerificationCodeValue": "635e5f2f57c9a5a684ae62d28148c600e00efee7"
+        "packageVerificationCodeValue": "83490402a446627043449ff44e06ada40ef0b31a"
       },
       "supplier": "Organization: OpenEmbedded ()",
       "versionInfo": "3.11.0"
@@ -111,6 +134,131 @@
       "relatedSpdxElement": "SPDXRef-PackagedFile-python3-statistics-2",
       "relationshipType": "CONTAINS",
       "spdxElementId": "SPDXRef-Package-python3-statistics"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-python3-statistics-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-python3-statistics"
+    },
+    {
+      "comment": "/usr/include/bits/mathcalls.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-python3-statistics-3"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-python3-statistics-3"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-python3-statistics-3"
+    },
+    {
+      "comment": "/usr/lib/x86_64-poky-linux/gcc/x86_64-poky-linux/12.2.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-python3-statistics-3"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.36-r0/sysdeps/x86_64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-python3-statistics-3"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.36-r0/sysdeps/x86_64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-python3-statistics-3"
+    },
+    {
+      "comment": "/usr/src/debug/python3/3.11.0-r0/Include/cpython/floatobject.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-python3-statistics-3"
+    },
+    {
+      "comment": "/usr/src/debug/python3/3.11.0-r0/Include/cpython/modsupport.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-python3-statistics-3"
+    },
+    {
+      "comment": "/usr/src/debug/python3/3.11.0-r0/Include/cpython/object.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-python3-statistics-3"
+    },
+    {
+      "comment": "/usr/src/debug/python3/3.11.0-r0/Include/descrobject.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-python3-statistics-3"
+    },
+    {
+      "comment": "/usr/src/debug/python3/3.11.0-r0/Include/floatobject.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-python3-statistics-3"
+    },
+    {
+      "comment": "/usr/src/debug/python3/3.11.0-r0/Include/methodobject.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-python3-statistics-3"
+    },
+    {
+      "comment": "/usr/src/debug/python3/3.11.0-r0/Include/moduleobject.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-python3-statistics-3"
+    },
+    {
+      "comment": "/usr/src/debug/python3/3.11.0-r0/Include/object.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-python3-statistics-3"
+    },
+    {
+      "comment": "/usr/src/debug/python3/3.11.0-r0/Include/pybuffer.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-python3-statistics-3"
+    },
+    {
+      "comment": "/usr/src/debug/python3/3.11.0-r0/Include/pyerrors.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-python3-statistics-3"
+    },
+    {
+      "comment": "/usr/src/debug/python3/3.11.0-r0/Include/pyport.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-python3-statistics-3"
+    },
+    {
+      "comment": "/usr/src/debug/python3/3.11.0-r0/Include/pytypedefs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-python3-statistics-3"
+    },
+    {
+      "comment": "/usr/src/debug/python3/3.11.0-r0/Modules/_statisticsmodule.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-python3-statistics-3"
+    },
+    {
+      "comment": "/usr/src/debug/python3/3.11.0-r0/Modules/clinic/_statisticsmodule.c.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-python3-statistics-3"
     }
   ],
   "spdxVersion": "SPDX-2.2"
