@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-11-17T12:06:10Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/bash-locale-eo-b4cab161-796b-5e48-a13f-005d7ec025a7",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8649fa05d2232a0b78417c1440e8a46a78fa46cf"
+      },
+      "externalDocumentId": "DocumentRef-recipe-bash",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-bash-ad5747dc-7b5a-562d-aabf-dfb516e7095d"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-bash-locale-eo-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f44e2217cfa04f2a41e1b20d7993fd7907ed82ec"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a7beda07d0c0c6b758e8e3d87a0d84c9d1e27db26b6d960cdc56e92b4bfe18c0"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/eo/LC_MESSAGES/bash.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "bash-locale-eo",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-bash-locale-eo",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-bash-locale-eo-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "bash-locale-eo",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "b55aec948b7251ee7cf99befb6bb66a91721688a"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "5.2.9"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-bash:SPDXRef-Recipe-bash",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-bash-locale-eo"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-bash-locale-eo",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-bash-locale-eo-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-bash-locale-eo"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}
