@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
     "comment": "This document was created by analyzing packages created during the build.",
-    "created": "2022-11-17T12:02:52Z",
+    "created": "2022-11-24T12:40:26Z",
     "creators": [
       "Tool: OpenEmbedded Core create-spdx.bbclass",
       "Organization: OpenEmbedded ()",
@@ -16,7 +16,7 @@
     {
       "checksum": {
         "algorithm": "SHA1",
-        "checksumValue": "f26a3a6becc8a72160b732d80d2902c1911ecd15"
+        "checksumValue": "eaf8230b46859f0e58bb8410fd54e5143eee5c64"
       },
       "externalDocumentId": "DocumentRef-recipe-elfutils",
       "spdxDocument": "http://spdx.org/spdxdoc/recipe-elfutils-4cdfa240-f049-53bc-bf95-ba542d917d61"
@@ -28,15 +28,15 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "df5ecd0bbe2207fb5571373dfc79d07603cb0bc3"
+          "checksumValue": "25258f711147fae9f4b8d41ae7df199dd81b59e6"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "072385071e35b99fce67990310064ce6f2f85c39306d4e1d70c59346bc5cd4cf"
+          "checksumValue": "43950056b8eb0a1dd58f72c498b034bbe127798a3f672ce3d774972fa92cda54"
         }
       ],
       "copyrightText": "NOASSERTION",
-      "fileName": "usr/lib/libdebuginfod-0.187.so",
+      "fileName": "usr/lib/libdebuginfod-0.188.so",
       "fileTypes": [
         "BINARY"
       ],
@@ -62,10 +62,10 @@
       ],
       "name": "libdebuginfod1",
       "packageVerificationCode": {
-        "packageVerificationCodeValue": "79f637757ad82a91ed4ee358cd7d7ae16a8756c7"
+        "packageVerificationCodeValue": "730d642eaa08e168577b26ab2e3287834382f1f8"
       },
       "supplier": "Organization: OpenEmbedded ()",
-      "versionInfo": "0.187"
+      "versionInfo": "0.188"
     }
   ],
   "relationships": [
@@ -110,6 +110,18 @@
     },
     {
       "comment": "/usr/include/bits/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdebuginfod1-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdebuginfod1-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libdebuginfod1-1"
@@ -176,6 +188,12 @@
     },
     {
       "comment": "/usr/include/bits/types/time_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdebuginfod1-1"
+    },
+    {
+      "comment": "/usr/include/ctype.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libdebuginfod1-1"
@@ -301,25 +319,43 @@
       "spdxElementId": "SPDXRef-PackagedFile-libdebuginfod1-1"
     },
     {
-      "comment": "/usr/src/debug/elfutils/0.187-r0/debuginfod/<built-in>",
+      "comment": "/usr/src/debug/elfutils/0.188-r0/debuginfod/<built-in>",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libdebuginfod1-1"
     },
     {
-      "comment": "/usr/src/debug/elfutils/0.187-r0/debuginfod/debuginfod-client.c",
+      "comment": "/usr/src/debug/elfutils/0.188-r0/debuginfod/debuginfod-client.c",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libdebuginfod1-1"
     },
     {
-      "comment": "/usr/src/debug/elfutils/0.187-r0/debuginfod/debuginfod.h",
+      "comment": "/usr/src/debug/elfutils/0.188-r0/debuginfod/debuginfod.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libdebuginfod1-1"
     },
     {
-      "comment": "/usr/src/debug/elfutils/0.187-r0/lib/system.h",
+      "comment": "/usr/src/debug/elfutils/0.188-r0/lib/system.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdebuginfod1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.188-r0/libelf/elf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdebuginfod1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.188-r0/libelf/gelf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdebuginfod1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.188-r0/libelf/libelf.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-libdebuginfod1-1"
