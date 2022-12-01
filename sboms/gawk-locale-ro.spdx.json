@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2022-12-01T12:35:00Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/gawk-locale-ro-ebbe5901-9cb2-5481-afa0-ad5d1563d7c8",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c3a06390795dc58cfc51b006a6ea250883b32726"
+      },
+      "externalDocumentId": "DocumentRef-recipe-gawk",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-gawk-2569d6eb-b280-518a-b15c-a7b5832e09cc"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-gawk-locale-ro-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8544178fad572b48969076f81f46b6c657801a6c"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "69d1b94f78db8d7e9f4cff02c88f6ac7b208969bcc5fb30d33546c20d888febc"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/ro/LC_MESSAGES/gawk.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "gawk-locale-ro",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-gawk-locale-ro",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-gawk-locale-ro-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "gawk-locale-ro",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "b010b852dc21cc57c196834d2060688a51399b68"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "5.2.1"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-gawk:SPDXRef-Recipe-gawk",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-gawk-locale-ro"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-gawk-locale-ro",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-gawk-locale-ro-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-gawk-locale-ro"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}
