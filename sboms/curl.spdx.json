@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
     "comment": "This document was created by analyzing packages created during the build.",
-    "created": "2023-01-12T11:53:18Z",
+    "created": "2023-01-19T11:28:26Z",
     "creators": [
       "Tool: OpenEmbedded Core create-spdx.bbclass",
       "Organization: OpenEmbedded ()",
@@ -16,7 +16,7 @@
     {
       "checksum": {
         "algorithm": "SHA1",
-        "checksumValue": "118a3230c9afaf85dde03c64edad477b840ab27b"
+        "checksumValue": "756262a45f3504ff16b67c85456191c4d7868d6a"
       },
       "externalDocumentId": "DocumentRef-recipe-curl",
       "spdxDocument": "http://spdx.org/spdxdoc/recipe-curl-7e789dad-d3f9-51e4-9376-94160ef66824"
@@ -28,11 +28,11 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "d72bad05dd4ec9a9bf7c5ddc097161e7774f76db"
+          "checksumValue": "93016ee7daeb8c056b7b87d67e7a4ad33d42e1aa"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "87d1f7e9ad7c8f703a51c89010194093af4727633de50ff3a13db3ffadcd144e"
+          "checksumValue": "f86738f4bc2ad16d8c063b4f57a3f05ead7298325a9277304b5c1397d2bf4a1e"
         }
       ],
       "copyrightText": "NOASSERTION",
@@ -62,7 +62,7 @@
       ],
       "name": "curl",
       "packageVerificationCode": {
-        "packageVerificationCodeValue": "25541952801b7d613cae11fd00cad308c74ef840"
+        "packageVerificationCodeValue": "7c6a54acb20dc091e5b4a0a42ae1ce369d92a1c9"
       },
       "supplier": "Organization: OpenEmbedded ()",
       "versionInfo": "7.87.0"
@@ -83,12 +83,6 @@
       "relatedSpdxElement": "SPDXRef-PackagedFile-curl-1",
       "relationshipType": "CONTAINS",
       "spdxElementId": "SPDXRef-Package-curl"
-    },
-    {
-      "comment": "/usr/include/assert.h",
-      "relatedSpdxElement": "NOASSERTION",
-      "relationshipType": "GENERATED_FROM",
-      "spdxElementId": "SPDXRef-PackagedFile-curl-1"
     },
     {
       "comment": "/usr/include/bits/fcntl2.h",
@@ -296,6 +290,12 @@
     },
     {
       "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-curl-1"
+    },
+    {
+      "comment": "/usr/include/sys/xattr.h",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-curl-1"

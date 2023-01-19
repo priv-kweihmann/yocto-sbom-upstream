@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2023-01-19T13:21:55Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/iproute2-routel-b10944d3-092b-52fa-9802-73188e4559e7",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d97b80a6adafea658223b1f80aeb1825b260d89c"
+      },
+      "externalDocumentId": "DocumentRef-recipe-iproute2",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-iproute2-6d877ab9-bf53-50dc-8a38-20733171e4b0"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-iproute2-routel-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6c288b18f563c50fcb114359ff3c6ec7bf022b73"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e348c708ec6d0b3252b5ac42b21a27c7dafad2ca32e1bba2f19aee3b7bf45bbe"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "sbin/routel",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "iproute2-routel",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-iproute2-routel",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-iproute2-routel-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "iproute2-routel",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "d374d4c03871be8ceec08bbefbaa25e866cf576d"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "6.1.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-iproute2:SPDXRef-Recipe-iproute2",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-iproute2-routel"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-iproute2-routel",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-iproute2-routel-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-iproute2-routel"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}
