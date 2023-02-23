@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2023-02-23T11:39:36Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/libgnutls-locale-ka-e71ec6b3-2a45-5428-b039-3678412cae3e",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a7bcf7ac92b8327023665eb319b25693cdeb0725"
+      },
+      "externalDocumentId": "DocumentRef-recipe-gnutls",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-gnutls-e34d366c-a9b2-5b9b-b4a9-0aabdc1cc230"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libgnutls-locale-ka-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "35a476833bae8de1b9d9a4dfbf35d92d89572678"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "497719777fb70210bc66d1a488f97c308f542a53efaad9b0c05af6484095f0d1"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/ka/LC_MESSAGES/gnutls.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libgnutls-locale-ka",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libgnutls-locale-ka",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libgnutls-locale-ka-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later AND LGPL-2.1-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libgnutls-locale-ka",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "79eb3fdc2e1789d2788542a3c09f8a62d14e7ad1"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "3.8.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-gnutls:SPDXRef-Recipe-gnutls",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libgnutls-locale-ka"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libgnutls-locale-ka",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libgnutls-locale-ka-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libgnutls-locale-ka"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}
