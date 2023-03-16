@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
     "comment": "This document was created by analyzing packages created during the build.",
-    "created": "2023-03-09T12:15:08Z",
+    "created": "2023-03-16T12:06:30Z",
     "creators": [
       "Tool: OpenEmbedded Core create-spdx.bbclass",
       "Organization: OpenEmbedded ()",
@@ -16,7 +16,7 @@
     {
       "checksum": {
         "algorithm": "SHA1",
-        "checksumValue": "1e412fb294bb3dd2b1d27dd914e27b320181ccba"
+        "checksumValue": "48cb826b67394f2bc64c0b990ffec33538373ccd"
       },
       "externalDocumentId": "DocumentRef-recipe-python3",
       "spdxDocument": "http://spdx.org/spdxdoc/recipe-python3-8efcec7f-0548-5fda-987e-947c0d22391f"
@@ -25,28 +25,6 @@
   "files": [
     {
       "SPDXID": "SPDXRef-PackagedFile-python3-threading-1",
-      "checksums": [
-        {
-          "algorithm": "SHA1",
-          "checksumValue": "d70dd1868c6bbc43b20a0c13ddf52d881801c041"
-        },
-        {
-          "algorithm": "SHA256",
-          "checksumValue": "f6c37fc37cd7440979f7d22d40ee818fa3b714c573610c08fa52911d541193f0"
-        }
-      ],
-      "copyrightText": "NOASSERTION",
-      "fileName": "usr/lib/python3.11/queue.py",
-      "fileTypes": [
-        "BINARY"
-      ],
-      "licenseConcluded": "NOASSERTION",
-      "licenseInfoInFiles": [
-        "NOASSERTION"
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-PackagedFile-python3-threading-2",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -68,15 +46,37 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-PackagedFile-python3-threading-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d70dd1868c6bbc43b20a0c13ddf52d881801c041"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f6c37fc37cd7440979f7d22d40ee818fa3b714c573610c08fa52911d541193f0"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/python3.11/queue.py",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-PackagedFile-python3-threading-3",
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "a00f75cc584748f8a887b45e2a3bff77a4c46c92"
+          "checksumValue": "b8cf8a6286f4d0f234af97c305e3c3dede089707"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "37aca0d4fe93b8ce54ec5d866b1be7aa7cadc3a23b2fe75ee3621f3d4928698c"
+          "checksumValue": "bf4702c68a567b61f9f84dabea15a4914218ba1206db04fb728a41ede4c1d2e4"
         }
       ],
       "copyrightText": "NOASSERTION",
@@ -94,15 +94,15 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "f2710b660b3fa042080763d6e1bee930b92c8957"
+          "checksumValue": "9893b0354bc2f2a2af22b12f19b8b0899c265647"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "78f1fbcd1cba8b46056ddaea121e835470753d1163717df381318231b077c40b"
+          "checksumValue": "6c49ae87f3ccd3a975553bb956fb805dcf8aef61607d0ead6a0e1cca88009426"
         }
       ],
       "copyrightText": "NOASSERTION",
-      "fileName": "usr/lib/python3.11/__pycache__/_threading_local.cpython-311.pyc",
+      "fileName": "usr/lib/python3.11/__pycache__/queue.cpython-311.pyc",
       "fileTypes": [
         "BINARY"
       ],
@@ -116,15 +116,15 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "9893b0354bc2f2a2af22b12f19b8b0899c265647"
+          "checksumValue": "f2710b660b3fa042080763d6e1bee930b92c8957"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "6c49ae87f3ccd3a975553bb956fb805dcf8aef61607d0ead6a0e1cca88009426"
+          "checksumValue": "78f1fbcd1cba8b46056ddaea121e835470753d1163717df381318231b077c40b"
         }
       ],
       "copyrightText": "NOASSERTION",
-      "fileName": "usr/lib/python3.11/__pycache__/queue.cpython-311.pyc",
+      "fileName": "usr/lib/python3.11/__pycache__/_threading_local.cpython-311.pyc",
       "fileTypes": [
         "BINARY"
       ],
@@ -154,7 +154,7 @@
       ],
       "name": "python3-threading",
       "packageVerificationCode": {
-        "packageVerificationCodeValue": "800ff4ee707e7b8dc04b62eedc2ac202b1f13162"
+        "packageVerificationCodeValue": "459fe86a325ee488854a75f9c715018540824b4a"
       },
       "supplier": "Organization: OpenEmbedded ()",
       "versionInfo": "3.11.2"
@@ -227,13 +227,13 @@
       "spdxElementId": "SPDXRef-PackagedFile-python3-threading-3"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.37-r0/sysdeps/x86_64/crti.S",
+      "comment": "/usr/src/debug/glibc/2.37-r1/sysdeps/x86_64/crti.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-python3-threading-3"
     },
     {
-      "comment": "/usr/src/debug/glibc/2.37-r0/sysdeps/x86_64/crtn.S",
+      "comment": "/usr/src/debug/glibc/2.37-r1/sysdeps/x86_64/crtn.S",
       "relatedSpdxElement": "NOASSERTION",
       "relationshipType": "GENERATED_FROM",
       "spdxElementId": "SPDXRef-PackagedFile-python3-threading-3"
