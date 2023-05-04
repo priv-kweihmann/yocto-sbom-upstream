@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2023-05-04T12:33:30Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdoc/kernel-module-xt-statistic-6.1.25-yocto-standard-b0e30802-02e1-5217-86b9-9dafedf17bbb",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4c79d80e3dbe16fbc34bcad43bdc3dc124a9e342"
+      },
+      "externalDocumentId": "DocumentRef-recipe-linux-yocto",
+      "spdxDocument": "http://spdx.org/spdxdoc/recipe-linux-yocto-96d5f18f-835e-5fa6-85f3-0916c0b073e3"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-kernel-module-xt-statistic-6.1.25-yocto-standard-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "202b1af6b4a207794046968f466fd5ae3bfd8d08"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "08bba3c9095d7e5e44ca30788c44111050f00fda3baba5871a65ea012cb51433"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "lib/modules/6.1.25-yocto-standard/kernel/net/netfilter/xt_statistic.ko",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "kernel-module-xt-statistic-6.1.25-yocto-standard",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-kernel-module-xt-statistic-6.1.25-yocto-standard",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-kernel-module-xt-statistic-6.1.25-yocto-standard-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "kernel-module-xt-statistic-6.1.25-yocto-standard",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "c4c0d9a8bbb22b296526fa8e4f9761e1d9915eae"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "6.1.25+gitAUTOINC+36901b5b29_581dc1aa2f"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-linux-yocto:SPDXRef-Recipe-linux-yocto",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-kernel-module-xt-statistic-6.1.25-yocto-standard"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-kernel-module-xt-statistic-6.1.25-yocto-standard",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-kernel-module-xt-statistic-6.1.25-yocto-standard-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-kernel-module-xt-statistic-6.1.25-yocto-standard"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}
